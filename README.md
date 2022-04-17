@@ -26,7 +26,7 @@ Als Laufzeitumgebung wird die .NET 6.0 Desktop Runtime (x86) benötigt. Diese st
 
 Irgendwann so um 2006 oder 2007 herum hat in unserer DSA Gruppe eine Mitspielerin eine Jägerin gespielt. Um ihre Fähigkeiten rund um die Tier- und Pflanzenkunde auch zur Geltung kommen zu lassen, und ohne dabei den Spielfluss gänzlich zum Erliegen zu bringen, habe ich begonnen dieses Tool zu schreiben. Damals hatte ich stets einen kleinen IBM X40 hinter dem Spielleiterschirm stehen.
 
-Nach ein paar Wochen war die Version 1.0 soweit und fand regen Einsatz am Spieltisch. Wenn ich dem Zeitstempel im DSA Forum glauben schenken darf, dann muss ich so um 2010 herum angefangen haben, das Tool aktiv zu verbreiten und auf meiner Website zu hosten. Soweit ich weiß hat es seither einige Verwender gefunden. Unter anderem erfolgte 2011 eine Einbindung in die DSA Meister Geister als externes Plugin.
+Nach ein paar Wochen war die Version 1.0 soweit und fand regen Einsatz am Spieltisch. Wenn ich dem Zeitstempel im DSA Forum glauben schenken darf, dann muss ich so um 2010 herum angefangen haben, das Tool in der Version 2.0 aktiv zu verbreiten und auf meiner Website zu hosten. Soweit ich weiß hat es seither einige Verwender gefunden. Unter anderem erfolgte 2011 eine Einbindung in die DSA Meister Geister als externes Plugin.
 
 Bis auf das Jahr 2015 war es danach sehr lange, sehr ruhig. Damals hat mich Melanie Hüsser kontaktierte um einen Android Port umzusetzen. Damals durfte der Quellcode noch nicht öffentlich gemacht werden, daher fand ein privater Austausch statt, der ihr die ganze Arbeit des Abtippens der Regeln erspart hat. Für einige Jahre gab es, mit Zustimmung von Ulisses Spiele, DSA Hunt im Google Play Store. Leider ist die App inzwischen auch wieder verschwunden.
 
