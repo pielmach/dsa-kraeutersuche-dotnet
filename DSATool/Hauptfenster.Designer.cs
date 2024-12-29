@@ -29,2310 +29,2202 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Hauptfenster));
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label22 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label23 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label24 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
-            this.button1 = new System.Windows.Forms.Button();
-            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
-            this.button2 = new System.Windows.Forms.Button();
-            this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
-            this.label31 = new System.Windows.Forms.Label();
-            this.numericUpDown5 = new System.Windows.Forms.NumericUpDown();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.numericUpDown6 = new System.Windows.Forms.NumericUpDown();
-            this.label32 = new System.Windows.Forms.Label();
-            this.numericUpDown7 = new System.Windows.Forms.NumericUpDown();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.Nahrungssuche = new System.Windows.Forms.TabPage();
-            this.Nahrung_NutzeAckerbau = new System.Windows.Forms.CheckBox();
-            this.label17 = new System.Windows.Forms.Label();
-            this.Nahrung_TAWAckerbau = new System.Windows.Forms.NumericUpDown();
-            this.Nahrung_TextfeldAusgabe = new System.Windows.Forms.TextBox();
-            this.Nahrung_Zuschlag = new System.Windows.Forms.TextBox();
-            this.label35 = new System.Windows.Forms.Label();
-            this.Nahrung_HatGelaendekunde = new System.Windows.Forms.CheckBox();
-            this.Nahrung_HatOrtskenntnis = new System.Windows.Forms.CheckBox();
-            this.Nahrung_HatSuchdauerVerdoppelt = new System.Windows.Forms.CheckBox();
-            this.label38 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
-            this.label41 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.Nahrung_MU = new System.Windows.Forms.NumericUpDown();
-            this.Nahrung_TAWPflanzen = new System.Windows.Forms.NumericUpDown();
-            this.Nahrung_TAWWildnis = new System.Windows.Forms.NumericUpDown();
-            this.Nahrung_ButtonSuche = new System.Windows.Forms.Button();
-            this.Nahrung_TAWSinnes = new System.Windows.Forms.NumericUpDown();
-            this.Nahrung_FF = new System.Windows.Forms.NumericUpDown();
-            this.Nahrung_IN = new System.Windows.Forms.NumericUpDown();
-            this.Nahrung_TAWNahrung = new System.Windows.Forms.NumericUpDown();
-            this.label46 = new System.Windows.Forms.Label();
-            this.label47 = new System.Windows.Forms.Label();
-            this.Nahrung_BoxRegion = new System.Windows.Forms.ComboBox();
-            this.About = new System.Windows.Forms.TabPage();
-            this.About_Reset = new System.Windows.Forms.CheckBox();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.KontaktLabel = new System.Windows.Forms.LinkLabel();
-            this.HomepageLabel = new System.Windows.Forms.LinkLabel();
-            this.About_Kopplung = new System.Windows.Forms.CheckBox();
-            this.About_Manuell = new System.Windows.Forms.CheckBox();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.ScriptoriumAventurisBild = new System.Windows.Forms.PictureBox();
-            this.Kraeutersuche = new System.Windows.Forms.TabPage();
-            this.Kraeuter_TextfeldAusgabe = new System.Windows.Forms.TextBox();
-            this.Kraeuter_Zuschlag = new System.Windows.Forms.TextBox();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.Kraeuter_BoxBesonderheiten = new System.Windows.Forms.ComboBox();
-            this.label19 = new System.Windows.Forms.Label();
-            this.Kraeuter_BoxSuchmonat = new System.Windows.Forms.ComboBox();
-            this.Kraeuter_HatGelaendekunde = new System.Windows.Forms.CheckBox();
-            this.Kraeuter_HatOrtskenntnis = new System.Windows.Forms.CheckBox();
-            this.Kraeuter_HatSuchdauerVerdoppelt = new System.Windows.Forms.CheckBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.Kraeuter_MU = new System.Windows.Forms.NumericUpDown();
-            this.Kraeuter_TAWPflanzen = new System.Windows.Forms.NumericUpDown();
-            this.Kraeuter_ButtonSuchePflanzen = new System.Windows.Forms.Button();
-            this.Kraeuter_TAWWildnis = new System.Windows.Forms.NumericUpDown();
-            this.Kraeuter_ButtonSuchePflanzeGezielt = new System.Windows.Forms.Button();
-            this.Kraeuter_TAWSinnes = new System.Windows.Forms.NumericUpDown();
-            this.label10 = new System.Windows.Forms.Label();
-            this.Kraeuter_FF = new System.Windows.Forms.NumericUpDown();
-            this.Kraeuter_BoxLandschaft = new System.Windows.Forms.ComboBox();
-            this.Kraeuter_IN = new System.Windows.Forms.NumericUpDown();
-            this.label9 = new System.Windows.Forms.Label();
-            this.Kraeuter_TAWKraeuter = new System.Windows.Forms.NumericUpDown();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.Kraeuter_BoxRegion = new System.Windows.Forms.ComboBox();
-            this.Kraeuter_BoxPflanze = new System.Windows.Forms.ComboBox();
-            this.Registerkontrolle = new System.Windows.Forms.TabControl();
-            this.Jagd = new System.Windows.Forms.TabPage();
-            this.Jagd_IstMeisterschuetze = new System.Windows.Forms.CheckBox();
-            this.Jagd_IstScharfschuetze = new System.Windows.Forms.CheckBox();
-            this.Jagd_TAWAnsitzjagd = new System.Windows.Forms.NumericUpDown();
-            this.label68 = new System.Windows.Forms.Label();
-            this.Jagd_TAWPirschjagd = new System.Windows.Forms.NumericUpDown();
-            this.label67 = new System.Windows.Forms.Label();
-            this.Jagd_TAWFernkampfwaffe = new System.Windows.Forms.NumericUpDown();
-            this.label66 = new System.Windows.Forms.Label();
-            this.Jagd_TAWSichVerstecken = new System.Windows.Forms.NumericUpDown();
-            this.label65 = new System.Windows.Forms.Label();
-            this.Jagd_TextfeldAusgabe = new System.Windows.Forms.TextBox();
-            this.Jagd_Zuschlag = new System.Windows.Forms.TextBox();
-            this.label49 = new System.Windows.Forms.Label();
-            this.Jagd_HatGelaendekunde = new System.Windows.Forms.CheckBox();
-            this.Jagd_HatOrtskenntnis = new System.Windows.Forms.CheckBox();
-            this.label50 = new System.Windows.Forms.Label();
-            this.label56 = new System.Windows.Forms.Label();
-            this.label57 = new System.Windows.Forms.Label();
-            this.label58 = new System.Windows.Forms.Label();
-            this.label59 = new System.Windows.Forms.Label();
-            this.label60 = new System.Windows.Forms.Label();
-            this.Jagd_MU = new System.Windows.Forms.NumericUpDown();
-            this.Jagd_TAWTierkunde = new System.Windows.Forms.NumericUpDown();
-            this.Jagd_ButtonAnsitzjagd = new System.Windows.Forms.Button();
-            this.Jagd_TAWWildnisleben = new System.Windows.Forms.NumericUpDown();
-            this.Jagd_ButtonPirschjagd = new System.Windows.Forms.Button();
-            this.Jagd_TAWFaehrtensuche = new System.Windows.Forms.NumericUpDown();
-            this.label61 = new System.Windows.Forms.Label();
-            this.Jagd_GE = new System.Windows.Forms.NumericUpDown();
-            this.Jagd_BoxLandschaft = new System.Windows.Forms.ComboBox();
-            this.Jagd_IN = new System.Windows.Forms.NumericUpDown();
-            this.label62 = new System.Windows.Forms.Label();
-            this.Jagd_TAWSchleichen = new System.Windows.Forms.NumericUpDown();
-            this.label63 = new System.Windows.Forms.Label();
-            this.label64 = new System.Windows.Forms.Label();
-            this.Jagd_BoxRegion = new System.Windows.Forms.ComboBox();
-            this.Jagd_BoxTier = new System.Windows.Forms.ComboBox();
-            this.FischenFallenstellen = new System.Windows.Forms.TabPage();
-            this.Fischen_ButtonGewaesserEinschaetzen = new System.Windows.Forms.Button();
-            this.Fischen_RuheAufstellen = new System.Windows.Forms.CheckBox();
-            this.Fischen_ButtonFallenstellen = new System.Windows.Forms.Button();
-            this.Fischen_HatGelaendekunde = new System.Windows.Forms.CheckBox();
-            this.Fischen_HatOrtskenntnis = new System.Windows.Forms.CheckBox();
-            this.label70 = new System.Windows.Forms.Label();
-            this.label69 = new System.Windows.Forms.Label();
-            this.Fischen_TAWFallenstellen = new System.Windows.Forms.NumericUpDown();
-            this.label55 = new System.Windows.Forms.Label();
-            this.Fischen_KK = new System.Windows.Forms.NumericUpDown();
-            this.Fischen_TextfeldAusgabe = new System.Windows.Forms.TextBox();
-            this.Fischen_Zuschlag = new System.Windows.Forms.TextBox();
-            this.label48 = new System.Windows.Forms.Label();
-            this.label51 = new System.Windows.Forms.Label();
-            this.label52 = new System.Windows.Forms.Label();
-            this.label53 = new System.Windows.Forms.Label();
-            this.Fischen_IN = new System.Windows.Forms.NumericUpDown();
-            this.Fischen_ButtonAngeln = new System.Windows.Forms.Button();
-            this.Fischen_TAWFischen = new System.Windows.Forms.NumericUpDown();
-            this.Fischen_FF = new System.Windows.Forms.NumericUpDown();
-            this.Fischen_KL = new System.Windows.Forms.NumericUpDown();
-            this.label54 = new System.Windows.Forms.Label();
-            this.Fischen_BoxRegion = new System.Windows.Forms.ComboBox();
-            this.License = new System.Windows.Forms.TabPage();
-            this.label11 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.GitHubLabel = new System.Windows.Forms.LinkLabel();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).BeginInit();
-            this.Nahrungssuche.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Nahrung_TAWAckerbau)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Nahrung_MU)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Nahrung_TAWPflanzen)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Nahrung_TAWWildnis)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Nahrung_TAWSinnes)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Nahrung_FF)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Nahrung_IN)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Nahrung_TAWNahrung)).BeginInit();
-            this.About.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ScriptoriumAventurisBild)).BeginInit();
-            this.Kraeutersuche.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Kraeuter_MU)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Kraeuter_TAWPflanzen)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Kraeuter_TAWWildnis)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Kraeuter_TAWSinnes)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Kraeuter_FF)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Kraeuter_IN)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Kraeuter_TAWKraeuter)).BeginInit();
-            this.Registerkontrolle.SuspendLayout();
-            this.Jagd.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Jagd_TAWAnsitzjagd)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Jagd_TAWPirschjagd)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Jagd_TAWFernkampfwaffe)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Jagd_TAWSichVerstecken)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Jagd_MU)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Jagd_TAWTierkunde)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Jagd_TAWWildnisleben)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Jagd_TAWFaehrtensuche)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Jagd_GE)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Jagd_IN)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Jagd_TAWSchleichen)).BeginInit();
-            this.FischenFallenstellen.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Fischen_TAWFallenstellen)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Fischen_KK)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Fischen_IN)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Fischen_TAWFischen)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Fischen_FF)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Fischen_KL)).BeginInit();
-            this.License.SuspendLayout();
-            this.SuspendLayout();
+            textBox1 = new TextBox();
+            label22 = new Label();
+            textBox2 = new TextBox();
+            label23 = new Label();
+            comboBox1 = new ComboBox();
+            label24 = new Label();
+            comboBox2 = new ComboBox();
+            checkBox1 = new CheckBox();
+            checkBox2 = new CheckBox();
+            checkBox3 = new CheckBox();
+            label25 = new Label();
+            label26 = new Label();
+            label27 = new Label();
+            label28 = new Label();
+            label29 = new Label();
+            label30 = new Label();
+            numericUpDown1 = new NumericUpDown();
+            numericUpDown2 = new NumericUpDown();
+            button1 = new Button();
+            numericUpDown3 = new NumericUpDown();
+            button2 = new Button();
+            numericUpDown4 = new NumericUpDown();
+            label31 = new Label();
+            numericUpDown5 = new NumericUpDown();
+            comboBox3 = new ComboBox();
+            numericUpDown6 = new NumericUpDown();
+            label32 = new Label();
+            numericUpDown7 = new NumericUpDown();
+            label33 = new Label();
+            label34 = new Label();
+            comboBox4 = new ComboBox();
+            comboBox5 = new ComboBox();
+            Nahrungssuche = new TabPage();
+            Nahrung_NutzeAckerbau = new CheckBox();
+            label17 = new Label();
+            Nahrung_TAWAckerbau = new NumericUpDown();
+            Nahrung_TextfeldAusgabe = new TextBox();
+            Nahrung_Zuschlag = new TextBox();
+            label35 = new Label();
+            Nahrung_HatGelaendekunde = new CheckBox();
+            Nahrung_HatOrtskenntnis = new CheckBox();
+            Nahrung_HatSuchdauerVerdoppelt = new CheckBox();
+            label38 = new Label();
+            label39 = new Label();
+            label40 = new Label();
+            label41 = new Label();
+            label42 = new Label();
+            label43 = new Label();
+            Nahrung_MU = new NumericUpDown();
+            Nahrung_TAWPflanzen = new NumericUpDown();
+            Nahrung_TAWWildnis = new NumericUpDown();
+            Nahrung_ButtonSuche = new Button();
+            Nahrung_TAWSinnes = new NumericUpDown();
+            Nahrung_FF = new NumericUpDown();
+            Nahrung_IN = new NumericUpDown();
+            Nahrung_TAWNahrung = new NumericUpDown();
+            label46 = new Label();
+            label47 = new Label();
+            Nahrung_BoxRegion = new ComboBox();
+            About = new TabPage();
+            GitHubLabel = new LinkLabel();
+            About_Reset = new CheckBox();
+            label37 = new Label();
+            label13 = new Label();
+            KontaktLabel = new LinkLabel();
+            HomepageLabel = new LinkLabel();
+            About_Kopplung = new CheckBox();
+            About_Manuell = new CheckBox();
+            label36 = new Label();
+            label15 = new Label();
+            ScriptoriumAventurisBild = new PictureBox();
+            Kraeutersuche = new TabPage();
+            Kraeuter_TextfeldAusgabe = new TextBox();
+            Kraeuter_Zuschlag = new TextBox();
+            label21 = new Label();
+            label20 = new Label();
+            Kraeuter_BoxBesonderheiten = new ComboBox();
+            label19 = new Label();
+            Kraeuter_BoxSuchmonat = new ComboBox();
+            Kraeuter_HatGelaendekunde = new CheckBox();
+            Kraeuter_HatOrtskenntnis = new CheckBox();
+            Kraeuter_HatSuchdauerVerdoppelt = new CheckBox();
+            label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
+            label6 = new Label();
+            label5 = new Label();
+            label4 = new Label();
+            Kraeuter_MU = new NumericUpDown();
+            Kraeuter_TAWPflanzen = new NumericUpDown();
+            Kraeuter_ButtonSuchePflanzen = new Button();
+            Kraeuter_TAWWildnis = new NumericUpDown();
+            Kraeuter_ButtonSuchePflanzeGezielt = new Button();
+            Kraeuter_TAWSinnes = new NumericUpDown();
+            label10 = new Label();
+            Kraeuter_FF = new NumericUpDown();
+            Kraeuter_BoxLandschaft = new ComboBox();
+            Kraeuter_IN = new NumericUpDown();
+            label9 = new Label();
+            Kraeuter_TAWKraeuter = new NumericUpDown();
+            label8 = new Label();
+            label7 = new Label();
+            Kraeuter_BoxRegion = new ComboBox();
+            Kraeuter_BoxPflanze = new ComboBox();
+            Registerkontrolle = new TabControl();
+            Jagd = new TabPage();
+            Jagd_IstMeisterschuetze = new CheckBox();
+            Jagd_IstScharfschuetze = new CheckBox();
+            Jagd_TAWAnsitzjagd = new NumericUpDown();
+            label68 = new Label();
+            Jagd_TAWPirschjagd = new NumericUpDown();
+            label67 = new Label();
+            Jagd_TAWFernkampfwaffe = new NumericUpDown();
+            label66 = new Label();
+            Jagd_TAWSichVerstecken = new NumericUpDown();
+            label65 = new Label();
+            Jagd_TextfeldAusgabe = new TextBox();
+            Jagd_Zuschlag = new TextBox();
+            label49 = new Label();
+            Jagd_HatGelaendekunde = new CheckBox();
+            Jagd_HatOrtskenntnis = new CheckBox();
+            label50 = new Label();
+            label56 = new Label();
+            label57 = new Label();
+            label58 = new Label();
+            label59 = new Label();
+            label60 = new Label();
+            Jagd_MU = new NumericUpDown();
+            Jagd_TAWTierkunde = new NumericUpDown();
+            Jagd_ButtonAnsitzjagd = new Button();
+            Jagd_TAWWildnisleben = new NumericUpDown();
+            Jagd_ButtonPirschjagd = new Button();
+            Jagd_TAWFaehrtensuche = new NumericUpDown();
+            label61 = new Label();
+            Jagd_GE = new NumericUpDown();
+            Jagd_BoxLandschaft = new ComboBox();
+            Jagd_IN = new NumericUpDown();
+            label62 = new Label();
+            Jagd_TAWSchleichen = new NumericUpDown();
+            label63 = new Label();
+            label64 = new Label();
+            Jagd_BoxRegion = new ComboBox();
+            Jagd_BoxTier = new ComboBox();
+            FischenFallenstellen = new TabPage();
+            Fischen_ButtonGewaesserEinschaetzen = new Button();
+            Fischen_RuheAufstellen = new CheckBox();
+            Fischen_ButtonFallenstellen = new Button();
+            Fischen_HatGelaendekunde = new CheckBox();
+            Fischen_HatOrtskenntnis = new CheckBox();
+            label70 = new Label();
+            label69 = new Label();
+            Fischen_TAWFallenstellen = new NumericUpDown();
+            label55 = new Label();
+            Fischen_KK = new NumericUpDown();
+            Fischen_TextfeldAusgabe = new TextBox();
+            Fischen_Zuschlag = new TextBox();
+            label48 = new Label();
+            label51 = new Label();
+            label52 = new Label();
+            label53 = new Label();
+            Fischen_IN = new NumericUpDown();
+            Fischen_ButtonAngeln = new Button();
+            Fischen_TAWFischen = new NumericUpDown();
+            Fischen_FF = new NumericUpDown();
+            Fischen_KL = new NumericUpDown();
+            label54 = new Label();
+            Fischen_BoxRegion = new ComboBox();
+            License = new TabPage();
+            label11 = new Label();
+            textBox3 = new TextBox();
+            label16 = new Label();
+            label14 = new Label();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown6).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown7).BeginInit();
+            Nahrungssuche.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)Nahrung_TAWAckerbau).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Nahrung_MU).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Nahrung_TAWPflanzen).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Nahrung_TAWWildnis).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Nahrung_TAWSinnes).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Nahrung_FF).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Nahrung_IN).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Nahrung_TAWNahrung).BeginInit();
+            About.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)ScriptoriumAventurisBild).BeginInit();
+            Kraeutersuche.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)Kraeuter_MU).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Kraeuter_TAWPflanzen).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Kraeuter_TAWWildnis).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Kraeuter_TAWSinnes).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Kraeuter_FF).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Kraeuter_IN).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Kraeuter_TAWKraeuter).BeginInit();
+            Registerkontrolle.SuspendLayout();
+            Jagd.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)Jagd_TAWAnsitzjagd).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Jagd_TAWPirschjagd).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Jagd_TAWFernkampfwaffe).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Jagd_TAWSichVerstecken).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Jagd_MU).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Jagd_TAWTierkunde).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Jagd_TAWWildnisleben).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Jagd_TAWFaehrtensuche).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Jagd_GE).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Jagd_IN).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Jagd_TAWSchleichen).BeginInit();
+            FischenFallenstellen.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)Fischen_TAWFallenstellen).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Fischen_KK).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Fischen_IN).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Fischen_TAWFischen).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Fischen_FF).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Fischen_KL).BeginInit();
+            License.SuspendLayout();
+            SuspendLayout();
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(3, 243);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(481, 125);
-            this.textBox1.TabIndex = 101;
-            this.textBox1.TabStop = false;
+            textBox1.Location = new Point(3, 243);
+            textBox1.Multiline = true;
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(481, 125);
+            textBox1.TabIndex = 101;
+            textBox1.TabStop = false;
             // 
             // label22
             // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(386, 172);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(51, 13);
-            this.label22.TabIndex = 69;
-            this.label22.Text = "Zuschlag";
+            label22.AutoSize = true;
+            label22.Location = new Point(386, 172);
+            label22.Name = "label22";
+            label22.Size = new Size(51, 13);
+            label22.TabIndex = 69;
+            label22.Text = "Zuschlag";
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(442, 169);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(30, 31);
-            this.textBox2.TabIndex = 68;
-            this.textBox2.TabStop = false;
+            textBox2.Location = new Point(442, 169);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(30, 31);
+            textBox2.TabIndex = 68;
+            textBox2.TabStop = false;
             // 
             // label23
             // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(300, 58);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(43, 13);
-            this.label23.TabIndex = 67;
-            this.label23.Text = "Speziell";
+            label23.AutoSize = true;
+            label23.Location = new Point(300, 58);
+            label23.Name = "label23";
+            label23.Size = new Size(43, 13);
+            label23.TabIndex = 67;
+            label23.Text = "Speziell";
             // 
             // comboBox1
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Keine Besonderheiten",
-            "Astral durchzogener Ort",
-            "Palakar (Schwarze Stadt)",
-            "Ruine",
-            "Stätte Namenloser Macht",
-            "Nacht",
-            "Vollmondnacht (+/- 1 Tag)"});
-            this.comboBox1.Location = new System.Drawing.Point(344, 54);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(138, 33);
-            this.comboBox1.TabIndex = 8;
-            this.comboBox1.Text = "Keine Besonderheiten";
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Items.AddRange(new object[] { "Keine Besonderheiten", "Astral durchzogener Ort", "Palakar (Schwarze Stadt)", "Ruine", "Stätte Namenloser Macht", "Nacht", "Vollmondnacht (+/- 1 Tag)" });
+            comboBox1.Location = new Point(344, 54);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(138, 33);
+            comboBox1.TabIndex = 8;
+            comboBox1.Text = "Keine Besonderheiten";
             // 
             // label24
             // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(300, 34);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(61, 13);
-            this.label24.TabIndex = 65;
-            this.label24.Text = "Suchmonat";
+            label24.AutoSize = true;
+            label24.Location = new Point(300, 34);
+            label24.Name = "label24";
+            label24.Size = new Size(61, 13);
+            label24.TabIndex = 65;
+            label24.Text = "Suchmonat";
             // 
             // comboBox2
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "Komplettes Jahr",
-            "Praios",
-            "Rondra",
-            "Efferd",
-            "Travia",
-            "Boron",
-            "Hesinde",
-            "Firun",
-            "Tsa",
-            "Phex",
-            "Peraine",
-            "Ingerimm",
-            "Rahja",
-            "Namenlose Tage"});
-            this.comboBox2.Location = new System.Drawing.Point(362, 30);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(120, 33);
-            this.comboBox2.TabIndex = 7;
-            this.comboBox2.Text = "Komplettes Jahr";
+            comboBox2.FormattingEnabled = true;
+            comboBox2.Items.AddRange(new object[] { "Komplettes Jahr", "Praios", "Rondra", "Efferd", "Travia", "Boron", "Hesinde", "Firun", "Tsa", "Phex", "Peraine", "Ingerimm", "Rahja", "Namenlose Tage" });
+            comboBox2.Location = new Point(362, 30);
+            comboBox2.Name = "comboBox2";
+            comboBox2.Size = new Size(120, 33);
+            comboBox2.TabIndex = 7;
+            comboBox2.Text = "Komplettes Jahr";
             // 
             // checkBox1
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(387, 127);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(96, 17);
-            this.checkBox1.TabIndex = 12;
-            this.checkBox1.Text = "Geländekunde";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            checkBox1.AutoSize = true;
+            checkBox1.Location = new Point(387, 127);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(96, 17);
+            checkBox1.TabIndex = 12;
+            checkBox1.Text = "Geländekunde";
+            checkBox1.UseVisualStyleBackColor = true;
             // 
             // checkBox2
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(387, 100);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(85, 17);
-            this.checkBox2.TabIndex = 10;
-            this.checkBox2.Text = "Ortskenntnis";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            checkBox2.AutoSize = true;
+            checkBox2.Location = new Point(387, 100);
+            checkBox2.Name = "checkBox2";
+            checkBox2.Size = new Size(85, 17);
+            checkBox2.TabIndex = 10;
+            checkBox2.Text = "Ortskenntnis";
+            checkBox2.UseVisualStyleBackColor = true;
             // 
             // checkBox3
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(14, 213);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(159, 17);
-            this.checkBox3.TabIndex = 14;
-            this.checkBox3.Text = "Verdopplung der Suchdauer";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            checkBox3.AutoSize = true;
+            checkBox3.Location = new Point(14, 213);
+            checkBox3.Name = "checkBox3";
+            checkBox3.Size = new Size(159, 17);
+            checkBox3.TabIndex = 14;
+            checkBox3.Text = "Verdopplung der Suchdauer";
+            checkBox3.UseVisualStyleBackColor = true;
             // 
             // label25
             // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(162, 10);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(101, 13);
-            this.label25.TabIndex = 50;
-            this.label25.Text = "TaW Sinnesschärfe";
+            label25.AutoSize = true;
+            label25.Location = new Point(162, 10);
+            label25.Name = "label25";
+            label25.Size = new Size(101, 13);
+            label25.TabIndex = 50;
+            label25.Text = "TaW Sinnesschärfe";
             // 
             // label26
             // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(162, 32);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(94, 13);
-            this.label26.TabIndex = 51;
-            this.label26.Text = "TaW Wildnisleben";
+            label26.AutoSize = true;
+            label26.Location = new Point(162, 32);
+            label26.Name = "label26";
+            label26.Size = new Size(94, 13);
+            label26.TabIndex = 51;
+            label26.Text = "TaW Wildnisleben";
             // 
             // label27
             // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(162, 54);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(105, 13);
-            this.label27.TabIndex = 52;
-            this.label27.Text = "TaW Pflanzenkunde";
+            label27.AutoSize = true;
+            label27.Location = new Point(162, 54);
+            label27.Name = "label27";
+            label27.Size = new Size(105, 13);
+            label27.TabIndex = 52;
+            label27.Text = "TaW Pflanzenkunde";
             // 
             // label28
             // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(62, 10);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(24, 13);
-            this.label28.TabIndex = 55;
-            this.label28.Text = "MU";
+            label28.AutoSize = true;
+            label28.Location = new Point(62, 10);
+            label28.Name = "label28";
+            label28.Size = new Size(24, 13);
+            label28.TabIndex = 55;
+            label28.Text = "MU";
             // 
             // label29
             // 
-            this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(62, 32);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(18, 13);
-            this.label29.TabIndex = 54;
-            this.label29.Text = "IN";
+            label29.AutoSize = true;
+            label29.Location = new Point(62, 32);
+            label29.Name = "label29";
+            label29.Size = new Size(18, 13);
+            label29.TabIndex = 54;
+            label29.Text = "IN";
             // 
             // label30
             // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(62, 54);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(19, 13);
-            this.label30.TabIndex = 53;
-            this.label30.Text = "FF";
+            label30.AutoSize = true;
+            label30.Location = new Point(62, 54);
+            label30.Name = "label30";
+            label30.Size = new Size(19, 13);
+            label30.TabIndex = 53;
+            label30.Text = "FF";
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(6, 7);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(50, 31);
-            this.numericUpDown1.TabIndex = 1;
-            this.numericUpDown1.Value = new decimal(new int[] {
-            10,
-            0,
-            0,
-            0});
+            numericUpDown1.Location = new Point(6, 7);
+            numericUpDown1.Name = "numericUpDown1";
+            numericUpDown1.Size = new Size(50, 31);
+            numericUpDown1.TabIndex = 1;
+            numericUpDown1.Value = new decimal(new int[] { 10, 0, 0, 0 });
             // 
             // numericUpDown2
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(106, 51);
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(50, 31);
-            this.numericUpDown2.TabIndex = 6;
+            numericUpDown2.Location = new Point(106, 51);
+            numericUpDown2.Name = "numericUpDown2";
+            numericUpDown2.Size = new Size(50, 31);
+            numericUpDown2.TabIndex = 6;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(333, 209);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(139, 23);
-            this.button1.TabIndex = 16;
-            this.button1.Text = "Allgemein Pflanzensuche";
-            this.button1.UseVisualStyleBackColor = true;
+            button1.Location = new Point(333, 209);
+            button1.Name = "button1";
+            button1.Size = new Size(139, 23);
+            button1.TabIndex = 16;
+            button1.Text = "Allgemein Pflanzensuche";
+            button1.UseVisualStyleBackColor = true;
             // 
             // numericUpDown3
             // 
-            this.numericUpDown3.Location = new System.Drawing.Point(106, 29);
-            this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(50, 31);
-            this.numericUpDown3.TabIndex = 5;
+            numericUpDown3.Location = new Point(106, 29);
+            numericUpDown3.Name = "numericUpDown3";
+            numericUpDown3.Size = new Size(50, 31);
+            numericUpDown3.TabIndex = 5;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(179, 209);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(148, 23);
-            this.button2.TabIndex = 15;
-            this.button2.Text = "Suche ausgewählte Pflanze";
-            this.button2.UseVisualStyleBackColor = true;
+            button2.Location = new Point(179, 209);
+            button2.Name = "button2";
+            button2.Size = new Size(148, 23);
+            button2.TabIndex = 15;
+            button2.Text = "Suche ausgewählte Pflanze";
+            button2.UseVisualStyleBackColor = true;
             // 
             // numericUpDown4
             // 
-            this.numericUpDown4.Location = new System.Drawing.Point(106, 7);
-            this.numericUpDown4.Name = "numericUpDown4";
-            this.numericUpDown4.Size = new System.Drawing.Size(50, 31);
-            this.numericUpDown4.TabIndex = 4;
+            numericUpDown4.Location = new Point(106, 7);
+            numericUpDown4.Name = "numericUpDown4";
+            numericUpDown4.Size = new Size(50, 31);
+            numericUpDown4.TabIndex = 4;
             // 
             // label31
             // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(7, 171);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(42, 13);
-            this.label31.TabIndex = 63;
-            this.label31.Text = "Pflanze";
+            label31.AutoSize = true;
+            label31.Location = new Point(7, 171);
+            label31.Name = "label31";
+            label31.Size = new Size(42, 13);
+            label31.TabIndex = 63;
+            label31.Text = "Pflanze";
             // 
             // numericUpDown5
             // 
-            this.numericUpDown5.Location = new System.Drawing.Point(6, 51);
-            this.numericUpDown5.Name = "numericUpDown5";
-            this.numericUpDown5.Size = new System.Drawing.Size(50, 31);
-            this.numericUpDown5.TabIndex = 3;
-            this.numericUpDown5.Value = new decimal(new int[] {
-            10,
-            0,
-            0,
-            0});
+            numericUpDown5.Location = new Point(6, 51);
+            numericUpDown5.Name = "numericUpDown5";
+            numericUpDown5.Size = new Size(50, 31);
+            numericUpDown5.TabIndex = 3;
+            numericUpDown5.Value = new decimal(new int[] { 10, 0, 0, 0 });
             // 
             // comboBox3
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(87, 124);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(283, 33);
-            this.comboBox3.TabIndex = 11;
+            comboBox3.FormattingEnabled = true;
+            comboBox3.Location = new Point(87, 124);
+            comboBox3.Name = "comboBox3";
+            comboBox3.Size = new Size(283, 33);
+            comboBox3.TabIndex = 11;
             // 
             // numericUpDown6
             // 
-            this.numericUpDown6.Location = new System.Drawing.Point(6, 29);
-            this.numericUpDown6.Name = "numericUpDown6";
-            this.numericUpDown6.Size = new System.Drawing.Size(50, 31);
-            this.numericUpDown6.TabIndex = 2;
-            this.numericUpDown6.Value = new decimal(new int[] {
-            10,
-            0,
-            0,
-            0});
+            numericUpDown6.Location = new Point(6, 29);
+            numericUpDown6.Name = "numericUpDown6";
+            numericUpDown6.Size = new Size(50, 31);
+            numericUpDown6.TabIndex = 2;
+            numericUpDown6.Value = new decimal(new int[] { 10, 0, 0, 0 });
             // 
             // label32
             // 
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(7, 127);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(60, 13);
-            this.label32.TabIndex = 61;
-            this.label32.Text = "Landschaft";
+            label32.AutoSize = true;
+            label32.Location = new Point(7, 127);
+            label32.Name = "label32";
+            label32.Size = new Size(60, 13);
+            label32.TabIndex = 61;
+            label32.Text = "Landschaft";
             // 
             // numericUpDown7
             // 
-            this.numericUpDown7.Enabled = false;
-            this.numericUpDown7.Location = new System.Drawing.Point(324, 7);
-            this.numericUpDown7.Name = "numericUpDown7";
-            this.numericUpDown7.Size = new System.Drawing.Size(49, 31);
-            this.numericUpDown7.TabIndex = 56;
-            this.numericUpDown7.TabStop = false;
+            numericUpDown7.Enabled = false;
+            numericUpDown7.Location = new Point(324, 7);
+            numericUpDown7.Name = "numericUpDown7";
+            numericUpDown7.Size = new Size(49, 31);
+            numericUpDown7.TabIndex = 56;
+            numericUpDown7.TabStop = false;
             // 
             // label33
             // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(7, 100);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(41, 13);
-            this.label33.TabIndex = 60;
-            this.label33.Text = "Region";
+            label33.AutoSize = true;
+            label33.Location = new Point(7, 100);
+            label33.Name = "label33";
+            label33.Size = new Size(41, 13);
+            label33.TabIndex = 60;
+            label33.Text = "Region";
             // 
             // label34
             // 
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(384, 10);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(97, 13);
-            this.label34.TabIndex = 57;
-            this.label34.Text = "TaW Kräutersuche";
+            label34.AutoSize = true;
+            label34.Location = new Point(384, 10);
+            label34.Name = "label34";
+            label34.Size = new Size(97, 13);
+            label34.TabIndex = 57;
+            label34.Text = "TaW Kräutersuche";
             // 
             // comboBox4
             // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(87, 97);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(283, 33);
-            this.comboBox4.TabIndex = 9;
+            comboBox4.FormattingEnabled = true;
+            comboBox4.Location = new Point(87, 97);
+            comboBox4.Name = "comboBox4";
+            comboBox4.Size = new Size(283, 33);
+            comboBox4.TabIndex = 9;
             // 
             // comboBox5
             // 
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Location = new System.Drawing.Point(88, 168);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(282, 33);
-            this.comboBox5.TabIndex = 13;
+            comboBox5.FormattingEnabled = true;
+            comboBox5.Location = new Point(88, 168);
+            comboBox5.Name = "comboBox5";
+            comboBox5.Size = new Size(282, 33);
+            comboBox5.TabIndex = 13;
             // 
             // Nahrungssuche
             // 
-            this.Nahrungssuche.Controls.Add(this.Nahrung_NutzeAckerbau);
-            this.Nahrungssuche.Controls.Add(this.label17);
-            this.Nahrungssuche.Controls.Add(this.Nahrung_TAWAckerbau);
-            this.Nahrungssuche.Controls.Add(this.Nahrung_TextfeldAusgabe);
-            this.Nahrungssuche.Controls.Add(this.Nahrung_Zuschlag);
-            this.Nahrungssuche.Controls.Add(this.label35);
-            this.Nahrungssuche.Controls.Add(this.Nahrung_HatGelaendekunde);
-            this.Nahrungssuche.Controls.Add(this.Nahrung_HatOrtskenntnis);
-            this.Nahrungssuche.Controls.Add(this.Nahrung_HatSuchdauerVerdoppelt);
-            this.Nahrungssuche.Controls.Add(this.label38);
-            this.Nahrungssuche.Controls.Add(this.label39);
-            this.Nahrungssuche.Controls.Add(this.label40);
-            this.Nahrungssuche.Controls.Add(this.label41);
-            this.Nahrungssuche.Controls.Add(this.label42);
-            this.Nahrungssuche.Controls.Add(this.label43);
-            this.Nahrungssuche.Controls.Add(this.Nahrung_MU);
-            this.Nahrungssuche.Controls.Add(this.Nahrung_TAWPflanzen);
-            this.Nahrungssuche.Controls.Add(this.Nahrung_TAWWildnis);
-            this.Nahrungssuche.Controls.Add(this.Nahrung_ButtonSuche);
-            this.Nahrungssuche.Controls.Add(this.Nahrung_TAWSinnes);
-            this.Nahrungssuche.Controls.Add(this.Nahrung_FF);
-            this.Nahrungssuche.Controls.Add(this.Nahrung_IN);
-            this.Nahrungssuche.Controls.Add(this.Nahrung_TAWNahrung);
-            this.Nahrungssuche.Controls.Add(this.label46);
-            this.Nahrungssuche.Controls.Add(this.label47);
-            this.Nahrungssuche.Controls.Add(this.Nahrung_BoxRegion);
-            this.Nahrungssuche.Location = new System.Drawing.Point(4, 34);
-            this.Nahrungssuche.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Nahrungssuche.Name = "Nahrungssuche";
-            this.Nahrungssuche.Padding = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Nahrungssuche.Size = new System.Drawing.Size(817, 725);
-            this.Nahrungssuche.TabIndex = 3;
-            this.Nahrungssuche.Text = "Nahrungssuche";
-            this.Nahrungssuche.UseVisualStyleBackColor = true;
+            Nahrungssuche.Controls.Add(Nahrung_NutzeAckerbau);
+            Nahrungssuche.Controls.Add(label17);
+            Nahrungssuche.Controls.Add(Nahrung_TAWAckerbau);
+            Nahrungssuche.Controls.Add(Nahrung_TextfeldAusgabe);
+            Nahrungssuche.Controls.Add(Nahrung_Zuschlag);
+            Nahrungssuche.Controls.Add(label35);
+            Nahrungssuche.Controls.Add(Nahrung_HatGelaendekunde);
+            Nahrungssuche.Controls.Add(Nahrung_HatOrtskenntnis);
+            Nahrungssuche.Controls.Add(Nahrung_HatSuchdauerVerdoppelt);
+            Nahrungssuche.Controls.Add(label38);
+            Nahrungssuche.Controls.Add(label39);
+            Nahrungssuche.Controls.Add(label40);
+            Nahrungssuche.Controls.Add(label41);
+            Nahrungssuche.Controls.Add(label42);
+            Nahrungssuche.Controls.Add(label43);
+            Nahrungssuche.Controls.Add(Nahrung_MU);
+            Nahrungssuche.Controls.Add(Nahrung_TAWPflanzen);
+            Nahrungssuche.Controls.Add(Nahrung_TAWWildnis);
+            Nahrungssuche.Controls.Add(Nahrung_ButtonSuche);
+            Nahrungssuche.Controls.Add(Nahrung_TAWSinnes);
+            Nahrungssuche.Controls.Add(Nahrung_FF);
+            Nahrungssuche.Controls.Add(Nahrung_IN);
+            Nahrungssuche.Controls.Add(Nahrung_TAWNahrung);
+            Nahrungssuche.Controls.Add(label46);
+            Nahrungssuche.Controls.Add(label47);
+            Nahrungssuche.Controls.Add(Nahrung_BoxRegion);
+            Nahrungssuche.Location = new Point(4, 34);
+            Nahrungssuche.Margin = new Padding(5, 6, 5, 6);
+            Nahrungssuche.Name = "Nahrungssuche";
+            Nahrungssuche.Padding = new Padding(5, 6, 5, 6);
+            Nahrungssuche.Size = new Size(817, 725);
+            Nahrungssuche.TabIndex = 3;
+            Nahrungssuche.Text = "Nahrungssuche";
+            Nahrungssuche.UseVisualStyleBackColor = true;
             // 
             // Nahrung_NutzeAckerbau
             // 
-            this.Nahrung_NutzeAckerbau.AutoSize = true;
-            this.Nahrung_NutzeAckerbau.Location = new System.Drawing.Point(505, 104);
-            this.Nahrung_NutzeAckerbau.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Nahrung_NutzeAckerbau.Name = "Nahrung_NutzeAckerbau";
-            this.Nahrung_NutzeAckerbau.Size = new System.Drawing.Size(258, 29);
-            this.Nahrung_NutzeAckerbau.TabIndex = 8;
-            this.Nahrung_NutzeAckerbau.Text = "Ackerbau statt Wildnisleben";
-            this.Nahrung_NutzeAckerbau.UseVisualStyleBackColor = true;
-            this.Nahrung_NutzeAckerbau.CheckedChanged += new System.EventHandler(this.Nahrung_NutzeAckerbau_CheckedChanged);
+            Nahrung_NutzeAckerbau.AutoSize = true;
+            Nahrung_NutzeAckerbau.Location = new Point(505, 104);
+            Nahrung_NutzeAckerbau.Margin = new Padding(5, 6, 5, 6);
+            Nahrung_NutzeAckerbau.Name = "Nahrung_NutzeAckerbau";
+            Nahrung_NutzeAckerbau.Size = new Size(258, 29);
+            Nahrung_NutzeAckerbau.TabIndex = 8;
+            Nahrung_NutzeAckerbau.Text = "Ackerbau statt Wildnisleben";
+            Nahrung_NutzeAckerbau.UseVisualStyleBackColor = true;
+            Nahrung_NutzeAckerbau.CheckedChanged += Nahrung_NutzeAckerbau_CheckedChanged;
             // 
             // label17
             // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(600, 62);
-            this.label17.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(124, 25);
-            this.label17.TabIndex = 103;
-            this.label17.Text = "TaW Ackerbau";
+            label17.AutoSize = true;
+            label17.Location = new Point(600, 62);
+            label17.Margin = new Padding(5, 0, 5, 0);
+            label17.Name = "label17";
+            label17.Size = new Size(124, 25);
+            label17.TabIndex = 103;
+            label17.Text = "TaW Ackerbau";
             // 
             // Nahrung_TAWAckerbau
             // 
-            this.Nahrung_TAWAckerbau.Location = new System.Drawing.Point(505, 56);
-            this.Nahrung_TAWAckerbau.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Nahrung_TAWAckerbau.Name = "Nahrung_TAWAckerbau";
-            this.Nahrung_TAWAckerbau.Size = new System.Drawing.Size(82, 31);
-            this.Nahrung_TAWAckerbau.TabIndex = 7;
-            this.Nahrung_TAWAckerbau.ValueChanged += new System.EventHandler(this.Nahrung_TAWAckerbau_ValueChanged);
-            this.Nahrung_TAWAckerbau.Click += new System.EventHandler(this.Nahrung_TAWAckerbau_Click);
-            this.Nahrung_TAWAckerbau.GotFocus += new System.EventHandler(this.Nahrung_TAWAckerbau_GotFocus);
+            Nahrung_TAWAckerbau.Location = new Point(505, 56);
+            Nahrung_TAWAckerbau.Margin = new Padding(5, 6, 5, 6);
+            Nahrung_TAWAckerbau.Name = "Nahrung_TAWAckerbau";
+            Nahrung_TAWAckerbau.Size = new Size(82, 31);
+            Nahrung_TAWAckerbau.TabIndex = 7;
+            Nahrung_TAWAckerbau.ValueChanged += Nahrung_TAWAckerbau_ValueChanged;
+            Nahrung_TAWAckerbau.Click += Nahrung_TAWAckerbau_Click;
+            Nahrung_TAWAckerbau.GotFocus += Nahrung_TAWAckerbau_GotFocus;
             // 
             // Nahrung_TextfeldAusgabe
             // 
-            this.Nahrung_TextfeldAusgabe.Location = new System.Drawing.Point(5, 362);
-            this.Nahrung_TextfeldAusgabe.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Nahrung_TextfeldAusgabe.Multiline = true;
-            this.Nahrung_TextfeldAusgabe.Name = "Nahrung_TextfeldAusgabe";
-            this.Nahrung_TextfeldAusgabe.Size = new System.Drawing.Size(799, 342);
-            this.Nahrung_TextfeldAusgabe.TabIndex = 101;
-            this.Nahrung_TextfeldAusgabe.TabStop = false;
+            Nahrung_TextfeldAusgabe.Location = new Point(5, 362);
+            Nahrung_TextfeldAusgabe.Margin = new Padding(5, 6, 5, 6);
+            Nahrung_TextfeldAusgabe.Multiline = true;
+            Nahrung_TextfeldAusgabe.Name = "Nahrung_TextfeldAusgabe";
+            Nahrung_TextfeldAusgabe.Size = new Size(799, 342);
+            Nahrung_TextfeldAusgabe.TabIndex = 101;
+            Nahrung_TextfeldAusgabe.TabStop = false;
             // 
             // Nahrung_Zuschlag
             // 
-            this.Nahrung_Zuschlag.Location = new System.Drawing.Point(735, 187);
-            this.Nahrung_Zuschlag.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Nahrung_Zuschlag.Name = "Nahrung_Zuschlag";
-            this.Nahrung_Zuschlag.Size = new System.Drawing.Size(47, 31);
-            this.Nahrung_Zuschlag.TabIndex = 68;
-            this.Nahrung_Zuschlag.TabStop = false;
+            Nahrung_Zuschlag.Location = new Point(735, 187);
+            Nahrung_Zuschlag.Margin = new Padding(5, 6, 5, 6);
+            Nahrung_Zuschlag.Name = "Nahrung_Zuschlag";
+            Nahrung_Zuschlag.Size = new Size(47, 31);
+            Nahrung_Zuschlag.TabIndex = 68;
+            Nahrung_Zuschlag.TabStop = false;
             // 
             // label35
             // 
-            this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(640, 192);
-            this.label35.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(82, 25);
-            this.label35.TabIndex = 69;
-            this.label35.Text = "Zuschlag";
+            label35.AutoSize = true;
+            label35.Location = new Point(640, 192);
+            label35.Margin = new Padding(5, 0, 5, 0);
+            label35.Name = "label35";
+            label35.Size = new Size(82, 25);
+            label35.TabIndex = 69;
+            label35.Text = "Zuschlag";
             // 
             // Nahrung_HatGelaendekunde
             // 
-            this.Nahrung_HatGelaendekunde.AutoSize = true;
-            this.Nahrung_HatGelaendekunde.Location = new System.Drawing.Point(145, 244);
-            this.Nahrung_HatGelaendekunde.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Nahrung_HatGelaendekunde.Name = "Nahrung_HatGelaendekunde";
-            this.Nahrung_HatGelaendekunde.Size = new System.Drawing.Size(151, 29);
-            this.Nahrung_HatGelaendekunde.TabIndex = 10;
-            this.Nahrung_HatGelaendekunde.Text = "Geländekunde";
-            this.Nahrung_HatGelaendekunde.UseVisualStyleBackColor = true;
-            this.Nahrung_HatGelaendekunde.CheckedChanged += new System.EventHandler(this.Nahrung_HatGelaendekunde_CheckedChanged);
+            Nahrung_HatGelaendekunde.AutoSize = true;
+            Nahrung_HatGelaendekunde.Location = new Point(145, 244);
+            Nahrung_HatGelaendekunde.Margin = new Padding(5, 6, 5, 6);
+            Nahrung_HatGelaendekunde.Name = "Nahrung_HatGelaendekunde";
+            Nahrung_HatGelaendekunde.Size = new Size(151, 29);
+            Nahrung_HatGelaendekunde.TabIndex = 10;
+            Nahrung_HatGelaendekunde.Text = "Geländekunde";
+            Nahrung_HatGelaendekunde.UseVisualStyleBackColor = true;
+            Nahrung_HatGelaendekunde.CheckedChanged += Nahrung_HatGelaendekunde_CheckedChanged;
             // 
             // Nahrung_HatOrtskenntnis
             // 
-            this.Nahrung_HatOrtskenntnis.AutoSize = true;
-            this.Nahrung_HatOrtskenntnis.Location = new System.Drawing.Point(335, 244);
-            this.Nahrung_HatOrtskenntnis.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Nahrung_HatOrtskenntnis.Name = "Nahrung_HatOrtskenntnis";
-            this.Nahrung_HatOrtskenntnis.Size = new System.Drawing.Size(138, 29);
-            this.Nahrung_HatOrtskenntnis.TabIndex = 11;
-            this.Nahrung_HatOrtskenntnis.Text = "Ortskenntnis";
-            this.Nahrung_HatOrtskenntnis.UseVisualStyleBackColor = true;
-            this.Nahrung_HatOrtskenntnis.CheckedChanged += new System.EventHandler(this.Nahrung_HatOrtskenntnis_CheckedChanged);
+            Nahrung_HatOrtskenntnis.AutoSize = true;
+            Nahrung_HatOrtskenntnis.Location = new Point(335, 244);
+            Nahrung_HatOrtskenntnis.Margin = new Padding(5, 6, 5, 6);
+            Nahrung_HatOrtskenntnis.Name = "Nahrung_HatOrtskenntnis";
+            Nahrung_HatOrtskenntnis.Size = new Size(138, 29);
+            Nahrung_HatOrtskenntnis.TabIndex = 11;
+            Nahrung_HatOrtskenntnis.Text = "Ortskenntnis";
+            Nahrung_HatOrtskenntnis.UseVisualStyleBackColor = true;
+            Nahrung_HatOrtskenntnis.CheckedChanged += Nahrung_HatOrtskenntnis_CheckedChanged;
             // 
             // Nahrung_HatSuchdauerVerdoppelt
             // 
-            this.Nahrung_HatSuchdauerVerdoppelt.AutoSize = true;
-            this.Nahrung_HatSuchdauerVerdoppelt.Location = new System.Drawing.Point(505, 244);
-            this.Nahrung_HatSuchdauerVerdoppelt.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Nahrung_HatSuchdauerVerdoppelt.Name = "Nahrung_HatSuchdauerVerdoppelt";
-            this.Nahrung_HatSuchdauerVerdoppelt.Size = new System.Drawing.Size(261, 29);
-            this.Nahrung_HatSuchdauerVerdoppelt.TabIndex = 12;
-            this.Nahrung_HatSuchdauerVerdoppelt.Text = "Verdopplung der Suchdauer";
-            this.Nahrung_HatSuchdauerVerdoppelt.UseVisualStyleBackColor = true;
-            this.Nahrung_HatSuchdauerVerdoppelt.CheckedChanged += new System.EventHandler(this.Nahrung_HatSuchdauerVerdoppelt_CheckedChanged);
+            Nahrung_HatSuchdauerVerdoppelt.AutoSize = true;
+            Nahrung_HatSuchdauerVerdoppelt.Location = new Point(505, 244);
+            Nahrung_HatSuchdauerVerdoppelt.Margin = new Padding(5, 6, 5, 6);
+            Nahrung_HatSuchdauerVerdoppelt.Name = "Nahrung_HatSuchdauerVerdoppelt";
+            Nahrung_HatSuchdauerVerdoppelt.Size = new Size(261, 29);
+            Nahrung_HatSuchdauerVerdoppelt.TabIndex = 12;
+            Nahrung_HatSuchdauerVerdoppelt.Text = "Verdopplung der Suchdauer";
+            Nahrung_HatSuchdauerVerdoppelt.UseVisualStyleBackColor = true;
+            Nahrung_HatSuchdauerVerdoppelt.CheckedChanged += Nahrung_HatSuchdauerVerdoppelt_CheckedChanged;
             // 
             // label38
             // 
-            this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(270, 19);
-            this.label38.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(157, 25);
-            this.label38.TabIndex = 50;
-            this.label38.Text = "TaW Sinnesschärfe";
+            label38.AutoSize = true;
+            label38.Location = new Point(270, 19);
+            label38.Margin = new Padding(5, 0, 5, 0);
+            label38.Name = "label38";
+            label38.Size = new Size(157, 25);
+            label38.TabIndex = 50;
+            label38.Text = "TaW Sinnesschärfe";
             // 
             // label39
             // 
-            this.label39.AutoSize = true;
-            this.label39.Location = new System.Drawing.Point(270, 62);
-            this.label39.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(151, 25);
-            this.label39.TabIndex = 51;
-            this.label39.Text = "TaW Wildnisleben";
+            label39.AutoSize = true;
+            label39.Location = new Point(270, 62);
+            label39.Margin = new Padding(5, 0, 5, 0);
+            label39.Name = "label39";
+            label39.Size = new Size(151, 25);
+            label39.TabIndex = 51;
+            label39.Text = "TaW Wildnisleben";
             // 
             // label40
             // 
-            this.label40.AutoSize = true;
-            this.label40.Location = new System.Drawing.Point(270, 104);
-            this.label40.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(165, 25);
-            this.label40.TabIndex = 52;
-            this.label40.Text = "TaW Pflanzenkunde";
+            label40.AutoSize = true;
+            label40.Location = new Point(270, 104);
+            label40.Margin = new Padding(5, 0, 5, 0);
+            label40.Name = "label40";
+            label40.Size = new Size(165, 25);
+            label40.TabIndex = 52;
+            label40.Text = "TaW Pflanzenkunde";
             // 
             // label41
             // 
-            this.label41.AutoSize = true;
-            this.label41.Location = new System.Drawing.Point(103, 19);
-            this.label41.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(40, 25);
-            this.label41.TabIndex = 55;
-            this.label41.Text = "MU";
+            label41.AutoSize = true;
+            label41.Location = new Point(103, 19);
+            label41.Margin = new Padding(5, 0, 5, 0);
+            label41.Name = "label41";
+            label41.Size = new Size(40, 25);
+            label41.TabIndex = 55;
+            label41.Text = "MU";
             // 
             // label42
             // 
-            this.label42.AutoSize = true;
-            this.label42.Location = new System.Drawing.Point(103, 62);
-            this.label42.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(30, 25);
-            this.label42.TabIndex = 54;
-            this.label42.Text = "IN";
+            label42.AutoSize = true;
+            label42.Location = new Point(103, 62);
+            label42.Margin = new Padding(5, 0, 5, 0);
+            label42.Name = "label42";
+            label42.Size = new Size(30, 25);
+            label42.TabIndex = 54;
+            label42.Text = "IN";
             // 
             // label43
             // 
-            this.label43.AutoSize = true;
-            this.label43.Location = new System.Drawing.Point(103, 104);
-            this.label43.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(30, 25);
-            this.label43.TabIndex = 53;
-            this.label43.Text = "FF";
+            label43.AutoSize = true;
+            label43.Location = new Point(103, 104);
+            label43.Margin = new Padding(5, 0, 5, 0);
+            label43.Name = "label43";
+            label43.Size = new Size(30, 25);
+            label43.TabIndex = 53;
+            label43.Text = "FF";
             // 
             // Nahrung_MU
             // 
-            this.Nahrung_MU.Location = new System.Drawing.Point(10, 13);
-            this.Nahrung_MU.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Nahrung_MU.Name = "Nahrung_MU";
-            this.Nahrung_MU.Size = new System.Drawing.Size(83, 31);
-            this.Nahrung_MU.TabIndex = 1;
-            this.Nahrung_MU.Value = new decimal(new int[] {
-            10,
-            0,
-            0,
-            0});
-            this.Nahrung_MU.ValueChanged += new System.EventHandler(this.Nahrung_MU_ValueChanged);
-            this.Nahrung_MU.Click += new System.EventHandler(this.Nahrung_MU_Click);
-            this.Nahrung_MU.GotFocus += new System.EventHandler(this.Nahrung_MU_GotFocus);
+            Nahrung_MU.Location = new Point(10, 13);
+            Nahrung_MU.Margin = new Padding(5, 6, 5, 6);
+            Nahrung_MU.Name = "Nahrung_MU";
+            Nahrung_MU.Size = new Size(83, 31);
+            Nahrung_MU.TabIndex = 1;
+            Nahrung_MU.Value = new decimal(new int[] { 10, 0, 0, 0 });
+            Nahrung_MU.ValueChanged += Nahrung_MU_ValueChanged;
+            Nahrung_MU.Click += Nahrung_MU_Click;
+            Nahrung_MU.GotFocus += Nahrung_MU_GotFocus;
             // 
             // Nahrung_TAWPflanzen
             // 
-            this.Nahrung_TAWPflanzen.Location = new System.Drawing.Point(177, 98);
-            this.Nahrung_TAWPflanzen.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Nahrung_TAWPflanzen.Name = "Nahrung_TAWPflanzen";
-            this.Nahrung_TAWPflanzen.Size = new System.Drawing.Size(83, 31);
-            this.Nahrung_TAWPflanzen.TabIndex = 6;
-            this.Nahrung_TAWPflanzen.ValueChanged += new System.EventHandler(this.Nahrung_TAWPflanzen_ValueChanged);
-            this.Nahrung_TAWPflanzen.Click += new System.EventHandler(this.Nahrung_TAWPflanzen_Click);
-            this.Nahrung_TAWPflanzen.GotFocus += new System.EventHandler(this.Nahrung_TAWPflanzen_GotFocus);
+            Nahrung_TAWPflanzen.Location = new Point(177, 98);
+            Nahrung_TAWPflanzen.Margin = new Padding(5, 6, 5, 6);
+            Nahrung_TAWPflanzen.Name = "Nahrung_TAWPflanzen";
+            Nahrung_TAWPflanzen.Size = new Size(83, 31);
+            Nahrung_TAWPflanzen.TabIndex = 6;
+            Nahrung_TAWPflanzen.ValueChanged += Nahrung_TAWPflanzen_ValueChanged;
+            Nahrung_TAWPflanzen.Click += Nahrung_TAWPflanzen_Click;
+            Nahrung_TAWPflanzen.GotFocus += Nahrung_TAWPflanzen_GotFocus;
             // 
             // Nahrung_TAWWildnis
             // 
-            this.Nahrung_TAWWildnis.Location = new System.Drawing.Point(177, 56);
-            this.Nahrung_TAWWildnis.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Nahrung_TAWWildnis.Name = "Nahrung_TAWWildnis";
-            this.Nahrung_TAWWildnis.Size = new System.Drawing.Size(83, 31);
-            this.Nahrung_TAWWildnis.TabIndex = 5;
-            this.Nahrung_TAWWildnis.ValueChanged += new System.EventHandler(this.Nahrung_TAWWildnis_ValueChanged);
-            this.Nahrung_TAWWildnis.Click += new System.EventHandler(this.Nahrung_TAWWildnis_Click);
-            this.Nahrung_TAWWildnis.GotFocus += new System.EventHandler(this.Nahrung_TAWWildnis_GotFocus);
+            Nahrung_TAWWildnis.Location = new Point(177, 56);
+            Nahrung_TAWWildnis.Margin = new Padding(5, 6, 5, 6);
+            Nahrung_TAWWildnis.Name = "Nahrung_TAWWildnis";
+            Nahrung_TAWWildnis.Size = new Size(83, 31);
+            Nahrung_TAWWildnis.TabIndex = 5;
+            Nahrung_TAWWildnis.ValueChanged += Nahrung_TAWWildnis_ValueChanged;
+            Nahrung_TAWWildnis.Click += Nahrung_TAWWildnis_Click;
+            Nahrung_TAWWildnis.GotFocus += Nahrung_TAWWildnis_GotFocus;
             // 
             // Nahrung_ButtonSuche
             // 
-            this.Nahrung_ButtonSuche.Location = new System.Drawing.Point(17, 306);
-            this.Nahrung_ButtonSuche.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Nahrung_ButtonSuche.Name = "Nahrung_ButtonSuche";
-            this.Nahrung_ButtonSuche.Size = new System.Drawing.Size(782, 44);
-            this.Nahrung_ButtonSuche.TabIndex = 13;
-            this.Nahrung_ButtonSuche.Text = "Suche nach essbaren Pflanzen";
-            this.Nahrung_ButtonSuche.UseVisualStyleBackColor = true;
-            this.Nahrung_ButtonSuche.Click += new System.EventHandler(this.Nahrung_ButtonSuche_Click);
+            Nahrung_ButtonSuche.Location = new Point(17, 306);
+            Nahrung_ButtonSuche.Margin = new Padding(5, 6, 5, 6);
+            Nahrung_ButtonSuche.Name = "Nahrung_ButtonSuche";
+            Nahrung_ButtonSuche.Size = new Size(782, 44);
+            Nahrung_ButtonSuche.TabIndex = 13;
+            Nahrung_ButtonSuche.Text = "Suche nach essbaren Pflanzen";
+            Nahrung_ButtonSuche.UseVisualStyleBackColor = true;
+            Nahrung_ButtonSuche.Click += Nahrung_ButtonSuche_Click;
             // 
             // Nahrung_TAWSinnes
             // 
-            this.Nahrung_TAWSinnes.Location = new System.Drawing.Point(177, 13);
-            this.Nahrung_TAWSinnes.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Nahrung_TAWSinnes.Name = "Nahrung_TAWSinnes";
-            this.Nahrung_TAWSinnes.Size = new System.Drawing.Size(83, 31);
-            this.Nahrung_TAWSinnes.TabIndex = 4;
-            this.Nahrung_TAWSinnes.ValueChanged += new System.EventHandler(this.Nahrung_TAWSinnes_ValueChanged);
-            this.Nahrung_TAWSinnes.Click += new System.EventHandler(this.Nahrung_TAWSinnes_Click);
-            this.Nahrung_TAWSinnes.GotFocus += new System.EventHandler(this.Nahrung_TAWSinnes_GotFocus);
+            Nahrung_TAWSinnes.Location = new Point(177, 13);
+            Nahrung_TAWSinnes.Margin = new Padding(5, 6, 5, 6);
+            Nahrung_TAWSinnes.Name = "Nahrung_TAWSinnes";
+            Nahrung_TAWSinnes.Size = new Size(83, 31);
+            Nahrung_TAWSinnes.TabIndex = 4;
+            Nahrung_TAWSinnes.ValueChanged += Nahrung_TAWSinnes_ValueChanged;
+            Nahrung_TAWSinnes.Click += Nahrung_TAWSinnes_Click;
+            Nahrung_TAWSinnes.GotFocus += Nahrung_TAWSinnes_GotFocus;
             // 
             // Nahrung_FF
             // 
-            this.Nahrung_FF.Location = new System.Drawing.Point(10, 98);
-            this.Nahrung_FF.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Nahrung_FF.Name = "Nahrung_FF";
-            this.Nahrung_FF.Size = new System.Drawing.Size(83, 31);
-            this.Nahrung_FF.TabIndex = 3;
-            this.Nahrung_FF.Value = new decimal(new int[] {
-            10,
-            0,
-            0,
-            0});
-            this.Nahrung_FF.ValueChanged += new System.EventHandler(this.Nahrung_FF_ValueChanged);
-            this.Nahrung_FF.Click += new System.EventHandler(this.Nahrung_FF_Click);
-            this.Nahrung_FF.GotFocus += new System.EventHandler(this.Nahrung_FF_GotFocus);
+            Nahrung_FF.Location = new Point(10, 98);
+            Nahrung_FF.Margin = new Padding(5, 6, 5, 6);
+            Nahrung_FF.Name = "Nahrung_FF";
+            Nahrung_FF.Size = new Size(83, 31);
+            Nahrung_FF.TabIndex = 3;
+            Nahrung_FF.Value = new decimal(new int[] { 10, 0, 0, 0 });
+            Nahrung_FF.ValueChanged += Nahrung_FF_ValueChanged;
+            Nahrung_FF.Click += Nahrung_FF_Click;
+            Nahrung_FF.GotFocus += Nahrung_FF_GotFocus;
             // 
             // Nahrung_IN
             // 
-            this.Nahrung_IN.Location = new System.Drawing.Point(10, 56);
-            this.Nahrung_IN.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Nahrung_IN.Name = "Nahrung_IN";
-            this.Nahrung_IN.Size = new System.Drawing.Size(83, 31);
-            this.Nahrung_IN.TabIndex = 2;
-            this.Nahrung_IN.Value = new decimal(new int[] {
-            10,
-            0,
-            0,
-            0});
-            this.Nahrung_IN.ValueChanged += new System.EventHandler(this.Nahrung_IN_ValueChanged);
-            this.Nahrung_IN.Click += new System.EventHandler(this.Nahrung_IN_Click);
-            this.Nahrung_IN.GotFocus += new System.EventHandler(this.Nahrung_IN_GotFocus);
+            Nahrung_IN.Location = new Point(10, 56);
+            Nahrung_IN.Margin = new Padding(5, 6, 5, 6);
+            Nahrung_IN.Name = "Nahrung_IN";
+            Nahrung_IN.Size = new Size(83, 31);
+            Nahrung_IN.TabIndex = 2;
+            Nahrung_IN.Value = new decimal(new int[] { 10, 0, 0, 0 });
+            Nahrung_IN.ValueChanged += Nahrung_IN_ValueChanged;
+            Nahrung_IN.Click += Nahrung_IN_Click;
+            Nahrung_IN.GotFocus += Nahrung_IN_GotFocus;
             // 
             // Nahrung_TAWNahrung
             // 
-            this.Nahrung_TAWNahrung.Enabled = false;
-            this.Nahrung_TAWNahrung.Location = new System.Drawing.Point(505, 13);
-            this.Nahrung_TAWNahrung.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Nahrung_TAWNahrung.Name = "Nahrung_TAWNahrung";
-            this.Nahrung_TAWNahrung.Size = new System.Drawing.Size(82, 31);
-            this.Nahrung_TAWNahrung.TabIndex = 56;
-            this.Nahrung_TAWNahrung.TabStop = false;
-            this.Nahrung_TAWNahrung.ValueChanged += new System.EventHandler(this.Nahrung_TAWNahrung_ValueChanged);
+            Nahrung_TAWNahrung.Enabled = false;
+            Nahrung_TAWNahrung.Location = new Point(505, 13);
+            Nahrung_TAWNahrung.Margin = new Padding(5, 6, 5, 6);
+            Nahrung_TAWNahrung.Name = "Nahrung_TAWNahrung";
+            Nahrung_TAWNahrung.Size = new Size(82, 31);
+            Nahrung_TAWNahrung.TabIndex = 56;
+            Nahrung_TAWNahrung.TabStop = false;
+            Nahrung_TAWNahrung.ValueChanged += Nahrung_TAWNahrung_ValueChanged;
             // 
             // label46
             // 
-            this.label46.AutoSize = true;
-            this.label46.Location = new System.Drawing.Point(12, 192);
-            this.label46.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(67, 25);
-            this.label46.TabIndex = 60;
-            this.label46.Text = "Region";
+            label46.AutoSize = true;
+            label46.Location = new Point(12, 192);
+            label46.Margin = new Padding(5, 0, 5, 0);
+            label46.Name = "label46";
+            label46.Size = new Size(67, 25);
+            label46.TabIndex = 60;
+            label46.Text = "Region";
             // 
             // label47
             // 
-            this.label47.AutoSize = true;
-            this.label47.Location = new System.Drawing.Point(600, 19);
-            this.label47.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(196, 25);
-            this.label47.TabIndex = 57;
-            this.label47.Text = "TaW Nahrung sammeln";
+            label47.AutoSize = true;
+            label47.Location = new Point(600, 19);
+            label47.Margin = new Padding(5, 0, 5, 0);
+            label47.Name = "label47";
+            label47.Size = new Size(196, 25);
+            label47.TabIndex = 57;
+            label47.Text = "TaW Nahrung sammeln";
             // 
             // Nahrung_BoxRegion
             // 
-            this.Nahrung_BoxRegion.FormattingEnabled = true;
-            this.Nahrung_BoxRegion.Location = new System.Drawing.Point(145, 187);
-            this.Nahrung_BoxRegion.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Nahrung_BoxRegion.Name = "Nahrung_BoxRegion";
-            this.Nahrung_BoxRegion.Size = new System.Drawing.Size(469, 33);
-            this.Nahrung_BoxRegion.TabIndex = 9;
-            this.Nahrung_BoxRegion.SelectedIndexChanged += new System.EventHandler(this.Nahrung_BoxRegion_SelectedIndexChanged);
+            Nahrung_BoxRegion.FormattingEnabled = true;
+            Nahrung_BoxRegion.Location = new Point(145, 187);
+            Nahrung_BoxRegion.Margin = new Padding(5, 6, 5, 6);
+            Nahrung_BoxRegion.Name = "Nahrung_BoxRegion";
+            Nahrung_BoxRegion.Size = new Size(469, 33);
+            Nahrung_BoxRegion.TabIndex = 9;
+            Nahrung_BoxRegion.SelectedIndexChanged += Nahrung_BoxRegion_SelectedIndexChanged;
             // 
             // About
             // 
-            this.About.Controls.Add(this.GitHubLabel);
-            this.About.Controls.Add(this.About_Reset);
-            this.About.Controls.Add(this.label37);
-            this.About.Controls.Add(this.label13);
-            this.About.Controls.Add(this.KontaktLabel);
-            this.About.Controls.Add(this.HomepageLabel);
-            this.About.Controls.Add(this.About_Kopplung);
-            this.About.Controls.Add(this.About_Manuell);
-            this.About.Controls.Add(this.label36);
-            this.About.Controls.Add(this.label15);
-            this.About.Controls.Add(this.ScriptoriumAventurisBild);
-            this.About.Location = new System.Drawing.Point(4, 34);
-            this.About.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.About.Name = "About";
-            this.About.Padding = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.About.Size = new System.Drawing.Size(817, 725);
-            this.About.TabIndex = 1;
-            this.About.Text = "About";
-            this.About.UseVisualStyleBackColor = true;
-            // 
-            // About_Reset
-            // 
-            this.About_Reset.AutoSize = true;
-            this.About_Reset.Location = new System.Drawing.Point(37, 643);
-            this.About_Reset.Name = "About_Reset";
-            this.About_Reset.Size = new System.Drawing.Size(521, 29);
-            this.About_Reset.TabIndex = 95;
-            this.About_Reset.Text = "Beim Verlassen alle Charakterwerte auf Standard zurücksetzen";
-            this.About_Reset.UseVisualStyleBackColor = true;
-            // 
-            // label37
-            // 
-            this.label37.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label37.Location = new System.Drawing.Point(35, 543);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(750, 2);
-            this.label37.TabIndex = 94;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(35, 214);
-            this.label13.MaximumSize = new System.Drawing.Size(750, 0);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(732, 300);
-            this.label13.TabIndex = 88;
-            this.label13.Text = resources.GetString("label13.Text");
-            // 
-            // KontaktLabel
-            // 
-            this.KontaktLabel.AutoSize = true;
-            this.KontaktLabel.LinkArea = new System.Windows.Forms.LinkArea(8, 22);
-            this.KontaktLabel.Location = new System.Drawing.Point(37, 98);
-            this.KontaktLabel.Name = "KontaktLabel";
-            this.KontaktLabel.Size = new System.Drawing.Size(213, 30);
-            this.KontaktLabel.TabIndex = 87;
-            this.KontaktLabel.TabStop = true;
-            this.KontaktLabel.Text = "Kontakt dsatool@gmx.de";
-            this.KontaktLabel.UseCompatibleTextRendering = true;
-            this.KontaktLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.KontaktLabel_LinkClicked);
-            // 
-            // HomepageLabel
-            // 
-            this.HomepageLabel.AutoSize = true;
-            this.HomepageLabel.LinkArea = new System.Windows.Forms.LinkArea(9, 45);
-            this.HomepageLabel.Location = new System.Drawing.Point(37, 128);
-            this.HomepageLabel.Name = "HomepageLabel";
-            this.HomepageLabel.Size = new System.Drawing.Size(402, 30);
-            this.HomepageLabel.TabIndex = 86;
-            this.HomepageLabel.TabStop = true;
-            this.HomepageLabel.Text = "Homepage https://mprim.de/einsteins-dsa-tool/";
-            this.HomepageLabel.UseCompatibleTextRendering = true;
-            this.HomepageLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.HomepageLabel_LinkClicked);
-            // 
-            // About_Kopplung
-            // 
-            this.About_Kopplung.AutoSize = true;
-            this.About_Kopplung.Checked = true;
-            this.About_Kopplung.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.About_Kopplung.Location = new System.Drawing.Point(37, 608);
-            this.About_Kopplung.Name = "About_Kopplung";
-            this.About_Kopplung.Size = new System.Drawing.Size(547, 29);
-            this.About_Kopplung.TabIndex = 75;
-            this.About_Kopplung.Text = "Charakterwerte der einzelnen Registerkarten/Funktionen koppeln";
-            this.About_Kopplung.UseVisualStyleBackColor = true;
-            // 
-            // About_Manuell
-            // 
-            this.About_Manuell.AutoSize = true;
-            this.About_Manuell.Location = new System.Drawing.Point(37, 573);
-            this.About_Manuell.Name = "About_Manuell";
-            this.About_Manuell.Size = new System.Drawing.Size(444, 29);
-            this.About_Manuell.TabIndex = 74;
-            this.About_Manuell.Text = "Manuelle Eingabe von Würfelergebnissen aktivieren";
-            this.About_Manuell.UseVisualStyleBackColor = true;
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(67, 577);
-            this.label36.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label36.MaximumSize = new System.Drawing.Size(650, 0);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(0, 25);
-            this.label36.TabIndex = 79;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(35, 45);
-            this.label15.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(276, 25);
-            this.label15.TabIndex = 72;
-            this.label15.Text = "Einsteins DSA Tool - Version 3.0.0";
-            // 
-            // ScriptoriumAventurisBild
-            // 
-            this.ScriptoriumAventurisBild.Image = global::DSATool.Properties.Resources.DSA5_Scriptorium_Aventuris_Logo;
-            this.ScriptoriumAventurisBild.Location = new System.Drawing.Point(425, -22);
-            this.ScriptoriumAventurisBild.Name = "ScriptoriumAventurisBild";
-            this.ScriptoriumAventurisBild.Size = new System.Drawing.Size(389, 210);
-            this.ScriptoriumAventurisBild.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.ScriptoriumAventurisBild.TabIndex = 84;
-            this.ScriptoriumAventurisBild.TabStop = false;
-            // 
-            // Kraeutersuche
-            // 
-            this.Kraeutersuche.Controls.Add(this.Kraeuter_TextfeldAusgabe);
-            this.Kraeutersuche.Controls.Add(this.Kraeuter_Zuschlag);
-            this.Kraeutersuche.Controls.Add(this.label21);
-            this.Kraeutersuche.Controls.Add(this.label20);
-            this.Kraeutersuche.Controls.Add(this.Kraeuter_BoxBesonderheiten);
-            this.Kraeutersuche.Controls.Add(this.label19);
-            this.Kraeutersuche.Controls.Add(this.Kraeuter_BoxSuchmonat);
-            this.Kraeutersuche.Controls.Add(this.Kraeuter_HatGelaendekunde);
-            this.Kraeutersuche.Controls.Add(this.Kraeuter_HatOrtskenntnis);
-            this.Kraeutersuche.Controls.Add(this.Kraeuter_HatSuchdauerVerdoppelt);
-            this.Kraeutersuche.Controls.Add(this.label1);
-            this.Kraeutersuche.Controls.Add(this.label2);
-            this.Kraeutersuche.Controls.Add(this.label3);
-            this.Kraeutersuche.Controls.Add(this.label6);
-            this.Kraeutersuche.Controls.Add(this.label5);
-            this.Kraeutersuche.Controls.Add(this.label4);
-            this.Kraeutersuche.Controls.Add(this.Kraeuter_MU);
-            this.Kraeutersuche.Controls.Add(this.Kraeuter_TAWPflanzen);
-            this.Kraeutersuche.Controls.Add(this.Kraeuter_ButtonSuchePflanzen);
-            this.Kraeutersuche.Controls.Add(this.Kraeuter_TAWWildnis);
-            this.Kraeutersuche.Controls.Add(this.Kraeuter_ButtonSuchePflanzeGezielt);
-            this.Kraeutersuche.Controls.Add(this.Kraeuter_TAWSinnes);
-            this.Kraeutersuche.Controls.Add(this.label10);
-            this.Kraeutersuche.Controls.Add(this.Kraeuter_FF);
-            this.Kraeutersuche.Controls.Add(this.Kraeuter_BoxLandschaft);
-            this.Kraeutersuche.Controls.Add(this.Kraeuter_IN);
-            this.Kraeutersuche.Controls.Add(this.label9);
-            this.Kraeutersuche.Controls.Add(this.Kraeuter_TAWKraeuter);
-            this.Kraeutersuche.Controls.Add(this.label8);
-            this.Kraeutersuche.Controls.Add(this.label7);
-            this.Kraeutersuche.Controls.Add(this.Kraeuter_BoxRegion);
-            this.Kraeutersuche.Controls.Add(this.Kraeuter_BoxPflanze);
-            this.Kraeutersuche.Location = new System.Drawing.Point(4, 34);
-            this.Kraeutersuche.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Kraeutersuche.Name = "Kraeutersuche";
-            this.Kraeutersuche.Padding = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Kraeutersuche.Size = new System.Drawing.Size(817, 725);
-            this.Kraeutersuche.TabIndex = 0;
-            this.Kraeutersuche.Text = "Kräutersuche";
-            this.Kraeutersuche.UseVisualStyleBackColor = true;
-            // 
-            // Kraeuter_TextfeldAusgabe
-            // 
-            this.Kraeuter_TextfeldAusgabe.Location = new System.Drawing.Point(5, 442);
-            this.Kraeuter_TextfeldAusgabe.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Kraeuter_TextfeldAusgabe.Multiline = true;
-            this.Kraeuter_TextfeldAusgabe.Name = "Kraeuter_TextfeldAusgabe";
-            this.Kraeuter_TextfeldAusgabe.Size = new System.Drawing.Size(799, 262);
-            this.Kraeuter_TextfeldAusgabe.TabIndex = 101;
-            this.Kraeuter_TextfeldAusgabe.TabStop = false;
-            // 
-            // Kraeuter_Zuschlag
-            // 
-            this.Kraeuter_Zuschlag.Location = new System.Drawing.Point(737, 325);
-            this.Kraeuter_Zuschlag.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Kraeuter_Zuschlag.Name = "Kraeuter_Zuschlag";
-            this.Kraeuter_Zuschlag.Size = new System.Drawing.Size(47, 31);
-            this.Kraeuter_Zuschlag.TabIndex = 68;
-            this.Kraeuter_Zuschlag.TabStop = false;
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(643, 331);
-            this.label21.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(82, 25);
-            this.label21.TabIndex = 69;
-            this.label21.Text = "Zuschlag";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(500, 112);
-            this.label20.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(71, 25);
-            this.label20.TabIndex = 67;
-            this.label20.Text = "Speziell";
-            // 
-            // Kraeuter_BoxBesonderheiten
-            // 
-            this.Kraeuter_BoxBesonderheiten.FormattingEnabled = true;
-            this.Kraeuter_BoxBesonderheiten.Items.AddRange(new object[] {
-            "Keine Besonderheiten",
-            "Astral durchzogener Ort",
-            "Palakar (Schwarze Stadt)",
-            "Ruine",
-            "Stätte Namenloser Macht",
-            "Nacht",
-            "Vollmondnacht (+/- 1 Tag)"});
-            this.Kraeuter_BoxBesonderheiten.Location = new System.Drawing.Point(573, 104);
-            this.Kraeuter_BoxBesonderheiten.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Kraeuter_BoxBesonderheiten.Name = "Kraeuter_BoxBesonderheiten";
-            this.Kraeuter_BoxBesonderheiten.Size = new System.Drawing.Size(227, 33);
-            this.Kraeuter_BoxBesonderheiten.TabIndex = 8;
-            this.Kraeuter_BoxBesonderheiten.Text = "Keine Besonderheiten";
-            this.Kraeuter_BoxBesonderheiten.SelectedIndexChanged += new System.EventHandler(this.Kraeuter_BoxBesonderheiten_SelectedIndexChanged);
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(500, 65);
-            this.label19.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(102, 25);
-            this.label19.TabIndex = 65;
-            this.label19.Text = "Suchmonat";
-            // 
-            // Kraeuter_BoxSuchmonat
-            // 
-            this.Kraeuter_BoxSuchmonat.FormattingEnabled = true;
-            this.Kraeuter_BoxSuchmonat.Items.AddRange(new object[] {
-            "Komplettes Jahr",
-            "Praios",
-            "Rondra",
-            "Efferd",
-            "Travia",
-            "Boron",
-            "Hesinde",
-            "Firun",
-            "Tsa",
-            "Phex",
-            "Peraine",
-            "Ingerimm",
-            "Rahja",
-            "Namenlose Tage"});
-            this.Kraeuter_BoxSuchmonat.Location = new System.Drawing.Point(603, 58);
-            this.Kraeuter_BoxSuchmonat.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Kraeuter_BoxSuchmonat.Name = "Kraeuter_BoxSuchmonat";
-            this.Kraeuter_BoxSuchmonat.Size = new System.Drawing.Size(197, 33);
-            this.Kraeuter_BoxSuchmonat.TabIndex = 7;
-            this.Kraeuter_BoxSuchmonat.Text = "Komplettes Jahr";
-            this.Kraeuter_BoxSuchmonat.SelectedIndexChanged += new System.EventHandler(this.Kraeuter_BoxSuchmonat_SelectedIndexChanged);
-            // 
-            // Kraeuter_HatGelaendekunde
-            // 
-            this.Kraeuter_HatGelaendekunde.AutoSize = true;
-            this.Kraeuter_HatGelaendekunde.Location = new System.Drawing.Point(645, 244);
-            this.Kraeuter_HatGelaendekunde.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Kraeuter_HatGelaendekunde.Name = "Kraeuter_HatGelaendekunde";
-            this.Kraeuter_HatGelaendekunde.Size = new System.Drawing.Size(151, 29);
-            this.Kraeuter_HatGelaendekunde.TabIndex = 12;
-            this.Kraeuter_HatGelaendekunde.Text = "Geländekunde";
-            this.Kraeuter_HatGelaendekunde.UseVisualStyleBackColor = true;
-            this.Kraeuter_HatGelaendekunde.CheckedChanged += new System.EventHandler(this.Kraeuter_HatGelaendekunde_CheckedChanged);
-            // 
-            // Kraeuter_HatOrtskenntnis
-            // 
-            this.Kraeuter_HatOrtskenntnis.AutoSize = true;
-            this.Kraeuter_HatOrtskenntnis.Location = new System.Drawing.Point(645, 192);
-            this.Kraeuter_HatOrtskenntnis.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Kraeuter_HatOrtskenntnis.Name = "Kraeuter_HatOrtskenntnis";
-            this.Kraeuter_HatOrtskenntnis.Size = new System.Drawing.Size(138, 29);
-            this.Kraeuter_HatOrtskenntnis.TabIndex = 10;
-            this.Kraeuter_HatOrtskenntnis.Text = "Ortskenntnis";
-            this.Kraeuter_HatOrtskenntnis.UseVisualStyleBackColor = true;
-            this.Kraeuter_HatOrtskenntnis.CheckedChanged += new System.EventHandler(this.Kraeuter_HatOrtskenntnis_CheckedChanged);
-            // 
-            // Kraeuter_HatSuchdauerVerdoppelt
-            // 
-            this.Kraeuter_HatSuchdauerVerdoppelt.AutoSize = true;
-            this.Kraeuter_HatSuchdauerVerdoppelt.Location = new System.Drawing.Point(23, 398);
-            this.Kraeuter_HatSuchdauerVerdoppelt.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Kraeuter_HatSuchdauerVerdoppelt.Name = "Kraeuter_HatSuchdauerVerdoppelt";
-            this.Kraeuter_HatSuchdauerVerdoppelt.Size = new System.Drawing.Size(261, 29);
-            this.Kraeuter_HatSuchdauerVerdoppelt.TabIndex = 14;
-            this.Kraeuter_HatSuchdauerVerdoppelt.Text = "Verdopplung der Suchdauer";
-            this.Kraeuter_HatSuchdauerVerdoppelt.UseVisualStyleBackColor = true;
-            this.Kraeuter_HatSuchdauerVerdoppelt.CheckedChanged += new System.EventHandler(this.Kraeuter_HatSuchdauerVerdoppelt_CheckedChanged);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(270, 19);
-            this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(157, 25);
-            this.label1.TabIndex = 50;
-            this.label1.Text = "TaW Sinnesschärfe";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(270, 62);
-            this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(151, 25);
-            this.label2.TabIndex = 51;
-            this.label2.Text = "TaW Wildnisleben";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(270, 104);
-            this.label3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(165, 25);
-            this.label3.TabIndex = 52;
-            this.label3.Text = "TaW Pflanzenkunde";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(103, 19);
-            this.label6.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(40, 25);
-            this.label6.TabIndex = 55;
-            this.label6.Text = "MU";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(103, 62);
-            this.label5.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(30, 25);
-            this.label5.TabIndex = 54;
-            this.label5.Text = "IN";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(103, 104);
-            this.label4.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(30, 25);
-            this.label4.TabIndex = 53;
-            this.label4.Text = "FF";
-            // 
-            // Kraeuter_MU
-            // 
-            this.Kraeuter_MU.Location = new System.Drawing.Point(10, 13);
-            this.Kraeuter_MU.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Kraeuter_MU.Name = "Kraeuter_MU";
-            this.Kraeuter_MU.Size = new System.Drawing.Size(83, 31);
-            this.Kraeuter_MU.TabIndex = 1;
-            this.Kraeuter_MU.Value = new decimal(new int[] {
-            10,
-            0,
-            0,
-            0});
-            this.Kraeuter_MU.ValueChanged += new System.EventHandler(this.Kraeuter_MU_ValueChanged);
-            this.Kraeuter_MU.Click += new System.EventHandler(this.Kraeuter_MU_Click);
-            this.Kraeuter_MU.GotFocus += new System.EventHandler(this.Kraeuter_MU_GotFocus);
-            // 
-            // Kraeuter_TAWPflanzen
-            // 
-            this.Kraeuter_TAWPflanzen.Location = new System.Drawing.Point(177, 98);
-            this.Kraeuter_TAWPflanzen.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Kraeuter_TAWPflanzen.Name = "Kraeuter_TAWPflanzen";
-            this.Kraeuter_TAWPflanzen.Size = new System.Drawing.Size(83, 31);
-            this.Kraeuter_TAWPflanzen.TabIndex = 6;
-            this.Kraeuter_TAWPflanzen.ValueChanged += new System.EventHandler(this.Kraeuter_TAWPflanzen_ValueChanged);
-            this.Kraeuter_TAWPflanzen.Click += new System.EventHandler(this.Kraeuter_TAWPflanzen_Click);
-            this.Kraeuter_TAWPflanzen.GotFocus += new System.EventHandler(this.Kraeuter_TAWPflanzen_GotFocus);
-            // 
-            // Kraeuter_ButtonSuchePflanzen
-            // 
-            this.Kraeuter_ButtonSuchePflanzen.Location = new System.Drawing.Point(555, 390);
-            this.Kraeuter_ButtonSuchePflanzen.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Kraeuter_ButtonSuchePflanzen.Name = "Kraeuter_ButtonSuchePflanzen";
-            this.Kraeuter_ButtonSuchePflanzen.Size = new System.Drawing.Size(232, 44);
-            this.Kraeuter_ButtonSuchePflanzen.TabIndex = 16;
-            this.Kraeuter_ButtonSuchePflanzen.Text = "Allgemein Pflanzensuche";
-            this.Kraeuter_ButtonSuchePflanzen.UseVisualStyleBackColor = true;
-            this.Kraeuter_ButtonSuchePflanzen.Click += new System.EventHandler(this.ButtonSuchePflanzen_Click);
-            // 
-            // Kraeuter_TAWWildnis
-            // 
-            this.Kraeuter_TAWWildnis.Location = new System.Drawing.Point(177, 56);
-            this.Kraeuter_TAWWildnis.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Kraeuter_TAWWildnis.Name = "Kraeuter_TAWWildnis";
-            this.Kraeuter_TAWWildnis.Size = new System.Drawing.Size(83, 31);
-            this.Kraeuter_TAWWildnis.TabIndex = 5;
-            this.Kraeuter_TAWWildnis.ValueChanged += new System.EventHandler(this.Kraeuter_TAWWildnis_ValueChanged);
-            this.Kraeuter_TAWWildnis.Click += new System.EventHandler(this.Kraeuter_TAWWildnis_Click);
-            this.Kraeuter_TAWWildnis.GotFocus += new System.EventHandler(this.Kraeuter_TAWWildnis_GotFocus);
-            // 
-            // Kraeuter_ButtonSuchePflanzeGezielt
-            // 
-            this.Kraeuter_ButtonSuchePflanzeGezielt.Location = new System.Drawing.Point(298, 390);
-            this.Kraeuter_ButtonSuchePflanzeGezielt.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Kraeuter_ButtonSuchePflanzeGezielt.Name = "Kraeuter_ButtonSuchePflanzeGezielt";
-            this.Kraeuter_ButtonSuchePflanzeGezielt.Size = new System.Drawing.Size(247, 44);
-            this.Kraeuter_ButtonSuchePflanzeGezielt.TabIndex = 15;
-            this.Kraeuter_ButtonSuchePflanzeGezielt.Text = "Suche ausgewählte Pflanze";
-            this.Kraeuter_ButtonSuchePflanzeGezielt.UseVisualStyleBackColor = true;
-            this.Kraeuter_ButtonSuchePflanzeGezielt.Click += new System.EventHandler(this.ButtonSuchePflanzeGezielt_Click);
-            // 
-            // Kraeuter_TAWSinnes
-            // 
-            this.Kraeuter_TAWSinnes.Location = new System.Drawing.Point(177, 13);
-            this.Kraeuter_TAWSinnes.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Kraeuter_TAWSinnes.Name = "Kraeuter_TAWSinnes";
-            this.Kraeuter_TAWSinnes.Size = new System.Drawing.Size(83, 31);
-            this.Kraeuter_TAWSinnes.TabIndex = 4;
-            this.Kraeuter_TAWSinnes.ValueChanged += new System.EventHandler(this.Kraeuter_TAWSinnes_ValueChanged);
-            this.Kraeuter_TAWSinnes.Click += new System.EventHandler(this.Kraeuter_TAWSinnes_Click);
-            this.Kraeuter_TAWSinnes.GotFocus += new System.EventHandler(this.Kraeuter_TAWSinnes_GotFocus);
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(12, 329);
-            this.label10.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(68, 25);
-            this.label10.TabIndex = 63;
-            this.label10.Text = "Pflanze";
-            // 
-            // Kraeuter_FF
-            // 
-            this.Kraeuter_FF.Location = new System.Drawing.Point(10, 98);
-            this.Kraeuter_FF.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Kraeuter_FF.Name = "Kraeuter_FF";
-            this.Kraeuter_FF.Size = new System.Drawing.Size(83, 31);
-            this.Kraeuter_FF.TabIndex = 3;
-            this.Kraeuter_FF.Value = new decimal(new int[] {
-            10,
-            0,
-            0,
-            0});
-            this.Kraeuter_FF.ValueChanged += new System.EventHandler(this.Kraeuter_FF_ValueChanged);
-            this.Kraeuter_FF.Click += new System.EventHandler(this.Kraeuter_FF_Click);
-            this.Kraeuter_FF.GotFocus += new System.EventHandler(this.Kraeuter_FF_GotFocus);
-            // 
-            // Kraeuter_BoxLandschaft
-            // 
-            this.Kraeuter_BoxLandschaft.FormattingEnabled = true;
-            this.Kraeuter_BoxLandschaft.Location = new System.Drawing.Point(145, 238);
-            this.Kraeuter_BoxLandschaft.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Kraeuter_BoxLandschaft.Name = "Kraeuter_BoxLandschaft";
-            this.Kraeuter_BoxLandschaft.Size = new System.Drawing.Size(469, 33);
-            this.Kraeuter_BoxLandschaft.TabIndex = 11;
-            this.Kraeuter_BoxLandschaft.SelectedIndexChanged += new System.EventHandler(this.Kraeuter_BoxLandschaft_SelectedIndexChanged);
-            // 
-            // Kraeuter_IN
-            // 
-            this.Kraeuter_IN.Location = new System.Drawing.Point(10, 56);
-            this.Kraeuter_IN.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Kraeuter_IN.Name = "Kraeuter_IN";
-            this.Kraeuter_IN.Size = new System.Drawing.Size(83, 31);
-            this.Kraeuter_IN.TabIndex = 2;
-            this.Kraeuter_IN.Value = new decimal(new int[] {
-            10,
-            0,
-            0,
-            0});
-            this.Kraeuter_IN.ValueChanged += new System.EventHandler(this.Kraeuter_IN_ValueChanged);
-            this.Kraeuter_IN.Click += new System.EventHandler(this.Kraeuter_IN_Click);
-            this.Kraeuter_IN.GotFocus += new System.EventHandler(this.Kraeuter_IN_GotFocus);
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(12, 244);
-            this.label9.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(97, 25);
-            this.label9.TabIndex = 61;
-            this.label9.Text = "Landschaft";
-            // 
-            // Kraeuter_TAWKraeuter
-            // 
-            this.Kraeuter_TAWKraeuter.Enabled = false;
-            this.Kraeuter_TAWKraeuter.Location = new System.Drawing.Point(505, 13);
-            this.Kraeuter_TAWKraeuter.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Kraeuter_TAWKraeuter.Name = "Kraeuter_TAWKraeuter";
-            this.Kraeuter_TAWKraeuter.Size = new System.Drawing.Size(82, 31);
-            this.Kraeuter_TAWKraeuter.TabIndex = 56;
-            this.Kraeuter_TAWKraeuter.TabStop = false;
-            this.Kraeuter_TAWKraeuter.ValueChanged += new System.EventHandler(this.Kraeuter_TAWKraeuter_ValueChanged);
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(12, 192);
-            this.label8.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(67, 25);
-            this.label8.TabIndex = 60;
-            this.label8.Text = "Region";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(600, 19);
-            this.label7.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(166, 25);
-            this.label7.TabIndex = 57;
-            this.label7.Text = "TaW Kräuter suchen";
-            // 
-            // Kraeuter_BoxRegion
-            // 
-            this.Kraeuter_BoxRegion.FormattingEnabled = true;
-            this.Kraeuter_BoxRegion.Location = new System.Drawing.Point(145, 187);
-            this.Kraeuter_BoxRegion.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Kraeuter_BoxRegion.Name = "Kraeuter_BoxRegion";
-            this.Kraeuter_BoxRegion.Size = new System.Drawing.Size(469, 33);
-            this.Kraeuter_BoxRegion.TabIndex = 9;
-            this.Kraeuter_BoxRegion.SelectedIndexChanged += new System.EventHandler(this.Kraeuter_BoxRegion_SelectedIndexChanged);
-            // 
-            // Kraeuter_BoxPflanze
-            // 
-            this.Kraeuter_BoxPflanze.FormattingEnabled = true;
-            this.Kraeuter_BoxPflanze.Location = new System.Drawing.Point(147, 323);
-            this.Kraeuter_BoxPflanze.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Kraeuter_BoxPflanze.Name = "Kraeuter_BoxPflanze";
-            this.Kraeuter_BoxPflanze.Size = new System.Drawing.Size(467, 33);
-            this.Kraeuter_BoxPflanze.TabIndex = 13;
-            this.Kraeuter_BoxPflanze.SelectedIndexChanged += new System.EventHandler(this.Kraeuter_BoxPflanze_SelectedIndexChanged);
-            // 
-            // Registerkontrolle
-            // 
-            this.Registerkontrolle.Controls.Add(this.Kraeutersuche);
-            this.Registerkontrolle.Controls.Add(this.Nahrungssuche);
-            this.Registerkontrolle.Controls.Add(this.Jagd);
-            this.Registerkontrolle.Controls.Add(this.FischenFallenstellen);
-            this.Registerkontrolle.Controls.Add(this.About);
-            this.Registerkontrolle.Controls.Add(this.License);
-            this.Registerkontrolle.Location = new System.Drawing.Point(2, 0);
-            this.Registerkontrolle.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Registerkontrolle.Name = "Registerkontrolle";
-            this.Registerkontrolle.SelectedIndex = 0;
-            this.Registerkontrolle.Size = new System.Drawing.Size(825, 763);
-            this.Registerkontrolle.TabIndex = 76;
-            // 
-            // Jagd
-            // 
-            this.Jagd.Controls.Add(this.Jagd_IstMeisterschuetze);
-            this.Jagd.Controls.Add(this.Jagd_IstScharfschuetze);
-            this.Jagd.Controls.Add(this.Jagd_TAWAnsitzjagd);
-            this.Jagd.Controls.Add(this.label68);
-            this.Jagd.Controls.Add(this.Jagd_TAWPirschjagd);
-            this.Jagd.Controls.Add(this.label67);
-            this.Jagd.Controls.Add(this.Jagd_TAWFernkampfwaffe);
-            this.Jagd.Controls.Add(this.label66);
-            this.Jagd.Controls.Add(this.Jagd_TAWSichVerstecken);
-            this.Jagd.Controls.Add(this.label65);
-            this.Jagd.Controls.Add(this.Jagd_TextfeldAusgabe);
-            this.Jagd.Controls.Add(this.Jagd_Zuschlag);
-            this.Jagd.Controls.Add(this.label49);
-            this.Jagd.Controls.Add(this.Jagd_HatGelaendekunde);
-            this.Jagd.Controls.Add(this.Jagd_HatOrtskenntnis);
-            this.Jagd.Controls.Add(this.label50);
-            this.Jagd.Controls.Add(this.label56);
-            this.Jagd.Controls.Add(this.label57);
-            this.Jagd.Controls.Add(this.label58);
-            this.Jagd.Controls.Add(this.label59);
-            this.Jagd.Controls.Add(this.label60);
-            this.Jagd.Controls.Add(this.Jagd_MU);
-            this.Jagd.Controls.Add(this.Jagd_TAWTierkunde);
-            this.Jagd.Controls.Add(this.Jagd_ButtonAnsitzjagd);
-            this.Jagd.Controls.Add(this.Jagd_TAWWildnisleben);
-            this.Jagd.Controls.Add(this.Jagd_ButtonPirschjagd);
-            this.Jagd.Controls.Add(this.Jagd_TAWFaehrtensuche);
-            this.Jagd.Controls.Add(this.label61);
-            this.Jagd.Controls.Add(this.Jagd_GE);
-            this.Jagd.Controls.Add(this.Jagd_BoxLandschaft);
-            this.Jagd.Controls.Add(this.Jagd_IN);
-            this.Jagd.Controls.Add(this.label62);
-            this.Jagd.Controls.Add(this.Jagd_TAWSchleichen);
-            this.Jagd.Controls.Add(this.label63);
-            this.Jagd.Controls.Add(this.label64);
-            this.Jagd.Controls.Add(this.Jagd_BoxRegion);
-            this.Jagd.Controls.Add(this.Jagd_BoxTier);
-            this.Jagd.Location = new System.Drawing.Point(4, 34);
-            this.Jagd.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Jagd.Name = "Jagd";
-            this.Jagd.Size = new System.Drawing.Size(817, 725);
-            this.Jagd.TabIndex = 5;
-            this.Jagd.Text = "Pirsch- und Ansitzjagd";
-            this.Jagd.UseVisualStyleBackColor = true;
-            // 
-            // Jagd_IstMeisterschuetze
-            // 
-            this.Jagd_IstMeisterschuetze.AutoSize = true;
-            this.Jagd_IstMeisterschuetze.Location = new System.Drawing.Point(27, 437);
-            this.Jagd_IstMeisterschuetze.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Jagd_IstMeisterschuetze.Name = "Jagd_IstMeisterschuetze";
-            this.Jagd_IstMeisterschuetze.Size = new System.Drawing.Size(155, 29);
-            this.Jagd_IstMeisterschuetze.TabIndex = 16;
-            this.Jagd_IstMeisterschuetze.Text = "Meisterschütze";
-            this.Jagd_IstMeisterschuetze.UseVisualStyleBackColor = true;
-            this.Jagd_IstMeisterschuetze.CheckedChanged += new System.EventHandler(this.Jagd_IstMeisterschuetze_CheckedChanged);
-            // 
-            // Jagd_IstScharfschuetze
-            // 
-            this.Jagd_IstScharfschuetze.AutoSize = true;
-            this.Jagd_IstScharfschuetze.Location = new System.Drawing.Point(27, 388);
-            this.Jagd_IstScharfschuetze.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Jagd_IstScharfschuetze.Name = "Jagd_IstScharfschuetze";
-            this.Jagd_IstScharfschuetze.Size = new System.Drawing.Size(146, 29);
-            this.Jagd_IstScharfschuetze.TabIndex = 15;
-            this.Jagd_IstScharfschuetze.Text = "Scharfschütze";
-            this.Jagd_IstScharfschuetze.UseVisualStyleBackColor = true;
-            this.Jagd_IstScharfschuetze.CheckedChanged += new System.EventHandler(this.Jagd_IstScharfschuetze_CheckedChanged);
-            // 
-            // Jagd_TAWAnsitzjagd
-            // 
-            this.Jagd_TAWAnsitzjagd.Enabled = false;
-            this.Jagd_TAWAnsitzjagd.Location = new System.Drawing.Point(247, 433);
-            this.Jagd_TAWAnsitzjagd.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Jagd_TAWAnsitzjagd.Name = "Jagd_TAWAnsitzjagd";
-            this.Jagd_TAWAnsitzjagd.Size = new System.Drawing.Size(82, 31);
-            this.Jagd_TAWAnsitzjagd.TabIndex = 135;
-            this.Jagd_TAWAnsitzjagd.TabStop = false;
-            // 
-            // label68
-            // 
-            this.label68.AutoSize = true;
-            this.label68.Location = new System.Drawing.Point(342, 438);
-            this.label68.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label68.Name = "label68";
-            this.label68.Size = new System.Drawing.Size(133, 25);
-            this.label68.TabIndex = 136;
-            this.label68.Text = "TaW Ansitzjagd";
-            // 
-            // Jagd_TAWPirschjagd
-            // 
-            this.Jagd_TAWPirschjagd.Enabled = false;
-            this.Jagd_TAWPirschjagd.Location = new System.Drawing.Point(247, 387);
-            this.Jagd_TAWPirschjagd.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Jagd_TAWPirschjagd.Name = "Jagd_TAWPirschjagd";
-            this.Jagd_TAWPirschjagd.Size = new System.Drawing.Size(82, 31);
-            this.Jagd_TAWPirschjagd.TabIndex = 133;
-            this.Jagd_TAWPirschjagd.TabStop = false;
-            // 
-            // label67
-            // 
-            this.label67.AutoSize = true;
-            this.label67.Location = new System.Drawing.Point(342, 392);
-            this.label67.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(131, 25);
-            this.label67.TabIndex = 134;
-            this.label67.Text = "TaW Pirschjagd";
-            // 
-            // Jagd_TAWFernkampfwaffe
-            // 
-            this.Jagd_TAWFernkampfwaffe.Location = new System.Drawing.Point(505, 98);
-            this.Jagd_TAWFernkampfwaffe.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Jagd_TAWFernkampfwaffe.Name = "Jagd_TAWFernkampfwaffe";
-            this.Jagd_TAWFernkampfwaffe.Size = new System.Drawing.Size(82, 31);
-            this.Jagd_TAWFernkampfwaffe.TabIndex = 9;
-            this.Jagd_TAWFernkampfwaffe.ValueChanged += new System.EventHandler(this.Jagd_TAWFernkampfwaffe_ValueChanged);
-            this.Jagd_TAWFernkampfwaffe.Click += new System.EventHandler(this.Jagd_TAWFernkampfwaffe_Click);
-            this.Jagd_TAWFernkampfwaffe.GotFocus += new System.EventHandler(this.Jagd_TAWFernkampfwaffe_GotFocus);
-            // 
-            // label66
-            // 
-            this.label66.AutoSize = true;
-            this.label66.Location = new System.Drawing.Point(600, 104);
-            this.label66.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(178, 25);
-            this.label66.TabIndex = 132;
-            this.label66.Text = "TaW Fernkampfwaffe";
-            // 
-            // Jagd_TAWSichVerstecken
-            // 
-            this.Jagd_TAWSichVerstecken.Location = new System.Drawing.Point(505, 56);
-            this.Jagd_TAWSichVerstecken.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Jagd_TAWSichVerstecken.Name = "Jagd_TAWSichVerstecken";
-            this.Jagd_TAWSichVerstecken.Size = new System.Drawing.Size(82, 31);
-            this.Jagd_TAWSichVerstecken.TabIndex = 8;
-            this.Jagd_TAWSichVerstecken.ValueChanged += new System.EventHandler(this.Jagd_TAWSichVerstecken_ValueChanged);
-            this.Jagd_TAWSichVerstecken.Click += new System.EventHandler(this.Jagd_TAWSichVerstecken_Click);
-            this.Jagd_TAWSichVerstecken.GotFocus += new System.EventHandler(this.Jagd_TAWSichVerstecken_GotFocus);
-            // 
-            // label65
-            // 
-            this.label65.AutoSize = true;
-            this.label65.Location = new System.Drawing.Point(600, 62);
-            this.label65.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(171, 25);
-            this.label65.TabIndex = 130;
-            this.label65.Text = "TaW Sich Verstecken";
-            // 
-            // Jagd_TextfeldAusgabe
-            // 
-            this.Jagd_TextfeldAusgabe.Location = new System.Drawing.Point(5, 481);
-            this.Jagd_TextfeldAusgabe.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Jagd_TextfeldAusgabe.Multiline = true;
-            this.Jagd_TextfeldAusgabe.Name = "Jagd_TextfeldAusgabe";
-            this.Jagd_TextfeldAusgabe.Size = new System.Drawing.Size(799, 223);
-            this.Jagd_TextfeldAusgabe.TabIndex = 128;
-            this.Jagd_TextfeldAusgabe.TabStop = false;
-            // 
-            // Jagd_Zuschlag
-            // 
-            this.Jagd_Zuschlag.Location = new System.Drawing.Point(737, 325);
-            this.Jagd_Zuschlag.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Jagd_Zuschlag.Name = "Jagd_Zuschlag";
-            this.Jagd_Zuschlag.Size = new System.Drawing.Size(47, 31);
-            this.Jagd_Zuschlag.TabIndex = 126;
-            this.Jagd_Zuschlag.TabStop = false;
-            // 
-            // label49
-            // 
-            this.label49.AutoSize = true;
-            this.label49.Location = new System.Drawing.Point(643, 331);
-            this.label49.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(82, 25);
-            this.label49.TabIndex = 127;
-            this.label49.Text = "Zuschlag";
-            // 
-            // Jagd_HatGelaendekunde
-            // 
-            this.Jagd_HatGelaendekunde.AutoSize = true;
-            this.Jagd_HatGelaendekunde.Location = new System.Drawing.Point(645, 244);
-            this.Jagd_HatGelaendekunde.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Jagd_HatGelaendekunde.Name = "Jagd_HatGelaendekunde";
-            this.Jagd_HatGelaendekunde.Size = new System.Drawing.Size(151, 29);
-            this.Jagd_HatGelaendekunde.TabIndex = 13;
-            this.Jagd_HatGelaendekunde.Text = "Geländekunde";
-            this.Jagd_HatGelaendekunde.UseVisualStyleBackColor = true;
-            this.Jagd_HatGelaendekunde.CheckedChanged += new System.EventHandler(this.Jagd_HatGelaendekunde_CheckedChanged);
-            // 
-            // Jagd_HatOrtskenntnis
-            // 
-            this.Jagd_HatOrtskenntnis.AutoSize = true;
-            this.Jagd_HatOrtskenntnis.Location = new System.Drawing.Point(645, 192);
-            this.Jagd_HatOrtskenntnis.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Jagd_HatOrtskenntnis.Name = "Jagd_HatOrtskenntnis";
-            this.Jagd_HatOrtskenntnis.Size = new System.Drawing.Size(138, 29);
-            this.Jagd_HatOrtskenntnis.TabIndex = 11;
-            this.Jagd_HatOrtskenntnis.Text = "Ortskenntnis";
-            this.Jagd_HatOrtskenntnis.UseVisualStyleBackColor = true;
-            this.Jagd_HatOrtskenntnis.CheckedChanged += new System.EventHandler(this.Jagd_HatOrtskenntnis_CheckedChanged);
-            // 
-            // label50
-            // 
-            this.label50.AutoSize = true;
-            this.label50.Location = new System.Drawing.Point(270, 19);
-            this.label50.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(153, 25);
-            this.label50.TabIndex = 115;
-            this.label50.Text = "TaW Fährtensuche";
-            // 
-            // label56
-            // 
-            this.label56.AutoSize = true;
-            this.label56.Location = new System.Drawing.Point(270, 62);
-            this.label56.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(151, 25);
-            this.label56.TabIndex = 116;
-            this.label56.Text = "TaW Wildnisleben";
-            // 
-            // label57
-            // 
-            this.label57.AutoSize = true;
-            this.label57.Location = new System.Drawing.Point(270, 104);
-            this.label57.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(127, 25);
-            this.label57.TabIndex = 117;
-            this.label57.Text = "TaW Tierkunde";
-            // 
-            // label58
-            // 
-            this.label58.AutoSize = true;
-            this.label58.Location = new System.Drawing.Point(103, 19);
-            this.label58.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(40, 25);
-            this.label58.TabIndex = 120;
-            this.label58.Text = "MU";
-            // 
-            // label59
-            // 
-            this.label59.AutoSize = true;
-            this.label59.Location = new System.Drawing.Point(103, 62);
-            this.label59.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(30, 25);
-            this.label59.TabIndex = 119;
-            this.label59.Text = "IN";
-            // 
-            // label60
-            // 
-            this.label60.AutoSize = true;
-            this.label60.Location = new System.Drawing.Point(103, 104);
-            this.label60.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(33, 25);
-            this.label60.TabIndex = 118;
-            this.label60.Text = "GE";
-            // 
-            // Jagd_MU
-            // 
-            this.Jagd_MU.Location = new System.Drawing.Point(10, 13);
-            this.Jagd_MU.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Jagd_MU.Name = "Jagd_MU";
-            this.Jagd_MU.Size = new System.Drawing.Size(83, 31);
-            this.Jagd_MU.TabIndex = 1;
-            this.Jagd_MU.Value = new decimal(new int[] {
-            10,
-            0,
-            0,
-            0});
-            this.Jagd_MU.ValueChanged += new System.EventHandler(this.Jagd_MU_ValueChanged);
-            this.Jagd_MU.Click += new System.EventHandler(this.Jagd_MU_Click);
-            this.Jagd_MU.GotFocus += new System.EventHandler(this.Jagd_MU_GotFocus);
-            // 
-            // Jagd_TAWTierkunde
-            // 
-            this.Jagd_TAWTierkunde.Location = new System.Drawing.Point(177, 98);
-            this.Jagd_TAWTierkunde.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Jagd_TAWTierkunde.Name = "Jagd_TAWTierkunde";
-            this.Jagd_TAWTierkunde.Size = new System.Drawing.Size(83, 31);
-            this.Jagd_TAWTierkunde.TabIndex = 6;
-            this.Jagd_TAWTierkunde.ValueChanged += new System.EventHandler(this.Jagd_TAWTierkunde_ValueChanged);
-            this.Jagd_TAWTierkunde.Click += new System.EventHandler(this.Jagd_TAWTierkunde_Click);
-            this.Jagd_TAWTierkunde.GotFocus += new System.EventHandler(this.Jagd_TAWTierkunde_GotFocus);
-            // 
-            // Jagd_ButtonAnsitzjagd
-            // 
-            this.Jagd_ButtonAnsitzjagd.Location = new System.Drawing.Point(505, 429);
-            this.Jagd_ButtonAnsitzjagd.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Jagd_ButtonAnsitzjagd.Name = "Jagd_ButtonAnsitzjagd";
-            this.Jagd_ButtonAnsitzjagd.Size = new System.Drawing.Size(285, 44);
-            this.Jagd_ButtonAnsitzjagd.TabIndex = 18;
-            this.Jagd_ButtonAnsitzjagd.Text = "Ansitzjagd";
-            this.Jagd_ButtonAnsitzjagd.UseVisualStyleBackColor = true;
-            this.Jagd_ButtonAnsitzjagd.Click += new System.EventHandler(this.Jagd_ButtonAnsitzjagd_Click);
-            // 
-            // Jagd_TAWWildnisleben
-            // 
-            this.Jagd_TAWWildnisleben.Location = new System.Drawing.Point(177, 56);
-            this.Jagd_TAWWildnisleben.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Jagd_TAWWildnisleben.Name = "Jagd_TAWWildnisleben";
-            this.Jagd_TAWWildnisleben.Size = new System.Drawing.Size(83, 31);
-            this.Jagd_TAWWildnisleben.TabIndex = 5;
-            this.Jagd_TAWWildnisleben.ValueChanged += new System.EventHandler(this.Jagd_TAWWildnisleben_ValueChanged);
-            this.Jagd_TAWWildnisleben.Click += new System.EventHandler(this.Jagd_TAWWildnisleben_Click);
-            this.Jagd_TAWWildnisleben.GotFocus += new System.EventHandler(this.Jagd_TAWWildnisleben_GotFocus);
-            // 
-            // Jagd_ButtonPirschjagd
-            // 
-            this.Jagd_ButtonPirschjagd.Location = new System.Drawing.Point(505, 381);
-            this.Jagd_ButtonPirschjagd.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Jagd_ButtonPirschjagd.Name = "Jagd_ButtonPirschjagd";
-            this.Jagd_ButtonPirschjagd.Size = new System.Drawing.Size(285, 44);
-            this.Jagd_ButtonPirschjagd.TabIndex = 17;
-            this.Jagd_ButtonPirschjagd.Text = "Pirschjagd";
-            this.Jagd_ButtonPirschjagd.UseVisualStyleBackColor = true;
-            this.Jagd_ButtonPirschjagd.Click += new System.EventHandler(this.Jagd_ButtonPirschjagd_Click);
-            // 
-            // Jagd_TAWFaehrtensuche
-            // 
-            this.Jagd_TAWFaehrtensuche.Location = new System.Drawing.Point(177, 13);
-            this.Jagd_TAWFaehrtensuche.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Jagd_TAWFaehrtensuche.Name = "Jagd_TAWFaehrtensuche";
-            this.Jagd_TAWFaehrtensuche.Size = new System.Drawing.Size(83, 31);
-            this.Jagd_TAWFaehrtensuche.TabIndex = 4;
-            this.Jagd_TAWFaehrtensuche.ValueChanged += new System.EventHandler(this.Jagd_TAWFaehrtensuche_ValueChanged);
-            this.Jagd_TAWFaehrtensuche.Click += new System.EventHandler(this.Jagd_TAWFaehrtensuche_Click);
-            this.Jagd_TAWFaehrtensuche.GotFocus += new System.EventHandler(this.Jagd_TAWFaehrtensuche_GotFocus);
-            // 
-            // label61
-            // 
-            this.label61.AutoSize = true;
-            this.label61.Location = new System.Drawing.Point(12, 329);
-            this.label61.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(40, 25);
-            this.label61.TabIndex = 125;
-            this.label61.Text = "Tier";
-            // 
-            // Jagd_GE
-            // 
-            this.Jagd_GE.Location = new System.Drawing.Point(10, 98);
-            this.Jagd_GE.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Jagd_GE.Name = "Jagd_GE";
-            this.Jagd_GE.Size = new System.Drawing.Size(83, 31);
-            this.Jagd_GE.TabIndex = 3;
-            this.Jagd_GE.Value = new decimal(new int[] {
-            10,
-            0,
-            0,
-            0});
-            this.Jagd_GE.ValueChanged += new System.EventHandler(this.Jagd_GE_ValueChanged);
-            this.Jagd_GE.Click += new System.EventHandler(this.Jagd_GE_Click);
-            this.Jagd_GE.GotFocus += new System.EventHandler(this.Jagd_GE_GotFocus);
-            // 
-            // Jagd_BoxLandschaft
-            // 
-            this.Jagd_BoxLandschaft.FormattingEnabled = true;
-            this.Jagd_BoxLandschaft.Location = new System.Drawing.Point(145, 238);
-            this.Jagd_BoxLandschaft.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Jagd_BoxLandschaft.Name = "Jagd_BoxLandschaft";
-            this.Jagd_BoxLandschaft.Size = new System.Drawing.Size(469, 33);
-            this.Jagd_BoxLandschaft.TabIndex = 12;
-            this.Jagd_BoxLandschaft.SelectedIndexChanged += new System.EventHandler(this.Jagd_BoxLandschaft_SelectedIndexChanged);
-            // 
-            // Jagd_IN
-            // 
-            this.Jagd_IN.Location = new System.Drawing.Point(10, 56);
-            this.Jagd_IN.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Jagd_IN.Name = "Jagd_IN";
-            this.Jagd_IN.Size = new System.Drawing.Size(83, 31);
-            this.Jagd_IN.TabIndex = 2;
-            this.Jagd_IN.Value = new decimal(new int[] {
-            10,
-            0,
-            0,
-            0});
-            this.Jagd_IN.ValueChanged += new System.EventHandler(this.Jagd_IN_ValueChanged);
-            this.Jagd_IN.Click += new System.EventHandler(this.Jagd_IN_Click);
-            this.Jagd_IN.GotFocus += new System.EventHandler(this.Jagd_IN_GotFocus);
-            // 
-            // label62
-            // 
-            this.label62.AutoSize = true;
-            this.label62.Location = new System.Drawing.Point(12, 244);
-            this.label62.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(97, 25);
-            this.label62.TabIndex = 124;
-            this.label62.Text = "Landschaft";
-            // 
-            // Jagd_TAWSchleichen
-            // 
-            this.Jagd_TAWSchleichen.Location = new System.Drawing.Point(505, 13);
-            this.Jagd_TAWSchleichen.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Jagd_TAWSchleichen.Name = "Jagd_TAWSchleichen";
-            this.Jagd_TAWSchleichen.Size = new System.Drawing.Size(82, 31);
-            this.Jagd_TAWSchleichen.TabIndex = 7;
-            this.Jagd_TAWSchleichen.ValueChanged += new System.EventHandler(this.Jagd_TAWSchleichen_ValueChanged);
-            this.Jagd_TAWSchleichen.Click += new System.EventHandler(this.Jagd_TAWSchleichen_Click);
-            this.Jagd_TAWSchleichen.GotFocus += new System.EventHandler(this.Jagd_TAWSchleichen_GotFocus);
-            // 
-            // label63
-            // 
-            this.label63.AutoSize = true;
-            this.label63.Location = new System.Drawing.Point(12, 192);
-            this.label63.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(67, 25);
-            this.label63.TabIndex = 123;
-            this.label63.Text = "Region";
-            // 
-            // label64
-            // 
-            this.label64.AutoSize = true;
-            this.label64.Location = new System.Drawing.Point(600, 19);
-            this.label64.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(132, 25);
-            this.label64.TabIndex = 122;
-            this.label64.Text = "TaW Schleichen";
-            // 
-            // Jagd_BoxRegion
-            // 
-            this.Jagd_BoxRegion.FormattingEnabled = true;
-            this.Jagd_BoxRegion.Location = new System.Drawing.Point(145, 187);
-            this.Jagd_BoxRegion.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Jagd_BoxRegion.Name = "Jagd_BoxRegion";
-            this.Jagd_BoxRegion.Size = new System.Drawing.Size(469, 33);
-            this.Jagd_BoxRegion.TabIndex = 10;
-            this.Jagd_BoxRegion.SelectedIndexChanged += new System.EventHandler(this.Jagd_BoxRegion_SelectedIndexChanged);
-            // 
-            // Jagd_BoxTier
-            // 
-            this.Jagd_BoxTier.FormattingEnabled = true;
-            this.Jagd_BoxTier.Location = new System.Drawing.Point(147, 323);
-            this.Jagd_BoxTier.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Jagd_BoxTier.Name = "Jagd_BoxTier";
-            this.Jagd_BoxTier.Size = new System.Drawing.Size(467, 33);
-            this.Jagd_BoxTier.TabIndex = 14;
-            this.Jagd_BoxTier.SelectedIndexChanged += new System.EventHandler(this.Jagd_BoxTier_SelectedIndexChanged);
-            // 
-            // FischenFallenstellen
-            // 
-            this.FischenFallenstellen.Controls.Add(this.Fischen_ButtonGewaesserEinschaetzen);
-            this.FischenFallenstellen.Controls.Add(this.Fischen_RuheAufstellen);
-            this.FischenFallenstellen.Controls.Add(this.Fischen_ButtonFallenstellen);
-            this.FischenFallenstellen.Controls.Add(this.Fischen_HatGelaendekunde);
-            this.FischenFallenstellen.Controls.Add(this.Fischen_HatOrtskenntnis);
-            this.FischenFallenstellen.Controls.Add(this.label70);
-            this.FischenFallenstellen.Controls.Add(this.label69);
-            this.FischenFallenstellen.Controls.Add(this.Fischen_TAWFallenstellen);
-            this.FischenFallenstellen.Controls.Add(this.label55);
-            this.FischenFallenstellen.Controls.Add(this.Fischen_KK);
-            this.FischenFallenstellen.Controls.Add(this.Fischen_TextfeldAusgabe);
-            this.FischenFallenstellen.Controls.Add(this.Fischen_Zuschlag);
-            this.FischenFallenstellen.Controls.Add(this.label48);
-            this.FischenFallenstellen.Controls.Add(this.label51);
-            this.FischenFallenstellen.Controls.Add(this.label52);
-            this.FischenFallenstellen.Controls.Add(this.label53);
-            this.FischenFallenstellen.Controls.Add(this.Fischen_IN);
-            this.FischenFallenstellen.Controls.Add(this.Fischen_ButtonAngeln);
-            this.FischenFallenstellen.Controls.Add(this.Fischen_TAWFischen);
-            this.FischenFallenstellen.Controls.Add(this.Fischen_FF);
-            this.FischenFallenstellen.Controls.Add(this.Fischen_KL);
-            this.FischenFallenstellen.Controls.Add(this.label54);
-            this.FischenFallenstellen.Controls.Add(this.Fischen_BoxRegion);
-            this.FischenFallenstellen.Location = new System.Drawing.Point(4, 34);
-            this.FischenFallenstellen.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.FischenFallenstellen.Name = "FischenFallenstellen";
-            this.FischenFallenstellen.Padding = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.FischenFallenstellen.Size = new System.Drawing.Size(817, 725);
-            this.FischenFallenstellen.TabIndex = 4;
-            this.FischenFallenstellen.Text = "Fischen und Fallenstellen";
-            this.FischenFallenstellen.UseVisualStyleBackColor = true;
-            // 
-            // Fischen_ButtonGewaesserEinschaetzen
-            // 
-            this.Fischen_ButtonGewaesserEinschaetzen.Location = new System.Drawing.Point(17, 306);
-            this.Fischen_ButtonGewaesserEinschaetzen.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Fischen_ButtonGewaesserEinschaetzen.Name = "Fischen_ButtonGewaesserEinschaetzen";
-            this.Fischen_ButtonGewaesserEinschaetzen.Size = new System.Drawing.Size(243, 44);
-            this.Fischen_ButtonGewaesserEinschaetzen.TabIndex = 11;
-            this.Fischen_ButtonGewaesserEinschaetzen.Text = "Gewässer einschätzen";
-            this.Fischen_ButtonGewaesserEinschaetzen.UseVisualStyleBackColor = true;
-            this.Fischen_ButtonGewaesserEinschaetzen.Click += new System.EventHandler(this.Fischen_ButtonGewaesserEinschaetzen_Click);
-            // 
-            // Fischen_RuheAufstellen
-            // 
-            this.Fischen_RuheAufstellen.AutoSize = true;
-            this.Fischen_RuheAufstellen.Location = new System.Drawing.Point(505, 244);
-            this.Fischen_RuheAufstellen.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Fischen_RuheAufstellen.Name = "Fischen_RuheAufstellen";
-            this.Fischen_RuheAufstellen.Size = new System.Drawing.Size(226, 29);
-            this.Fischen_RuheAufstellen.TabIndex = 10;
-            this.Fischen_RuheAufstellen.Text = "Fallen in Ruhe aufstellen";
-            this.Fischen_RuheAufstellen.UseVisualStyleBackColor = true;
-            this.Fischen_RuheAufstellen.CheckedChanged += new System.EventHandler(this.Fischen_RuheAufstellen_CheckedChanged);
-            // 
-            // Fischen_ButtonFallenstellen
-            // 
-            this.Fischen_ButtonFallenstellen.Location = new System.Drawing.Point(553, 306);
-            this.Fischen_ButtonFallenstellen.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Fischen_ButtonFallenstellen.Name = "Fischen_ButtonFallenstellen";
-            this.Fischen_ButtonFallenstellen.Size = new System.Drawing.Size(243, 44);
-            this.Fischen_ButtonFallenstellen.TabIndex = 13;
-            this.Fischen_ButtonFallenstellen.Text = "Fallen aufstellen";
-            this.Fischen_ButtonFallenstellen.UseVisualStyleBackColor = true;
-            this.Fischen_ButtonFallenstellen.Click += new System.EventHandler(this.Fischen_ButtonFallenstellen_Click);
-            // 
-            // Fischen_HatGelaendekunde
-            // 
-            this.Fischen_HatGelaendekunde.AutoSize = true;
-            this.Fischen_HatGelaendekunde.Location = new System.Drawing.Point(145, 244);
-            this.Fischen_HatGelaendekunde.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Fischen_HatGelaendekunde.Name = "Fischen_HatGelaendekunde";
-            this.Fischen_HatGelaendekunde.Size = new System.Drawing.Size(151, 29);
-            this.Fischen_HatGelaendekunde.TabIndex = 8;
-            this.Fischen_HatGelaendekunde.Text = "Geländekunde";
-            this.Fischen_HatGelaendekunde.UseVisualStyleBackColor = true;
-            this.Fischen_HatGelaendekunde.CheckedChanged += new System.EventHandler(this.Fischen_HatGelaendekunde_CheckedChanged);
-            // 
-            // Fischen_HatOrtskenntnis
-            // 
-            this.Fischen_HatOrtskenntnis.AutoSize = true;
-            this.Fischen_HatOrtskenntnis.Location = new System.Drawing.Point(335, 244);
-            this.Fischen_HatOrtskenntnis.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Fischen_HatOrtskenntnis.Name = "Fischen_HatOrtskenntnis";
-            this.Fischen_HatOrtskenntnis.Size = new System.Drawing.Size(138, 29);
-            this.Fischen_HatOrtskenntnis.TabIndex = 9;
-            this.Fischen_HatOrtskenntnis.Text = "Ortskenntnis";
-            this.Fischen_HatOrtskenntnis.UseVisualStyleBackColor = true;
-            this.Fischen_HatOrtskenntnis.CheckedChanged += new System.EventHandler(this.Fischen_HatOrtskenntnis_CheckedChanged);
-            // 
-            // label70
-            // 
-            this.label70.AutoSize = true;
-            this.label70.Location = new System.Drawing.Point(640, 192);
-            this.label70.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label70.Name = "label70";
-            this.label70.Size = new System.Drawing.Size(82, 25);
-            this.label70.TabIndex = 123;
-            this.label70.Text = "Zuschlag";
-            // 
-            // label69
-            // 
-            this.label69.AutoSize = true;
-            this.label69.Location = new System.Drawing.Point(600, 62);
-            this.label69.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(144, 25);
-            this.label69.TabIndex = 122;
-            this.label69.Text = "TaW Fallenstellen";
-            // 
-            // Fischen_TAWFallenstellen
-            // 
-            this.Fischen_TAWFallenstellen.Location = new System.Drawing.Point(505, 56);
-            this.Fischen_TAWFallenstellen.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Fischen_TAWFallenstellen.Name = "Fischen_TAWFallenstellen";
-            this.Fischen_TAWFallenstellen.Size = new System.Drawing.Size(82, 31);
-            this.Fischen_TAWFallenstellen.TabIndex = 6;
-            this.Fischen_TAWFallenstellen.ValueChanged += new System.EventHandler(this.Fischen_TAWFallenstellen_ValueChanged);
-            this.Fischen_TAWFallenstellen.Click += new System.EventHandler(this.Fischen_TAWFallenstellen_Click);
-            this.Fischen_TAWFallenstellen.GotFocus += new System.EventHandler(this.Fischen_TAWFallenstellen_GotFocus);
-            // 
-            // label55
-            // 
-            this.label55.AutoSize = true;
-            this.label55.Location = new System.Drawing.Point(270, 62);
-            this.label55.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(32, 25);
-            this.label55.TabIndex = 120;
-            this.label55.Text = "KK";
-            // 
-            // Fischen_KK
-            // 
-            this.Fischen_KK.Location = new System.Drawing.Point(177, 56);
-            this.Fischen_KK.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Fischen_KK.Name = "Fischen_KK";
-            this.Fischen_KK.Size = new System.Drawing.Size(83, 31);
-            this.Fischen_KK.TabIndex = 4;
-            this.Fischen_KK.Value = new decimal(new int[] {
-            10,
-            0,
-            0,
-            0});
-            this.Fischen_KK.ValueChanged += new System.EventHandler(this.Fischen_KK_ValueChanged);
-            this.Fischen_KK.Click += new System.EventHandler(this.Fischen_KK_Click);
-            this.Fischen_KK.GotFocus += new System.EventHandler(this.Fischen_KK_GotFocus);
-            // 
-            // Fischen_TextfeldAusgabe
-            // 
-            this.Fischen_TextfeldAusgabe.Location = new System.Drawing.Point(5, 362);
-            this.Fischen_TextfeldAusgabe.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Fischen_TextfeldAusgabe.Multiline = true;
-            this.Fischen_TextfeldAusgabe.Name = "Fischen_TextfeldAusgabe";
-            this.Fischen_TextfeldAusgabe.Size = new System.Drawing.Size(799, 342);
-            this.Fischen_TextfeldAusgabe.TabIndex = 118;
-            this.Fischen_TextfeldAusgabe.TabStop = false;
-            // 
-            // Fischen_Zuschlag
-            // 
-            this.Fischen_Zuschlag.Location = new System.Drawing.Point(735, 187);
-            this.Fischen_Zuschlag.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Fischen_Zuschlag.Name = "Fischen_Zuschlag";
-            this.Fischen_Zuschlag.Size = new System.Drawing.Size(47, 31);
-            this.Fischen_Zuschlag.TabIndex = 117;
-            this.Fischen_Zuschlag.TabStop = false;
-            // 
-            // label48
-            // 
-            this.label48.AutoSize = true;
-            this.label48.Location = new System.Drawing.Point(600, 19);
-            this.label48.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(171, 25);
-            this.label48.TabIndex = 110;
-            this.label48.Text = "TaW Fischen/Angeln";
-            // 
-            // label51
-            // 
-            this.label51.AutoSize = true;
-            this.label51.Location = new System.Drawing.Point(103, 19);
-            this.label51.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(30, 25);
-            this.label51.TabIndex = 115;
-            this.label51.Text = "IN";
-            // 
-            // label52
-            // 
-            this.label52.AutoSize = true;
-            this.label52.Location = new System.Drawing.Point(103, 62);
-            this.label52.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(30, 25);
-            this.label52.TabIndex = 114;
-            this.label52.Text = "KL";
-            // 
-            // label53
-            // 
-            this.label53.AutoSize = true;
-            this.label53.Location = new System.Drawing.Point(270, 19);
-            this.label53.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(30, 25);
-            this.label53.TabIndex = 113;
-            this.label53.Text = "FF";
-            // 
-            // Fischen_IN
-            // 
-            this.Fischen_IN.Location = new System.Drawing.Point(10, 13);
-            this.Fischen_IN.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Fischen_IN.Name = "Fischen_IN";
-            this.Fischen_IN.Size = new System.Drawing.Size(83, 31);
-            this.Fischen_IN.TabIndex = 1;
-            this.Fischen_IN.Value = new decimal(new int[] {
-            10,
-            0,
-            0,
-            0});
-            this.Fischen_IN.ValueChanged += new System.EventHandler(this.Fischen_IN_ValueChanged);
-            this.Fischen_IN.Click += new System.EventHandler(this.Fischen_IN_Click);
-            this.Fischen_IN.GotFocus += new System.EventHandler(this.Fischen_IN_GotFocus);
-            // 
-            // Fischen_ButtonAngeln
-            // 
-            this.Fischen_ButtonAngeln.Location = new System.Drawing.Point(285, 306);
-            this.Fischen_ButtonAngeln.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Fischen_ButtonAngeln.Name = "Fischen_ButtonAngeln";
-            this.Fischen_ButtonAngeln.Size = new System.Drawing.Size(243, 44);
-            this.Fischen_ButtonAngeln.TabIndex = 12;
-            this.Fischen_ButtonAngeln.Text = "Angel/Netz auswerfen";
-            this.Fischen_ButtonAngeln.UseVisualStyleBackColor = true;
-            this.Fischen_ButtonAngeln.Click += new System.EventHandler(this.Fischen_ButtonAngeln_Click);
-            // 
-            // Fischen_TAWFischen
-            // 
-            this.Fischen_TAWFischen.Location = new System.Drawing.Point(505, 13);
-            this.Fischen_TAWFischen.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Fischen_TAWFischen.Name = "Fischen_TAWFischen";
-            this.Fischen_TAWFischen.Size = new System.Drawing.Size(82, 31);
-            this.Fischen_TAWFischen.TabIndex = 5;
-            this.Fischen_TAWFischen.ValueChanged += new System.EventHandler(this.Fischen_TAWFischen_ValueChanged);
-            this.Fischen_TAWFischen.Click += new System.EventHandler(this.Fischen_TAWFischen_Click);
-            this.Fischen_TAWFischen.GotFocus += new System.EventHandler(this.Fischen_TAWFischen_GotFocus);
-            // 
-            // Fischen_FF
-            // 
-            this.Fischen_FF.Location = new System.Drawing.Point(177, 13);
-            this.Fischen_FF.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Fischen_FF.Name = "Fischen_FF";
-            this.Fischen_FF.Size = new System.Drawing.Size(83, 31);
-            this.Fischen_FF.TabIndex = 3;
-            this.Fischen_FF.Value = new decimal(new int[] {
-            10,
-            0,
-            0,
-            0});
-            this.Fischen_FF.ValueChanged += new System.EventHandler(this.Fischen_FF_ValueChanged);
-            this.Fischen_FF.Click += new System.EventHandler(this.Fischen_FF_Click);
-            this.Fischen_FF.GotFocus += new System.EventHandler(this.Fischen_FF_GotFocus);
-            // 
-            // Fischen_KL
-            // 
-            this.Fischen_KL.Location = new System.Drawing.Point(10, 56);
-            this.Fischen_KL.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Fischen_KL.Name = "Fischen_KL";
-            this.Fischen_KL.Size = new System.Drawing.Size(83, 31);
-            this.Fischen_KL.TabIndex = 2;
-            this.Fischen_KL.Value = new decimal(new int[] {
-            10,
-            0,
-            0,
-            0});
-            this.Fischen_KL.ValueChanged += new System.EventHandler(this.Fischen_KL_ValueChanged);
-            this.Fischen_KL.Click += new System.EventHandler(this.Fischen_KL_Click);
-            this.Fischen_KL.GotFocus += new System.EventHandler(this.Fischen_KL_GotFocus);
-            // 
-            // label54
-            // 
-            this.label54.AutoSize = true;
-            this.label54.Location = new System.Drawing.Point(12, 192);
-            this.label54.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(67, 25);
-            this.label54.TabIndex = 116;
-            this.label54.Text = "Region";
-            // 
-            // Fischen_BoxRegion
-            // 
-            this.Fischen_BoxRegion.FormattingEnabled = true;
-            this.Fischen_BoxRegion.Location = new System.Drawing.Point(145, 187);
-            this.Fischen_BoxRegion.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Fischen_BoxRegion.Name = "Fischen_BoxRegion";
-            this.Fischen_BoxRegion.Size = new System.Drawing.Size(469, 33);
-            this.Fischen_BoxRegion.TabIndex = 7;
-            this.Fischen_BoxRegion.SelectedIndexChanged += new System.EventHandler(this.Fischen_BoxRegion_SelectedIndexChanged);
-            // 
-            // License
-            // 
-            this.License.Controls.Add(this.label11);
-            this.License.Controls.Add(this.textBox3);
-            this.License.Controls.Add(this.label16);
-            this.License.Controls.Add(this.label14);
-            this.License.Location = new System.Drawing.Point(4, 34);
-            this.License.Name = "License";
-            this.License.Padding = new System.Windows.Forms.Padding(3);
-            this.License.Size = new System.Drawing.Size(817, 725);
-            this.License.TabIndex = 6;
-            this.License.Text = "License";
-            this.License.UseVisualStyleBackColor = true;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(35, 218);
-            this.label11.MaximumSize = new System.Drawing.Size(750, 0);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(743, 50);
-            this.label11.TabIndex = 94;
-            this.label11.Text = "Einsteins DSA Tool by Michael Prim, with permission for the use of rules sections" +
-    " granted by Ulisses Spiele GmbH, Waldems.";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(31, 301);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox3.Size = new System.Drawing.Size(749, 390);
-            this.textBox3.TabIndex = 93;
-            this.textBox3.Text = resources.GetString("textBox3.Text");
-            // 
-            // label16
-            // 
-            this.label16.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label16.Location = new System.Drawing.Point(35, 194);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(750, 2);
-            this.label16.TabIndex = 92;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label14.Location = new System.Drawing.Point(35, 45);
-            this.label14.MaximumSize = new System.Drawing.Size(750, 0);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(745, 125);
-            this.label14.TabIndex = 91;
-            this.label14.Text = resources.GetString("label14.Text");
+            About.Controls.Add(GitHubLabel);
+            About.Controls.Add(About_Reset);
+            About.Controls.Add(label37);
+            About.Controls.Add(label13);
+            About.Controls.Add(KontaktLabel);
+            About.Controls.Add(HomepageLabel);
+            About.Controls.Add(About_Kopplung);
+            About.Controls.Add(About_Manuell);
+            About.Controls.Add(label36);
+            About.Controls.Add(label15);
+            About.Controls.Add(ScriptoriumAventurisBild);
+            About.Location = new Point(4, 34);
+            About.Margin = new Padding(5, 6, 5, 6);
+            About.Name = "About";
+            About.Padding = new Padding(5, 6, 5, 6);
+            About.Size = new Size(817, 725);
+            About.TabIndex = 1;
+            About.Text = "About";
+            About.UseVisualStyleBackColor = true;
             // 
             // GitHubLabel
             // 
-            this.GitHubLabel.AutoSize = true;
-            this.GitHubLabel.LinkArea = new System.Windows.Forms.LinkArea(7, 59);
-            this.GitHubLabel.Location = new System.Drawing.Point(37, 158);
-            this.GitHubLabel.Name = "GitHubLabel";
-            this.GitHubLabel.Size = new System.Drawing.Size(524, 30);
-            this.GitHubLabel.TabIndex = 96;
-            this.GitHubLabel.TabStop = true;
-            this.GitHubLabel.Text = "GitHub https://github.com/pielmach/dsa-kraeutersuche-dotnet";
-            this.GitHubLabel.UseCompatibleTextRendering = true;
-            this.GitHubLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.GitHubLabel_LinkClicked);
+            GitHubLabel.AutoSize = true;
+            GitHubLabel.LinkArea = new LinkArea(7, 59);
+            GitHubLabel.Location = new Point(37, 158);
+            GitHubLabel.Name = "GitHubLabel";
+            GitHubLabel.Size = new Size(524, 30);
+            GitHubLabel.TabIndex = 96;
+            GitHubLabel.TabStop = true;
+            GitHubLabel.Text = "GitHub https://github.com/pielmach/dsa-kraeutersuche-dotnet";
+            GitHubLabel.UseCompatibleTextRendering = true;
+            GitHubLabel.LinkClicked += GitHubLabel_LinkClicked;
+            // 
+            // About_Reset
+            // 
+            About_Reset.AutoSize = true;
+            About_Reset.Location = new Point(37, 643);
+            About_Reset.Name = "About_Reset";
+            About_Reset.Size = new Size(521, 29);
+            About_Reset.TabIndex = 95;
+            About_Reset.Text = "Beim Verlassen alle Charakterwerte auf Standard zurücksetzen";
+            About_Reset.UseVisualStyleBackColor = true;
+            // 
+            // label37
+            // 
+            label37.BorderStyle = BorderStyle.Fixed3D;
+            label37.Location = new Point(35, 543);
+            label37.Name = "label37";
+            label37.Size = new Size(750, 2);
+            label37.TabIndex = 94;
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.Location = new Point(35, 214);
+            label13.MaximumSize = new Size(750, 0);
+            label13.Name = "label13";
+            label13.Size = new Size(732, 300);
+            label13.TabIndex = 88;
+            label13.Text = resources.GetString("label13.Text");
+            // 
+            // KontaktLabel
+            // 
+            KontaktLabel.AutoSize = true;
+            KontaktLabel.LinkArea = new LinkArea(8, 22);
+            KontaktLabel.Location = new Point(37, 98);
+            KontaktLabel.Name = "KontaktLabel";
+            KontaktLabel.Size = new Size(213, 30);
+            KontaktLabel.TabIndex = 87;
+            KontaktLabel.TabStop = true;
+            KontaktLabel.Text = "Kontakt dsatool@gmx.de";
+            KontaktLabel.UseCompatibleTextRendering = true;
+            KontaktLabel.LinkClicked += KontaktLabel_LinkClicked;
+            // 
+            // HomepageLabel
+            // 
+            HomepageLabel.AutoSize = true;
+            HomepageLabel.LinkArea = new LinkArea(9, 45);
+            HomepageLabel.Location = new Point(37, 128);
+            HomepageLabel.Name = "HomepageLabel";
+            HomepageLabel.Size = new Size(402, 30);
+            HomepageLabel.TabIndex = 86;
+            HomepageLabel.TabStop = true;
+            HomepageLabel.Text = "Homepage https://mprim.de/einsteins-dsa-tool/";
+            HomepageLabel.UseCompatibleTextRendering = true;
+            HomepageLabel.LinkClicked += HomepageLabel_LinkClicked;
+            // 
+            // About_Kopplung
+            // 
+            About_Kopplung.AutoSize = true;
+            About_Kopplung.Checked = true;
+            About_Kopplung.CheckState = CheckState.Checked;
+            About_Kopplung.Location = new Point(37, 608);
+            About_Kopplung.Name = "About_Kopplung";
+            About_Kopplung.Size = new Size(547, 29);
+            About_Kopplung.TabIndex = 75;
+            About_Kopplung.Text = "Charakterwerte der einzelnen Registerkarten/Funktionen koppeln";
+            About_Kopplung.UseVisualStyleBackColor = true;
+            // 
+            // About_Manuell
+            // 
+            About_Manuell.AutoSize = true;
+            About_Manuell.Location = new Point(37, 573);
+            About_Manuell.Name = "About_Manuell";
+            About_Manuell.Size = new Size(444, 29);
+            About_Manuell.TabIndex = 74;
+            About_Manuell.Text = "Manuelle Eingabe von Würfelergebnissen aktivieren";
+            About_Manuell.UseVisualStyleBackColor = true;
+            // 
+            // label36
+            // 
+            label36.AutoSize = true;
+            label36.Location = new Point(67, 577);
+            label36.Margin = new Padding(5, 0, 5, 0);
+            label36.MaximumSize = new Size(650, 0);
+            label36.Name = "label36";
+            label36.Size = new Size(0, 25);
+            label36.TabIndex = 79;
+            // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.Location = new Point(35, 45);
+            label15.Margin = new Padding(5, 0, 5, 0);
+            label15.Name = "label15";
+            label15.Size = new Size(276, 25);
+            label15.TabIndex = 72;
+            label15.Text = "Einsteins DSA Tool - Version 3.1.0";
+            // 
+            // ScriptoriumAventurisBild
+            // 
+            ScriptoriumAventurisBild.Image = Properties.Resources.DSA5_Scriptorium_Aventuris_Logo;
+            ScriptoriumAventurisBild.Location = new Point(425, -22);
+            ScriptoriumAventurisBild.Name = "ScriptoriumAventurisBild";
+            ScriptoriumAventurisBild.Size = new Size(389, 210);
+            ScriptoriumAventurisBild.SizeMode = PictureBoxSizeMode.Zoom;
+            ScriptoriumAventurisBild.TabIndex = 84;
+            ScriptoriumAventurisBild.TabStop = false;
+            // 
+            // Kraeutersuche
+            // 
+            Kraeutersuche.Controls.Add(Kraeuter_TextfeldAusgabe);
+            Kraeutersuche.Controls.Add(Kraeuter_Zuschlag);
+            Kraeutersuche.Controls.Add(label21);
+            Kraeutersuche.Controls.Add(label20);
+            Kraeutersuche.Controls.Add(Kraeuter_BoxBesonderheiten);
+            Kraeutersuche.Controls.Add(label19);
+            Kraeutersuche.Controls.Add(Kraeuter_BoxSuchmonat);
+            Kraeutersuche.Controls.Add(Kraeuter_HatGelaendekunde);
+            Kraeutersuche.Controls.Add(Kraeuter_HatOrtskenntnis);
+            Kraeutersuche.Controls.Add(Kraeuter_HatSuchdauerVerdoppelt);
+            Kraeutersuche.Controls.Add(label1);
+            Kraeutersuche.Controls.Add(label2);
+            Kraeutersuche.Controls.Add(label3);
+            Kraeutersuche.Controls.Add(label6);
+            Kraeutersuche.Controls.Add(label5);
+            Kraeutersuche.Controls.Add(label4);
+            Kraeutersuche.Controls.Add(Kraeuter_MU);
+            Kraeutersuche.Controls.Add(Kraeuter_TAWPflanzen);
+            Kraeutersuche.Controls.Add(Kraeuter_ButtonSuchePflanzen);
+            Kraeutersuche.Controls.Add(Kraeuter_TAWWildnis);
+            Kraeutersuche.Controls.Add(Kraeuter_ButtonSuchePflanzeGezielt);
+            Kraeutersuche.Controls.Add(Kraeuter_TAWSinnes);
+            Kraeutersuche.Controls.Add(label10);
+            Kraeutersuche.Controls.Add(Kraeuter_FF);
+            Kraeutersuche.Controls.Add(Kraeuter_BoxLandschaft);
+            Kraeutersuche.Controls.Add(Kraeuter_IN);
+            Kraeutersuche.Controls.Add(label9);
+            Kraeutersuche.Controls.Add(Kraeuter_TAWKraeuter);
+            Kraeutersuche.Controls.Add(label8);
+            Kraeutersuche.Controls.Add(label7);
+            Kraeutersuche.Controls.Add(Kraeuter_BoxRegion);
+            Kraeutersuche.Controls.Add(Kraeuter_BoxPflanze);
+            Kraeutersuche.Location = new Point(4, 34);
+            Kraeutersuche.Margin = new Padding(5, 6, 5, 6);
+            Kraeutersuche.Name = "Kraeutersuche";
+            Kraeutersuche.Padding = new Padding(5, 6, 5, 6);
+            Kraeutersuche.Size = new Size(817, 725);
+            Kraeutersuche.TabIndex = 0;
+            Kraeutersuche.Text = "Kräutersuche";
+            Kraeutersuche.UseVisualStyleBackColor = true;
+            // 
+            // Kraeuter_TextfeldAusgabe
+            // 
+            Kraeuter_TextfeldAusgabe.Location = new Point(5, 442);
+            Kraeuter_TextfeldAusgabe.Margin = new Padding(5, 6, 5, 6);
+            Kraeuter_TextfeldAusgabe.Multiline = true;
+            Kraeuter_TextfeldAusgabe.Name = "Kraeuter_TextfeldAusgabe";
+            Kraeuter_TextfeldAusgabe.Size = new Size(799, 262);
+            Kraeuter_TextfeldAusgabe.TabIndex = 101;
+            Kraeuter_TextfeldAusgabe.TabStop = false;
+            // 
+            // Kraeuter_Zuschlag
+            // 
+            Kraeuter_Zuschlag.Location = new Point(737, 325);
+            Kraeuter_Zuschlag.Margin = new Padding(5, 6, 5, 6);
+            Kraeuter_Zuschlag.Name = "Kraeuter_Zuschlag";
+            Kraeuter_Zuschlag.Size = new Size(47, 31);
+            Kraeuter_Zuschlag.TabIndex = 68;
+            Kraeuter_Zuschlag.TabStop = false;
+            // 
+            // label21
+            // 
+            label21.AutoSize = true;
+            label21.Location = new Point(643, 331);
+            label21.Margin = new Padding(5, 0, 5, 0);
+            label21.Name = "label21";
+            label21.Size = new Size(82, 25);
+            label21.TabIndex = 69;
+            label21.Text = "Zuschlag";
+            // 
+            // label20
+            // 
+            label20.AutoSize = true;
+            label20.Location = new Point(500, 112);
+            label20.Margin = new Padding(5, 0, 5, 0);
+            label20.Name = "label20";
+            label20.Size = new Size(71, 25);
+            label20.TabIndex = 67;
+            label20.Text = "Speziell";
+            // 
+            // Kraeuter_BoxBesonderheiten
+            // 
+            Kraeuter_BoxBesonderheiten.FormattingEnabled = true;
+            Kraeuter_BoxBesonderheiten.Items.AddRange(new object[] { "Keine Besonderheiten", "Astral durchzogener Ort", "Palakar (Schwarze Stadt)", "Ruine", "Stätte Namenloser Macht", "Nacht", "Vollmondnacht (+/- 1 Tag)" });
+            Kraeuter_BoxBesonderheiten.Location = new Point(573, 104);
+            Kraeuter_BoxBesonderheiten.Margin = new Padding(5, 6, 5, 6);
+            Kraeuter_BoxBesonderheiten.Name = "Kraeuter_BoxBesonderheiten";
+            Kraeuter_BoxBesonderheiten.Size = new Size(227, 33);
+            Kraeuter_BoxBesonderheiten.TabIndex = 8;
+            Kraeuter_BoxBesonderheiten.Text = "Keine Besonderheiten";
+            Kraeuter_BoxBesonderheiten.SelectedIndexChanged += Kraeuter_BoxBesonderheiten_SelectedIndexChanged;
+            // 
+            // label19
+            // 
+            label19.AutoSize = true;
+            label19.Location = new Point(500, 65);
+            label19.Margin = new Padding(5, 0, 5, 0);
+            label19.Name = "label19";
+            label19.Size = new Size(102, 25);
+            label19.TabIndex = 65;
+            label19.Text = "Suchmonat";
+            // 
+            // Kraeuter_BoxSuchmonat
+            // 
+            Kraeuter_BoxSuchmonat.FormattingEnabled = true;
+            Kraeuter_BoxSuchmonat.Items.AddRange(new object[] { "Komplettes Jahr", "Praios", "Rondra", "Efferd", "Travia", "Boron", "Hesinde", "Firun", "Tsa", "Phex", "Peraine", "Ingerimm", "Rahja", "Namenlose Tage" });
+            Kraeuter_BoxSuchmonat.Location = new Point(603, 58);
+            Kraeuter_BoxSuchmonat.Margin = new Padding(5, 6, 5, 6);
+            Kraeuter_BoxSuchmonat.Name = "Kraeuter_BoxSuchmonat";
+            Kraeuter_BoxSuchmonat.Size = new Size(197, 33);
+            Kraeuter_BoxSuchmonat.TabIndex = 7;
+            Kraeuter_BoxSuchmonat.Text = "Komplettes Jahr";
+            Kraeuter_BoxSuchmonat.SelectedIndexChanged += Kraeuter_BoxSuchmonat_SelectedIndexChanged;
+            // 
+            // Kraeuter_HatGelaendekunde
+            // 
+            Kraeuter_HatGelaendekunde.AutoSize = true;
+            Kraeuter_HatGelaendekunde.Location = new Point(645, 244);
+            Kraeuter_HatGelaendekunde.Margin = new Padding(5, 6, 5, 6);
+            Kraeuter_HatGelaendekunde.Name = "Kraeuter_HatGelaendekunde";
+            Kraeuter_HatGelaendekunde.Size = new Size(151, 29);
+            Kraeuter_HatGelaendekunde.TabIndex = 12;
+            Kraeuter_HatGelaendekunde.Text = "Geländekunde";
+            Kraeuter_HatGelaendekunde.UseVisualStyleBackColor = true;
+            Kraeuter_HatGelaendekunde.CheckedChanged += Kraeuter_HatGelaendekunde_CheckedChanged;
+            // 
+            // Kraeuter_HatOrtskenntnis
+            // 
+            Kraeuter_HatOrtskenntnis.AutoSize = true;
+            Kraeuter_HatOrtskenntnis.Location = new Point(645, 192);
+            Kraeuter_HatOrtskenntnis.Margin = new Padding(5, 6, 5, 6);
+            Kraeuter_HatOrtskenntnis.Name = "Kraeuter_HatOrtskenntnis";
+            Kraeuter_HatOrtskenntnis.Size = new Size(138, 29);
+            Kraeuter_HatOrtskenntnis.TabIndex = 10;
+            Kraeuter_HatOrtskenntnis.Text = "Ortskenntnis";
+            Kraeuter_HatOrtskenntnis.UseVisualStyleBackColor = true;
+            Kraeuter_HatOrtskenntnis.CheckedChanged += Kraeuter_HatOrtskenntnis_CheckedChanged;
+            // 
+            // Kraeuter_HatSuchdauerVerdoppelt
+            // 
+            Kraeuter_HatSuchdauerVerdoppelt.AutoSize = true;
+            Kraeuter_HatSuchdauerVerdoppelt.Location = new Point(23, 398);
+            Kraeuter_HatSuchdauerVerdoppelt.Margin = new Padding(5, 6, 5, 6);
+            Kraeuter_HatSuchdauerVerdoppelt.Name = "Kraeuter_HatSuchdauerVerdoppelt";
+            Kraeuter_HatSuchdauerVerdoppelt.Size = new Size(261, 29);
+            Kraeuter_HatSuchdauerVerdoppelt.TabIndex = 14;
+            Kraeuter_HatSuchdauerVerdoppelt.Text = "Verdopplung der Suchdauer";
+            Kraeuter_HatSuchdauerVerdoppelt.UseVisualStyleBackColor = true;
+            Kraeuter_HatSuchdauerVerdoppelt.CheckedChanged += Kraeuter_HatSuchdauerVerdoppelt_CheckedChanged;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(270, 19);
+            label1.Margin = new Padding(5, 0, 5, 0);
+            label1.Name = "label1";
+            label1.Size = new Size(157, 25);
+            label1.TabIndex = 50;
+            label1.Text = "TaW Sinnesschärfe";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(270, 62);
+            label2.Margin = new Padding(5, 0, 5, 0);
+            label2.Name = "label2";
+            label2.Size = new Size(151, 25);
+            label2.TabIndex = 51;
+            label2.Text = "TaW Wildnisleben";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(270, 104);
+            label3.Margin = new Padding(5, 0, 5, 0);
+            label3.Name = "label3";
+            label3.Size = new Size(165, 25);
+            label3.TabIndex = 52;
+            label3.Text = "TaW Pflanzenkunde";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(103, 19);
+            label6.Margin = new Padding(5, 0, 5, 0);
+            label6.Name = "label6";
+            label6.Size = new Size(40, 25);
+            label6.TabIndex = 55;
+            label6.Text = "MU";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(103, 62);
+            label5.Margin = new Padding(5, 0, 5, 0);
+            label5.Name = "label5";
+            label5.Size = new Size(30, 25);
+            label5.TabIndex = 54;
+            label5.Text = "IN";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(103, 104);
+            label4.Margin = new Padding(5, 0, 5, 0);
+            label4.Name = "label4";
+            label4.Size = new Size(30, 25);
+            label4.TabIndex = 53;
+            label4.Text = "FF";
+            // 
+            // Kraeuter_MU
+            // 
+            Kraeuter_MU.Location = new Point(10, 13);
+            Kraeuter_MU.Margin = new Padding(5, 6, 5, 6);
+            Kraeuter_MU.Name = "Kraeuter_MU";
+            Kraeuter_MU.Size = new Size(83, 31);
+            Kraeuter_MU.TabIndex = 1;
+            Kraeuter_MU.Value = new decimal(new int[] { 10, 0, 0, 0 });
+            Kraeuter_MU.ValueChanged += Kraeuter_MU_ValueChanged;
+            Kraeuter_MU.Click += Kraeuter_MU_Click;
+            Kraeuter_MU.GotFocus += Kraeuter_MU_GotFocus;
+            // 
+            // Kraeuter_TAWPflanzen
+            // 
+            Kraeuter_TAWPflanzen.Location = new Point(177, 98);
+            Kraeuter_TAWPflanzen.Margin = new Padding(5, 6, 5, 6);
+            Kraeuter_TAWPflanzen.Name = "Kraeuter_TAWPflanzen";
+            Kraeuter_TAWPflanzen.Size = new Size(83, 31);
+            Kraeuter_TAWPflanzen.TabIndex = 6;
+            Kraeuter_TAWPflanzen.ValueChanged += Kraeuter_TAWPflanzen_ValueChanged;
+            Kraeuter_TAWPflanzen.Click += Kraeuter_TAWPflanzen_Click;
+            Kraeuter_TAWPflanzen.GotFocus += Kraeuter_TAWPflanzen_GotFocus;
+            // 
+            // Kraeuter_ButtonSuchePflanzen
+            // 
+            Kraeuter_ButtonSuchePflanzen.Location = new Point(555, 390);
+            Kraeuter_ButtonSuchePflanzen.Margin = new Padding(5, 6, 5, 6);
+            Kraeuter_ButtonSuchePflanzen.Name = "Kraeuter_ButtonSuchePflanzen";
+            Kraeuter_ButtonSuchePflanzen.Size = new Size(232, 44);
+            Kraeuter_ButtonSuchePflanzen.TabIndex = 16;
+            Kraeuter_ButtonSuchePflanzen.Text = "Allgemein Pflanzensuche";
+            Kraeuter_ButtonSuchePflanzen.UseVisualStyleBackColor = true;
+            Kraeuter_ButtonSuchePflanzen.Click += ButtonSuchePflanzen_Click;
+            // 
+            // Kraeuter_TAWWildnis
+            // 
+            Kraeuter_TAWWildnis.Location = new Point(177, 56);
+            Kraeuter_TAWWildnis.Margin = new Padding(5, 6, 5, 6);
+            Kraeuter_TAWWildnis.Name = "Kraeuter_TAWWildnis";
+            Kraeuter_TAWWildnis.Size = new Size(83, 31);
+            Kraeuter_TAWWildnis.TabIndex = 5;
+            Kraeuter_TAWWildnis.ValueChanged += Kraeuter_TAWWildnis_ValueChanged;
+            Kraeuter_TAWWildnis.Click += Kraeuter_TAWWildnis_Click;
+            Kraeuter_TAWWildnis.GotFocus += Kraeuter_TAWWildnis_GotFocus;
+            // 
+            // Kraeuter_ButtonSuchePflanzeGezielt
+            // 
+            Kraeuter_ButtonSuchePflanzeGezielt.Location = new Point(298, 390);
+            Kraeuter_ButtonSuchePflanzeGezielt.Margin = new Padding(5, 6, 5, 6);
+            Kraeuter_ButtonSuchePflanzeGezielt.Name = "Kraeuter_ButtonSuchePflanzeGezielt";
+            Kraeuter_ButtonSuchePflanzeGezielt.Size = new Size(247, 44);
+            Kraeuter_ButtonSuchePflanzeGezielt.TabIndex = 15;
+            Kraeuter_ButtonSuchePflanzeGezielt.Text = "Suche ausgewählte Pflanze";
+            Kraeuter_ButtonSuchePflanzeGezielt.UseVisualStyleBackColor = true;
+            Kraeuter_ButtonSuchePflanzeGezielt.Click += ButtonSuchePflanzeGezielt_Click;
+            // 
+            // Kraeuter_TAWSinnes
+            // 
+            Kraeuter_TAWSinnes.Location = new Point(177, 13);
+            Kraeuter_TAWSinnes.Margin = new Padding(5, 6, 5, 6);
+            Kraeuter_TAWSinnes.Name = "Kraeuter_TAWSinnes";
+            Kraeuter_TAWSinnes.Size = new Size(83, 31);
+            Kraeuter_TAWSinnes.TabIndex = 4;
+            Kraeuter_TAWSinnes.ValueChanged += Kraeuter_TAWSinnes_ValueChanged;
+            Kraeuter_TAWSinnes.Click += Kraeuter_TAWSinnes_Click;
+            Kraeuter_TAWSinnes.GotFocus += Kraeuter_TAWSinnes_GotFocus;
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Location = new Point(12, 329);
+            label10.Margin = new Padding(5, 0, 5, 0);
+            label10.Name = "label10";
+            label10.Size = new Size(68, 25);
+            label10.TabIndex = 63;
+            label10.Text = "Pflanze";
+            // 
+            // Kraeuter_FF
+            // 
+            Kraeuter_FF.Location = new Point(10, 98);
+            Kraeuter_FF.Margin = new Padding(5, 6, 5, 6);
+            Kraeuter_FF.Name = "Kraeuter_FF";
+            Kraeuter_FF.Size = new Size(83, 31);
+            Kraeuter_FF.TabIndex = 3;
+            Kraeuter_FF.Value = new decimal(new int[] { 10, 0, 0, 0 });
+            Kraeuter_FF.ValueChanged += Kraeuter_FF_ValueChanged;
+            Kraeuter_FF.Click += Kraeuter_FF_Click;
+            Kraeuter_FF.GotFocus += Kraeuter_FF_GotFocus;
+            // 
+            // Kraeuter_BoxLandschaft
+            // 
+            Kraeuter_BoxLandschaft.FormattingEnabled = true;
+            Kraeuter_BoxLandschaft.Location = new Point(145, 238);
+            Kraeuter_BoxLandschaft.Margin = new Padding(5, 6, 5, 6);
+            Kraeuter_BoxLandschaft.Name = "Kraeuter_BoxLandschaft";
+            Kraeuter_BoxLandschaft.Size = new Size(469, 33);
+            Kraeuter_BoxLandschaft.TabIndex = 11;
+            Kraeuter_BoxLandschaft.SelectedIndexChanged += Kraeuter_BoxLandschaft_SelectedIndexChanged;
+            // 
+            // Kraeuter_IN
+            // 
+            Kraeuter_IN.Location = new Point(10, 56);
+            Kraeuter_IN.Margin = new Padding(5, 6, 5, 6);
+            Kraeuter_IN.Name = "Kraeuter_IN";
+            Kraeuter_IN.Size = new Size(83, 31);
+            Kraeuter_IN.TabIndex = 2;
+            Kraeuter_IN.Value = new decimal(new int[] { 10, 0, 0, 0 });
+            Kraeuter_IN.ValueChanged += Kraeuter_IN_ValueChanged;
+            Kraeuter_IN.Click += Kraeuter_IN_Click;
+            Kraeuter_IN.GotFocus += Kraeuter_IN_GotFocus;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Location = new Point(12, 244);
+            label9.Margin = new Padding(5, 0, 5, 0);
+            label9.Name = "label9";
+            label9.Size = new Size(97, 25);
+            label9.TabIndex = 61;
+            label9.Text = "Landschaft";
+            // 
+            // Kraeuter_TAWKraeuter
+            // 
+            Kraeuter_TAWKraeuter.Enabled = false;
+            Kraeuter_TAWKraeuter.Location = new Point(505, 13);
+            Kraeuter_TAWKraeuter.Margin = new Padding(5, 6, 5, 6);
+            Kraeuter_TAWKraeuter.Name = "Kraeuter_TAWKraeuter";
+            Kraeuter_TAWKraeuter.Size = new Size(82, 31);
+            Kraeuter_TAWKraeuter.TabIndex = 56;
+            Kraeuter_TAWKraeuter.TabStop = false;
+            Kraeuter_TAWKraeuter.ValueChanged += Kraeuter_TAWKraeuter_ValueChanged;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Location = new Point(12, 192);
+            label8.Margin = new Padding(5, 0, 5, 0);
+            label8.Name = "label8";
+            label8.Size = new Size(67, 25);
+            label8.TabIndex = 60;
+            label8.Text = "Region";
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Location = new Point(600, 19);
+            label7.Margin = new Padding(5, 0, 5, 0);
+            label7.Name = "label7";
+            label7.Size = new Size(166, 25);
+            label7.TabIndex = 57;
+            label7.Text = "TaW Kräuter suchen";
+            // 
+            // Kraeuter_BoxRegion
+            // 
+            Kraeuter_BoxRegion.FormattingEnabled = true;
+            Kraeuter_BoxRegion.Location = new Point(145, 187);
+            Kraeuter_BoxRegion.Margin = new Padding(5, 6, 5, 6);
+            Kraeuter_BoxRegion.Name = "Kraeuter_BoxRegion";
+            Kraeuter_BoxRegion.Size = new Size(469, 33);
+            Kraeuter_BoxRegion.TabIndex = 9;
+            Kraeuter_BoxRegion.SelectedIndexChanged += Kraeuter_BoxRegion_SelectedIndexChanged;
+            // 
+            // Kraeuter_BoxPflanze
+            // 
+            Kraeuter_BoxPflanze.FormattingEnabled = true;
+            Kraeuter_BoxPflanze.Location = new Point(147, 323);
+            Kraeuter_BoxPflanze.Margin = new Padding(5, 6, 5, 6);
+            Kraeuter_BoxPflanze.Name = "Kraeuter_BoxPflanze";
+            Kraeuter_BoxPflanze.Size = new Size(467, 33);
+            Kraeuter_BoxPflanze.TabIndex = 13;
+            Kraeuter_BoxPflanze.SelectedIndexChanged += Kraeuter_BoxPflanze_SelectedIndexChanged;
+            // 
+            // Registerkontrolle
+            // 
+            Registerkontrolle.Controls.Add(Kraeutersuche);
+            Registerkontrolle.Controls.Add(Nahrungssuche);
+            Registerkontrolle.Controls.Add(Jagd);
+            Registerkontrolle.Controls.Add(FischenFallenstellen);
+            Registerkontrolle.Controls.Add(About);
+            Registerkontrolle.Controls.Add(License);
+            Registerkontrolle.Location = new Point(2, 0);
+            Registerkontrolle.Margin = new Padding(5, 6, 5, 6);
+            Registerkontrolle.Name = "Registerkontrolle";
+            Registerkontrolle.SelectedIndex = 0;
+            Registerkontrolle.Size = new Size(825, 763);
+            Registerkontrolle.TabIndex = 76;
+            // 
+            // Jagd
+            // 
+            Jagd.Controls.Add(Jagd_IstMeisterschuetze);
+            Jagd.Controls.Add(Jagd_IstScharfschuetze);
+            Jagd.Controls.Add(Jagd_TAWAnsitzjagd);
+            Jagd.Controls.Add(label68);
+            Jagd.Controls.Add(Jagd_TAWPirschjagd);
+            Jagd.Controls.Add(label67);
+            Jagd.Controls.Add(Jagd_TAWFernkampfwaffe);
+            Jagd.Controls.Add(label66);
+            Jagd.Controls.Add(Jagd_TAWSichVerstecken);
+            Jagd.Controls.Add(label65);
+            Jagd.Controls.Add(Jagd_TextfeldAusgabe);
+            Jagd.Controls.Add(Jagd_Zuschlag);
+            Jagd.Controls.Add(label49);
+            Jagd.Controls.Add(Jagd_HatGelaendekunde);
+            Jagd.Controls.Add(Jagd_HatOrtskenntnis);
+            Jagd.Controls.Add(label50);
+            Jagd.Controls.Add(label56);
+            Jagd.Controls.Add(label57);
+            Jagd.Controls.Add(label58);
+            Jagd.Controls.Add(label59);
+            Jagd.Controls.Add(label60);
+            Jagd.Controls.Add(Jagd_MU);
+            Jagd.Controls.Add(Jagd_TAWTierkunde);
+            Jagd.Controls.Add(Jagd_ButtonAnsitzjagd);
+            Jagd.Controls.Add(Jagd_TAWWildnisleben);
+            Jagd.Controls.Add(Jagd_ButtonPirschjagd);
+            Jagd.Controls.Add(Jagd_TAWFaehrtensuche);
+            Jagd.Controls.Add(label61);
+            Jagd.Controls.Add(Jagd_GE);
+            Jagd.Controls.Add(Jagd_BoxLandschaft);
+            Jagd.Controls.Add(Jagd_IN);
+            Jagd.Controls.Add(label62);
+            Jagd.Controls.Add(Jagd_TAWSchleichen);
+            Jagd.Controls.Add(label63);
+            Jagd.Controls.Add(label64);
+            Jagd.Controls.Add(Jagd_BoxRegion);
+            Jagd.Controls.Add(Jagd_BoxTier);
+            Jagd.Location = new Point(4, 34);
+            Jagd.Margin = new Padding(5, 6, 5, 6);
+            Jagd.Name = "Jagd";
+            Jagd.Size = new Size(817, 725);
+            Jagd.TabIndex = 5;
+            Jagd.Text = "Pirsch- und Ansitzjagd";
+            Jagd.UseVisualStyleBackColor = true;
+            // 
+            // Jagd_IstMeisterschuetze
+            // 
+            Jagd_IstMeisterschuetze.AutoSize = true;
+            Jagd_IstMeisterschuetze.Location = new Point(27, 437);
+            Jagd_IstMeisterschuetze.Margin = new Padding(5, 6, 5, 6);
+            Jagd_IstMeisterschuetze.Name = "Jagd_IstMeisterschuetze";
+            Jagd_IstMeisterschuetze.Size = new Size(155, 29);
+            Jagd_IstMeisterschuetze.TabIndex = 16;
+            Jagd_IstMeisterschuetze.Text = "Meisterschütze";
+            Jagd_IstMeisterschuetze.UseVisualStyleBackColor = true;
+            Jagd_IstMeisterschuetze.CheckedChanged += Jagd_IstMeisterschuetze_CheckedChanged;
+            // 
+            // Jagd_IstScharfschuetze
+            // 
+            Jagd_IstScharfschuetze.AutoSize = true;
+            Jagd_IstScharfschuetze.Location = new Point(27, 388);
+            Jagd_IstScharfschuetze.Margin = new Padding(5, 6, 5, 6);
+            Jagd_IstScharfschuetze.Name = "Jagd_IstScharfschuetze";
+            Jagd_IstScharfschuetze.Size = new Size(146, 29);
+            Jagd_IstScharfschuetze.TabIndex = 15;
+            Jagd_IstScharfschuetze.Text = "Scharfschütze";
+            Jagd_IstScharfschuetze.UseVisualStyleBackColor = true;
+            Jagd_IstScharfschuetze.CheckedChanged += Jagd_IstScharfschuetze_CheckedChanged;
+            // 
+            // Jagd_TAWAnsitzjagd
+            // 
+            Jagd_TAWAnsitzjagd.Enabled = false;
+            Jagd_TAWAnsitzjagd.Location = new Point(247, 433);
+            Jagd_TAWAnsitzjagd.Margin = new Padding(5, 6, 5, 6);
+            Jagd_TAWAnsitzjagd.Name = "Jagd_TAWAnsitzjagd";
+            Jagd_TAWAnsitzjagd.Size = new Size(82, 31);
+            Jagd_TAWAnsitzjagd.TabIndex = 135;
+            Jagd_TAWAnsitzjagd.TabStop = false;
+            // 
+            // label68
+            // 
+            label68.AutoSize = true;
+            label68.Location = new Point(342, 438);
+            label68.Margin = new Padding(5, 0, 5, 0);
+            label68.Name = "label68";
+            label68.Size = new Size(133, 25);
+            label68.TabIndex = 136;
+            label68.Text = "TaW Ansitzjagd";
+            // 
+            // Jagd_TAWPirschjagd
+            // 
+            Jagd_TAWPirschjagd.Enabled = false;
+            Jagd_TAWPirschjagd.Location = new Point(247, 387);
+            Jagd_TAWPirschjagd.Margin = new Padding(5, 6, 5, 6);
+            Jagd_TAWPirschjagd.Name = "Jagd_TAWPirschjagd";
+            Jagd_TAWPirschjagd.Size = new Size(82, 31);
+            Jagd_TAWPirschjagd.TabIndex = 133;
+            Jagd_TAWPirschjagd.TabStop = false;
+            // 
+            // label67
+            // 
+            label67.AutoSize = true;
+            label67.Location = new Point(342, 392);
+            label67.Margin = new Padding(5, 0, 5, 0);
+            label67.Name = "label67";
+            label67.Size = new Size(131, 25);
+            label67.TabIndex = 134;
+            label67.Text = "TaW Pirschjagd";
+            // 
+            // Jagd_TAWFernkampfwaffe
+            // 
+            Jagd_TAWFernkampfwaffe.Location = new Point(505, 98);
+            Jagd_TAWFernkampfwaffe.Margin = new Padding(5, 6, 5, 6);
+            Jagd_TAWFernkampfwaffe.Name = "Jagd_TAWFernkampfwaffe";
+            Jagd_TAWFernkampfwaffe.Size = new Size(82, 31);
+            Jagd_TAWFernkampfwaffe.TabIndex = 9;
+            Jagd_TAWFernkampfwaffe.ValueChanged += Jagd_TAWFernkampfwaffe_ValueChanged;
+            Jagd_TAWFernkampfwaffe.Click += Jagd_TAWFernkampfwaffe_Click;
+            Jagd_TAWFernkampfwaffe.GotFocus += Jagd_TAWFernkampfwaffe_GotFocus;
+            // 
+            // label66
+            // 
+            label66.AutoSize = true;
+            label66.Location = new Point(600, 104);
+            label66.Margin = new Padding(5, 0, 5, 0);
+            label66.Name = "label66";
+            label66.Size = new Size(178, 25);
+            label66.TabIndex = 132;
+            label66.Text = "TaW Fernkampfwaffe";
+            // 
+            // Jagd_TAWSichVerstecken
+            // 
+            Jagd_TAWSichVerstecken.Location = new Point(505, 56);
+            Jagd_TAWSichVerstecken.Margin = new Padding(5, 6, 5, 6);
+            Jagd_TAWSichVerstecken.Name = "Jagd_TAWSichVerstecken";
+            Jagd_TAWSichVerstecken.Size = new Size(82, 31);
+            Jagd_TAWSichVerstecken.TabIndex = 8;
+            Jagd_TAWSichVerstecken.ValueChanged += Jagd_TAWSichVerstecken_ValueChanged;
+            Jagd_TAWSichVerstecken.Click += Jagd_TAWSichVerstecken_Click;
+            Jagd_TAWSichVerstecken.GotFocus += Jagd_TAWSichVerstecken_GotFocus;
+            // 
+            // label65
+            // 
+            label65.AutoSize = true;
+            label65.Location = new Point(600, 62);
+            label65.Margin = new Padding(5, 0, 5, 0);
+            label65.Name = "label65";
+            label65.Size = new Size(171, 25);
+            label65.TabIndex = 130;
+            label65.Text = "TaW Sich Verstecken";
+            // 
+            // Jagd_TextfeldAusgabe
+            // 
+            Jagd_TextfeldAusgabe.Location = new Point(5, 481);
+            Jagd_TextfeldAusgabe.Margin = new Padding(5, 6, 5, 6);
+            Jagd_TextfeldAusgabe.Multiline = true;
+            Jagd_TextfeldAusgabe.Name = "Jagd_TextfeldAusgabe";
+            Jagd_TextfeldAusgabe.Size = new Size(799, 223);
+            Jagd_TextfeldAusgabe.TabIndex = 128;
+            Jagd_TextfeldAusgabe.TabStop = false;
+            // 
+            // Jagd_Zuschlag
+            // 
+            Jagd_Zuschlag.Location = new Point(737, 325);
+            Jagd_Zuschlag.Margin = new Padding(5, 6, 5, 6);
+            Jagd_Zuschlag.Name = "Jagd_Zuschlag";
+            Jagd_Zuschlag.Size = new Size(47, 31);
+            Jagd_Zuschlag.TabIndex = 126;
+            Jagd_Zuschlag.TabStop = false;
+            // 
+            // label49
+            // 
+            label49.AutoSize = true;
+            label49.Location = new Point(643, 331);
+            label49.Margin = new Padding(5, 0, 5, 0);
+            label49.Name = "label49";
+            label49.Size = new Size(82, 25);
+            label49.TabIndex = 127;
+            label49.Text = "Zuschlag";
+            // 
+            // Jagd_HatGelaendekunde
+            // 
+            Jagd_HatGelaendekunde.AutoSize = true;
+            Jagd_HatGelaendekunde.Location = new Point(645, 244);
+            Jagd_HatGelaendekunde.Margin = new Padding(5, 6, 5, 6);
+            Jagd_HatGelaendekunde.Name = "Jagd_HatGelaendekunde";
+            Jagd_HatGelaendekunde.Size = new Size(151, 29);
+            Jagd_HatGelaendekunde.TabIndex = 13;
+            Jagd_HatGelaendekunde.Text = "Geländekunde";
+            Jagd_HatGelaendekunde.UseVisualStyleBackColor = true;
+            Jagd_HatGelaendekunde.CheckedChanged += Jagd_HatGelaendekunde_CheckedChanged;
+            // 
+            // Jagd_HatOrtskenntnis
+            // 
+            Jagd_HatOrtskenntnis.AutoSize = true;
+            Jagd_HatOrtskenntnis.Location = new Point(645, 192);
+            Jagd_HatOrtskenntnis.Margin = new Padding(5, 6, 5, 6);
+            Jagd_HatOrtskenntnis.Name = "Jagd_HatOrtskenntnis";
+            Jagd_HatOrtskenntnis.Size = new Size(138, 29);
+            Jagd_HatOrtskenntnis.TabIndex = 11;
+            Jagd_HatOrtskenntnis.Text = "Ortskenntnis";
+            Jagd_HatOrtskenntnis.UseVisualStyleBackColor = true;
+            Jagd_HatOrtskenntnis.CheckedChanged += Jagd_HatOrtskenntnis_CheckedChanged;
+            // 
+            // label50
+            // 
+            label50.AutoSize = true;
+            label50.Location = new Point(270, 19);
+            label50.Margin = new Padding(5, 0, 5, 0);
+            label50.Name = "label50";
+            label50.Size = new Size(153, 25);
+            label50.TabIndex = 115;
+            label50.Text = "TaW Fährtensuche";
+            // 
+            // label56
+            // 
+            label56.AutoSize = true;
+            label56.Location = new Point(270, 62);
+            label56.Margin = new Padding(5, 0, 5, 0);
+            label56.Name = "label56";
+            label56.Size = new Size(151, 25);
+            label56.TabIndex = 116;
+            label56.Text = "TaW Wildnisleben";
+            // 
+            // label57
+            // 
+            label57.AutoSize = true;
+            label57.Location = new Point(270, 104);
+            label57.Margin = new Padding(5, 0, 5, 0);
+            label57.Name = "label57";
+            label57.Size = new Size(127, 25);
+            label57.TabIndex = 117;
+            label57.Text = "TaW Tierkunde";
+            // 
+            // label58
+            // 
+            label58.AutoSize = true;
+            label58.Location = new Point(103, 19);
+            label58.Margin = new Padding(5, 0, 5, 0);
+            label58.Name = "label58";
+            label58.Size = new Size(40, 25);
+            label58.TabIndex = 120;
+            label58.Text = "MU";
+            // 
+            // label59
+            // 
+            label59.AutoSize = true;
+            label59.Location = new Point(103, 62);
+            label59.Margin = new Padding(5, 0, 5, 0);
+            label59.Name = "label59";
+            label59.Size = new Size(30, 25);
+            label59.TabIndex = 119;
+            label59.Text = "IN";
+            // 
+            // label60
+            // 
+            label60.AutoSize = true;
+            label60.Location = new Point(103, 104);
+            label60.Margin = new Padding(5, 0, 5, 0);
+            label60.Name = "label60";
+            label60.Size = new Size(33, 25);
+            label60.TabIndex = 118;
+            label60.Text = "GE";
+            // 
+            // Jagd_MU
+            // 
+            Jagd_MU.Location = new Point(10, 13);
+            Jagd_MU.Margin = new Padding(5, 6, 5, 6);
+            Jagd_MU.Name = "Jagd_MU";
+            Jagd_MU.Size = new Size(83, 31);
+            Jagd_MU.TabIndex = 1;
+            Jagd_MU.Value = new decimal(new int[] { 10, 0, 0, 0 });
+            Jagd_MU.ValueChanged += Jagd_MU_ValueChanged;
+            Jagd_MU.Click += Jagd_MU_Click;
+            Jagd_MU.GotFocus += Jagd_MU_GotFocus;
+            // 
+            // Jagd_TAWTierkunde
+            // 
+            Jagd_TAWTierkunde.Location = new Point(177, 98);
+            Jagd_TAWTierkunde.Margin = new Padding(5, 6, 5, 6);
+            Jagd_TAWTierkunde.Name = "Jagd_TAWTierkunde";
+            Jagd_TAWTierkunde.Size = new Size(83, 31);
+            Jagd_TAWTierkunde.TabIndex = 6;
+            Jagd_TAWTierkunde.ValueChanged += Jagd_TAWTierkunde_ValueChanged;
+            Jagd_TAWTierkunde.Click += Jagd_TAWTierkunde_Click;
+            Jagd_TAWTierkunde.GotFocus += Jagd_TAWTierkunde_GotFocus;
+            // 
+            // Jagd_ButtonAnsitzjagd
+            // 
+            Jagd_ButtonAnsitzjagd.Location = new Point(505, 429);
+            Jagd_ButtonAnsitzjagd.Margin = new Padding(5, 6, 5, 6);
+            Jagd_ButtonAnsitzjagd.Name = "Jagd_ButtonAnsitzjagd";
+            Jagd_ButtonAnsitzjagd.Size = new Size(285, 44);
+            Jagd_ButtonAnsitzjagd.TabIndex = 18;
+            Jagd_ButtonAnsitzjagd.Text = "Ansitzjagd";
+            Jagd_ButtonAnsitzjagd.UseVisualStyleBackColor = true;
+            Jagd_ButtonAnsitzjagd.Click += Jagd_ButtonAnsitzjagd_Click;
+            // 
+            // Jagd_TAWWildnisleben
+            // 
+            Jagd_TAWWildnisleben.Location = new Point(177, 56);
+            Jagd_TAWWildnisleben.Margin = new Padding(5, 6, 5, 6);
+            Jagd_TAWWildnisleben.Name = "Jagd_TAWWildnisleben";
+            Jagd_TAWWildnisleben.Size = new Size(83, 31);
+            Jagd_TAWWildnisleben.TabIndex = 5;
+            Jagd_TAWWildnisleben.ValueChanged += Jagd_TAWWildnisleben_ValueChanged;
+            Jagd_TAWWildnisleben.Click += Jagd_TAWWildnisleben_Click;
+            Jagd_TAWWildnisleben.GotFocus += Jagd_TAWWildnisleben_GotFocus;
+            // 
+            // Jagd_ButtonPirschjagd
+            // 
+            Jagd_ButtonPirschjagd.Location = new Point(505, 381);
+            Jagd_ButtonPirschjagd.Margin = new Padding(5, 6, 5, 6);
+            Jagd_ButtonPirschjagd.Name = "Jagd_ButtonPirschjagd";
+            Jagd_ButtonPirschjagd.Size = new Size(285, 44);
+            Jagd_ButtonPirschjagd.TabIndex = 17;
+            Jagd_ButtonPirschjagd.Text = "Pirschjagd";
+            Jagd_ButtonPirschjagd.UseVisualStyleBackColor = true;
+            Jagd_ButtonPirschjagd.Click += Jagd_ButtonPirschjagd_Click;
+            // 
+            // Jagd_TAWFaehrtensuche
+            // 
+            Jagd_TAWFaehrtensuche.Location = new Point(177, 13);
+            Jagd_TAWFaehrtensuche.Margin = new Padding(5, 6, 5, 6);
+            Jagd_TAWFaehrtensuche.Name = "Jagd_TAWFaehrtensuche";
+            Jagd_TAWFaehrtensuche.Size = new Size(83, 31);
+            Jagd_TAWFaehrtensuche.TabIndex = 4;
+            Jagd_TAWFaehrtensuche.ValueChanged += Jagd_TAWFaehrtensuche_ValueChanged;
+            Jagd_TAWFaehrtensuche.Click += Jagd_TAWFaehrtensuche_Click;
+            Jagd_TAWFaehrtensuche.GotFocus += Jagd_TAWFaehrtensuche_GotFocus;
+            // 
+            // label61
+            // 
+            label61.AutoSize = true;
+            label61.Location = new Point(12, 329);
+            label61.Margin = new Padding(5, 0, 5, 0);
+            label61.Name = "label61";
+            label61.Size = new Size(40, 25);
+            label61.TabIndex = 125;
+            label61.Text = "Tier";
+            // 
+            // Jagd_GE
+            // 
+            Jagd_GE.Location = new Point(10, 98);
+            Jagd_GE.Margin = new Padding(5, 6, 5, 6);
+            Jagd_GE.Name = "Jagd_GE";
+            Jagd_GE.Size = new Size(83, 31);
+            Jagd_GE.TabIndex = 3;
+            Jagd_GE.Value = new decimal(new int[] { 10, 0, 0, 0 });
+            Jagd_GE.ValueChanged += Jagd_GE_ValueChanged;
+            Jagd_GE.Click += Jagd_GE_Click;
+            Jagd_GE.GotFocus += Jagd_GE_GotFocus;
+            // 
+            // Jagd_BoxLandschaft
+            // 
+            Jagd_BoxLandschaft.FormattingEnabled = true;
+            Jagd_BoxLandschaft.Location = new Point(145, 238);
+            Jagd_BoxLandschaft.Margin = new Padding(5, 6, 5, 6);
+            Jagd_BoxLandschaft.Name = "Jagd_BoxLandschaft";
+            Jagd_BoxLandschaft.Size = new Size(469, 33);
+            Jagd_BoxLandschaft.TabIndex = 12;
+            Jagd_BoxLandschaft.SelectedIndexChanged += Jagd_BoxLandschaft_SelectedIndexChanged;
+            // 
+            // Jagd_IN
+            // 
+            Jagd_IN.Location = new Point(10, 56);
+            Jagd_IN.Margin = new Padding(5, 6, 5, 6);
+            Jagd_IN.Name = "Jagd_IN";
+            Jagd_IN.Size = new Size(83, 31);
+            Jagd_IN.TabIndex = 2;
+            Jagd_IN.Value = new decimal(new int[] { 10, 0, 0, 0 });
+            Jagd_IN.ValueChanged += Jagd_IN_ValueChanged;
+            Jagd_IN.Click += Jagd_IN_Click;
+            Jagd_IN.GotFocus += Jagd_IN_GotFocus;
+            // 
+            // label62
+            // 
+            label62.AutoSize = true;
+            label62.Location = new Point(12, 244);
+            label62.Margin = new Padding(5, 0, 5, 0);
+            label62.Name = "label62";
+            label62.Size = new Size(97, 25);
+            label62.TabIndex = 124;
+            label62.Text = "Landschaft";
+            // 
+            // Jagd_TAWSchleichen
+            // 
+            Jagd_TAWSchleichen.Location = new Point(505, 13);
+            Jagd_TAWSchleichen.Margin = new Padding(5, 6, 5, 6);
+            Jagd_TAWSchleichen.Name = "Jagd_TAWSchleichen";
+            Jagd_TAWSchleichen.Size = new Size(82, 31);
+            Jagd_TAWSchleichen.TabIndex = 7;
+            Jagd_TAWSchleichen.ValueChanged += Jagd_TAWSchleichen_ValueChanged;
+            Jagd_TAWSchleichen.Click += Jagd_TAWSchleichen_Click;
+            Jagd_TAWSchleichen.GotFocus += Jagd_TAWSchleichen_GotFocus;
+            // 
+            // label63
+            // 
+            label63.AutoSize = true;
+            label63.Location = new Point(12, 192);
+            label63.Margin = new Padding(5, 0, 5, 0);
+            label63.Name = "label63";
+            label63.Size = new Size(67, 25);
+            label63.TabIndex = 123;
+            label63.Text = "Region";
+            // 
+            // label64
+            // 
+            label64.AutoSize = true;
+            label64.Location = new Point(600, 19);
+            label64.Margin = new Padding(5, 0, 5, 0);
+            label64.Name = "label64";
+            label64.Size = new Size(132, 25);
+            label64.TabIndex = 122;
+            label64.Text = "TaW Schleichen";
+            // 
+            // Jagd_BoxRegion
+            // 
+            Jagd_BoxRegion.FormattingEnabled = true;
+            Jagd_BoxRegion.Location = new Point(145, 187);
+            Jagd_BoxRegion.Margin = new Padding(5, 6, 5, 6);
+            Jagd_BoxRegion.Name = "Jagd_BoxRegion";
+            Jagd_BoxRegion.Size = new Size(469, 33);
+            Jagd_BoxRegion.TabIndex = 10;
+            Jagd_BoxRegion.SelectedIndexChanged += Jagd_BoxRegion_SelectedIndexChanged;
+            // 
+            // Jagd_BoxTier
+            // 
+            Jagd_BoxTier.FormattingEnabled = true;
+            Jagd_BoxTier.Location = new Point(147, 323);
+            Jagd_BoxTier.Margin = new Padding(5, 6, 5, 6);
+            Jagd_BoxTier.Name = "Jagd_BoxTier";
+            Jagd_BoxTier.Size = new Size(467, 33);
+            Jagd_BoxTier.TabIndex = 14;
+            Jagd_BoxTier.SelectedIndexChanged += Jagd_BoxTier_SelectedIndexChanged;
+            // 
+            // FischenFallenstellen
+            // 
+            FischenFallenstellen.Controls.Add(Fischen_ButtonGewaesserEinschaetzen);
+            FischenFallenstellen.Controls.Add(Fischen_RuheAufstellen);
+            FischenFallenstellen.Controls.Add(Fischen_ButtonFallenstellen);
+            FischenFallenstellen.Controls.Add(Fischen_HatGelaendekunde);
+            FischenFallenstellen.Controls.Add(Fischen_HatOrtskenntnis);
+            FischenFallenstellen.Controls.Add(label70);
+            FischenFallenstellen.Controls.Add(label69);
+            FischenFallenstellen.Controls.Add(Fischen_TAWFallenstellen);
+            FischenFallenstellen.Controls.Add(label55);
+            FischenFallenstellen.Controls.Add(Fischen_KK);
+            FischenFallenstellen.Controls.Add(Fischen_TextfeldAusgabe);
+            FischenFallenstellen.Controls.Add(Fischen_Zuschlag);
+            FischenFallenstellen.Controls.Add(label48);
+            FischenFallenstellen.Controls.Add(label51);
+            FischenFallenstellen.Controls.Add(label52);
+            FischenFallenstellen.Controls.Add(label53);
+            FischenFallenstellen.Controls.Add(Fischen_IN);
+            FischenFallenstellen.Controls.Add(Fischen_ButtonAngeln);
+            FischenFallenstellen.Controls.Add(Fischen_TAWFischen);
+            FischenFallenstellen.Controls.Add(Fischen_FF);
+            FischenFallenstellen.Controls.Add(Fischen_KL);
+            FischenFallenstellen.Controls.Add(label54);
+            FischenFallenstellen.Controls.Add(Fischen_BoxRegion);
+            FischenFallenstellen.Location = new Point(4, 34);
+            FischenFallenstellen.Margin = new Padding(5, 6, 5, 6);
+            FischenFallenstellen.Name = "FischenFallenstellen";
+            FischenFallenstellen.Padding = new Padding(5, 6, 5, 6);
+            FischenFallenstellen.Size = new Size(817, 725);
+            FischenFallenstellen.TabIndex = 4;
+            FischenFallenstellen.Text = "Fischen und Fallenstellen";
+            FischenFallenstellen.UseVisualStyleBackColor = true;
+            // 
+            // Fischen_ButtonGewaesserEinschaetzen
+            // 
+            Fischen_ButtonGewaesserEinschaetzen.Location = new Point(17, 306);
+            Fischen_ButtonGewaesserEinschaetzen.Margin = new Padding(5, 6, 5, 6);
+            Fischen_ButtonGewaesserEinschaetzen.Name = "Fischen_ButtonGewaesserEinschaetzen";
+            Fischen_ButtonGewaesserEinschaetzen.Size = new Size(243, 44);
+            Fischen_ButtonGewaesserEinschaetzen.TabIndex = 11;
+            Fischen_ButtonGewaesserEinschaetzen.Text = "Gewässer einschätzen";
+            Fischen_ButtonGewaesserEinschaetzen.UseVisualStyleBackColor = true;
+            Fischen_ButtonGewaesserEinschaetzen.Click += Fischen_ButtonGewaesserEinschaetzen_Click;
+            // 
+            // Fischen_RuheAufstellen
+            // 
+            Fischen_RuheAufstellen.AutoSize = true;
+            Fischen_RuheAufstellen.Location = new Point(505, 244);
+            Fischen_RuheAufstellen.Margin = new Padding(5, 6, 5, 6);
+            Fischen_RuheAufstellen.Name = "Fischen_RuheAufstellen";
+            Fischen_RuheAufstellen.Size = new Size(226, 29);
+            Fischen_RuheAufstellen.TabIndex = 10;
+            Fischen_RuheAufstellen.Text = "Fallen in Ruhe aufstellen";
+            Fischen_RuheAufstellen.UseVisualStyleBackColor = true;
+            Fischen_RuheAufstellen.CheckedChanged += Fischen_RuheAufstellen_CheckedChanged;
+            // 
+            // Fischen_ButtonFallenstellen
+            // 
+            Fischen_ButtonFallenstellen.Location = new Point(553, 306);
+            Fischen_ButtonFallenstellen.Margin = new Padding(5, 6, 5, 6);
+            Fischen_ButtonFallenstellen.Name = "Fischen_ButtonFallenstellen";
+            Fischen_ButtonFallenstellen.Size = new Size(243, 44);
+            Fischen_ButtonFallenstellen.TabIndex = 13;
+            Fischen_ButtonFallenstellen.Text = "Fallen aufstellen";
+            Fischen_ButtonFallenstellen.UseVisualStyleBackColor = true;
+            Fischen_ButtonFallenstellen.Click += Fischen_ButtonFallenstellen_Click;
+            // 
+            // Fischen_HatGelaendekunde
+            // 
+            Fischen_HatGelaendekunde.AutoSize = true;
+            Fischen_HatGelaendekunde.Location = new Point(145, 244);
+            Fischen_HatGelaendekunde.Margin = new Padding(5, 6, 5, 6);
+            Fischen_HatGelaendekunde.Name = "Fischen_HatGelaendekunde";
+            Fischen_HatGelaendekunde.Size = new Size(151, 29);
+            Fischen_HatGelaendekunde.TabIndex = 8;
+            Fischen_HatGelaendekunde.Text = "Geländekunde";
+            Fischen_HatGelaendekunde.UseVisualStyleBackColor = true;
+            Fischen_HatGelaendekunde.CheckedChanged += Fischen_HatGelaendekunde_CheckedChanged;
+            // 
+            // Fischen_HatOrtskenntnis
+            // 
+            Fischen_HatOrtskenntnis.AutoSize = true;
+            Fischen_HatOrtskenntnis.Location = new Point(335, 244);
+            Fischen_HatOrtskenntnis.Margin = new Padding(5, 6, 5, 6);
+            Fischen_HatOrtskenntnis.Name = "Fischen_HatOrtskenntnis";
+            Fischen_HatOrtskenntnis.Size = new Size(138, 29);
+            Fischen_HatOrtskenntnis.TabIndex = 9;
+            Fischen_HatOrtskenntnis.Text = "Ortskenntnis";
+            Fischen_HatOrtskenntnis.UseVisualStyleBackColor = true;
+            Fischen_HatOrtskenntnis.CheckedChanged += Fischen_HatOrtskenntnis_CheckedChanged;
+            // 
+            // label70
+            // 
+            label70.AutoSize = true;
+            label70.Location = new Point(640, 192);
+            label70.Margin = new Padding(5, 0, 5, 0);
+            label70.Name = "label70";
+            label70.Size = new Size(82, 25);
+            label70.TabIndex = 123;
+            label70.Text = "Zuschlag";
+            // 
+            // label69
+            // 
+            label69.AutoSize = true;
+            label69.Location = new Point(600, 62);
+            label69.Margin = new Padding(5, 0, 5, 0);
+            label69.Name = "label69";
+            label69.Size = new Size(144, 25);
+            label69.TabIndex = 122;
+            label69.Text = "TaW Fallenstellen";
+            // 
+            // Fischen_TAWFallenstellen
+            // 
+            Fischen_TAWFallenstellen.Location = new Point(505, 56);
+            Fischen_TAWFallenstellen.Margin = new Padding(5, 6, 5, 6);
+            Fischen_TAWFallenstellen.Name = "Fischen_TAWFallenstellen";
+            Fischen_TAWFallenstellen.Size = new Size(82, 31);
+            Fischen_TAWFallenstellen.TabIndex = 6;
+            Fischen_TAWFallenstellen.ValueChanged += Fischen_TAWFallenstellen_ValueChanged;
+            Fischen_TAWFallenstellen.Click += Fischen_TAWFallenstellen_Click;
+            Fischen_TAWFallenstellen.GotFocus += Fischen_TAWFallenstellen_GotFocus;
+            // 
+            // label55
+            // 
+            label55.AutoSize = true;
+            label55.Location = new Point(270, 62);
+            label55.Margin = new Padding(5, 0, 5, 0);
+            label55.Name = "label55";
+            label55.Size = new Size(32, 25);
+            label55.TabIndex = 120;
+            label55.Text = "KK";
+            // 
+            // Fischen_KK
+            // 
+            Fischen_KK.Location = new Point(177, 56);
+            Fischen_KK.Margin = new Padding(5, 6, 5, 6);
+            Fischen_KK.Name = "Fischen_KK";
+            Fischen_KK.Size = new Size(83, 31);
+            Fischen_KK.TabIndex = 4;
+            Fischen_KK.Value = new decimal(new int[] { 10, 0, 0, 0 });
+            Fischen_KK.ValueChanged += Fischen_KK_ValueChanged;
+            Fischen_KK.Click += Fischen_KK_Click;
+            Fischen_KK.GotFocus += Fischen_KK_GotFocus;
+            // 
+            // Fischen_TextfeldAusgabe
+            // 
+            Fischen_TextfeldAusgabe.Location = new Point(5, 362);
+            Fischen_TextfeldAusgabe.Margin = new Padding(5, 6, 5, 6);
+            Fischen_TextfeldAusgabe.Multiline = true;
+            Fischen_TextfeldAusgabe.Name = "Fischen_TextfeldAusgabe";
+            Fischen_TextfeldAusgabe.Size = new Size(799, 342);
+            Fischen_TextfeldAusgabe.TabIndex = 118;
+            Fischen_TextfeldAusgabe.TabStop = false;
+            // 
+            // Fischen_Zuschlag
+            // 
+            Fischen_Zuschlag.Location = new Point(735, 187);
+            Fischen_Zuschlag.Margin = new Padding(5, 6, 5, 6);
+            Fischen_Zuschlag.Name = "Fischen_Zuschlag";
+            Fischen_Zuschlag.Size = new Size(47, 31);
+            Fischen_Zuschlag.TabIndex = 117;
+            Fischen_Zuschlag.TabStop = false;
+            // 
+            // label48
+            // 
+            label48.AutoSize = true;
+            label48.Location = new Point(600, 19);
+            label48.Margin = new Padding(5, 0, 5, 0);
+            label48.Name = "label48";
+            label48.Size = new Size(171, 25);
+            label48.TabIndex = 110;
+            label48.Text = "TaW Fischen/Angeln";
+            // 
+            // label51
+            // 
+            label51.AutoSize = true;
+            label51.Location = new Point(103, 19);
+            label51.Margin = new Padding(5, 0, 5, 0);
+            label51.Name = "label51";
+            label51.Size = new Size(30, 25);
+            label51.TabIndex = 115;
+            label51.Text = "IN";
+            // 
+            // label52
+            // 
+            label52.AutoSize = true;
+            label52.Location = new Point(103, 62);
+            label52.Margin = new Padding(5, 0, 5, 0);
+            label52.Name = "label52";
+            label52.Size = new Size(30, 25);
+            label52.TabIndex = 114;
+            label52.Text = "KL";
+            // 
+            // label53
+            // 
+            label53.AutoSize = true;
+            label53.Location = new Point(270, 19);
+            label53.Margin = new Padding(5, 0, 5, 0);
+            label53.Name = "label53";
+            label53.Size = new Size(30, 25);
+            label53.TabIndex = 113;
+            label53.Text = "FF";
+            // 
+            // Fischen_IN
+            // 
+            Fischen_IN.Location = new Point(10, 13);
+            Fischen_IN.Margin = new Padding(5, 6, 5, 6);
+            Fischen_IN.Name = "Fischen_IN";
+            Fischen_IN.Size = new Size(83, 31);
+            Fischen_IN.TabIndex = 1;
+            Fischen_IN.Value = new decimal(new int[] { 10, 0, 0, 0 });
+            Fischen_IN.ValueChanged += Fischen_IN_ValueChanged;
+            Fischen_IN.Click += Fischen_IN_Click;
+            Fischen_IN.GotFocus += Fischen_IN_GotFocus;
+            // 
+            // Fischen_ButtonAngeln
+            // 
+            Fischen_ButtonAngeln.Location = new Point(285, 306);
+            Fischen_ButtonAngeln.Margin = new Padding(5, 6, 5, 6);
+            Fischen_ButtonAngeln.Name = "Fischen_ButtonAngeln";
+            Fischen_ButtonAngeln.Size = new Size(243, 44);
+            Fischen_ButtonAngeln.TabIndex = 12;
+            Fischen_ButtonAngeln.Text = "Angel/Netz auswerfen";
+            Fischen_ButtonAngeln.UseVisualStyleBackColor = true;
+            Fischen_ButtonAngeln.Click += Fischen_ButtonAngeln_Click;
+            // 
+            // Fischen_TAWFischen
+            // 
+            Fischen_TAWFischen.Location = new Point(505, 13);
+            Fischen_TAWFischen.Margin = new Padding(5, 6, 5, 6);
+            Fischen_TAWFischen.Name = "Fischen_TAWFischen";
+            Fischen_TAWFischen.Size = new Size(82, 31);
+            Fischen_TAWFischen.TabIndex = 5;
+            Fischen_TAWFischen.ValueChanged += Fischen_TAWFischen_ValueChanged;
+            Fischen_TAWFischen.Click += Fischen_TAWFischen_Click;
+            Fischen_TAWFischen.GotFocus += Fischen_TAWFischen_GotFocus;
+            // 
+            // Fischen_FF
+            // 
+            Fischen_FF.Location = new Point(177, 13);
+            Fischen_FF.Margin = new Padding(5, 6, 5, 6);
+            Fischen_FF.Name = "Fischen_FF";
+            Fischen_FF.Size = new Size(83, 31);
+            Fischen_FF.TabIndex = 3;
+            Fischen_FF.Value = new decimal(new int[] { 10, 0, 0, 0 });
+            Fischen_FF.ValueChanged += Fischen_FF_ValueChanged;
+            Fischen_FF.Click += Fischen_FF_Click;
+            Fischen_FF.GotFocus += Fischen_FF_GotFocus;
+            // 
+            // Fischen_KL
+            // 
+            Fischen_KL.Location = new Point(10, 56);
+            Fischen_KL.Margin = new Padding(5, 6, 5, 6);
+            Fischen_KL.Name = "Fischen_KL";
+            Fischen_KL.Size = new Size(83, 31);
+            Fischen_KL.TabIndex = 2;
+            Fischen_KL.Value = new decimal(new int[] { 10, 0, 0, 0 });
+            Fischen_KL.ValueChanged += Fischen_KL_ValueChanged;
+            Fischen_KL.Click += Fischen_KL_Click;
+            Fischen_KL.GotFocus += Fischen_KL_GotFocus;
+            // 
+            // label54
+            // 
+            label54.AutoSize = true;
+            label54.Location = new Point(12, 192);
+            label54.Margin = new Padding(5, 0, 5, 0);
+            label54.Name = "label54";
+            label54.Size = new Size(67, 25);
+            label54.TabIndex = 116;
+            label54.Text = "Region";
+            // 
+            // Fischen_BoxRegion
+            // 
+            Fischen_BoxRegion.FormattingEnabled = true;
+            Fischen_BoxRegion.Location = new Point(145, 187);
+            Fischen_BoxRegion.Margin = new Padding(5, 6, 5, 6);
+            Fischen_BoxRegion.Name = "Fischen_BoxRegion";
+            Fischen_BoxRegion.Size = new Size(469, 33);
+            Fischen_BoxRegion.TabIndex = 7;
+            Fischen_BoxRegion.SelectedIndexChanged += Fischen_BoxRegion_SelectedIndexChanged;
+            // 
+            // License
+            // 
+            License.Controls.Add(label11);
+            License.Controls.Add(textBox3);
+            License.Controls.Add(label16);
+            License.Controls.Add(label14);
+            License.Location = new Point(4, 34);
+            License.Name = "License";
+            License.Padding = new Padding(3);
+            License.Size = new Size(817, 725);
+            License.TabIndex = 6;
+            License.Text = "License";
+            License.UseVisualStyleBackColor = true;
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Location = new Point(35, 218);
+            label11.MaximumSize = new Size(750, 0);
+            label11.Name = "label11";
+            label11.Size = new Size(743, 50);
+            label11.TabIndex = 94;
+            label11.Text = "Einsteins DSA Tool by Michael Prim, with permission for the use of rules sections granted by Ulisses Spiele GmbH, Waldems.";
+            // 
+            // textBox3
+            // 
+            textBox3.Location = new Point(31, 301);
+            textBox3.Multiline = true;
+            textBox3.Name = "textBox3";
+            textBox3.ScrollBars = ScrollBars.Vertical;
+            textBox3.Size = new Size(749, 390);
+            textBox3.TabIndex = 93;
+            textBox3.Text = resources.GetString("textBox3.Text");
+            // 
+            // label16
+            // 
+            label16.BorderStyle = BorderStyle.Fixed3D;
+            label16.Location = new Point(35, 194);
+            label16.Name = "label16";
+            label16.Size = new Size(750, 2);
+            label16.TabIndex = 92;
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Font = new Font("Segoe UI", 9F);
+            label14.Location = new Point(35, 45);
+            label14.MaximumSize = new Size(750, 0);
+            label14.Name = "label14";
+            label14.Size = new Size(745, 125);
+            label14.TabIndex = 91;
+            label14.Text = resources.GetString("label14.Text");
             // 
             // Hauptfenster
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(828, 765);
-            this.Controls.Add(this.Registerkontrolle);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.MaximizeBox = false;
-            this.Name = "Hauptfenster";
-            this.Text = "Einsteins DSA Tool";
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).EndInit();
-            this.Nahrungssuche.ResumeLayout(false);
-            this.Nahrungssuche.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Nahrung_TAWAckerbau)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Nahrung_MU)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Nahrung_TAWPflanzen)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Nahrung_TAWWildnis)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Nahrung_TAWSinnes)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Nahrung_FF)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Nahrung_IN)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Nahrung_TAWNahrung)).EndInit();
-            this.About.ResumeLayout(false);
-            this.About.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ScriptoriumAventurisBild)).EndInit();
-            this.Kraeutersuche.ResumeLayout(false);
-            this.Kraeutersuche.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Kraeuter_MU)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Kraeuter_TAWPflanzen)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Kraeuter_TAWWildnis)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Kraeuter_TAWSinnes)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Kraeuter_FF)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Kraeuter_IN)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Kraeuter_TAWKraeuter)).EndInit();
-            this.Registerkontrolle.ResumeLayout(false);
-            this.Jagd.ResumeLayout(false);
-            this.Jagd.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Jagd_TAWAnsitzjagd)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Jagd_TAWPirschjagd)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Jagd_TAWFernkampfwaffe)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Jagd_TAWSichVerstecken)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Jagd_MU)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Jagd_TAWTierkunde)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Jagd_TAWWildnisleben)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Jagd_TAWFaehrtensuche)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Jagd_GE)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Jagd_IN)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Jagd_TAWSchleichen)).EndInit();
-            this.FischenFallenstellen.ResumeLayout(false);
-            this.FischenFallenstellen.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Fischen_TAWFallenstellen)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Fischen_KK)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Fischen_IN)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Fischen_TAWFischen)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Fischen_FF)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Fischen_KL)).EndInit();
-            this.License.ResumeLayout(false);
-            this.License.PerformLayout();
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(828, 765);
+            Controls.Add(Registerkontrolle);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            Margin = new Padding(5, 6, 5, 6);
+            MaximizeBox = false;
+            Name = "Hauptfenster";
+            Text = "Einsteins DSA Tool";
+            ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown6).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown7).EndInit();
+            Nahrungssuche.ResumeLayout(false);
+            Nahrungssuche.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)Nahrung_TAWAckerbau).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Nahrung_MU).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Nahrung_TAWPflanzen).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Nahrung_TAWWildnis).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Nahrung_TAWSinnes).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Nahrung_FF).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Nahrung_IN).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Nahrung_TAWNahrung).EndInit();
+            About.ResumeLayout(false);
+            About.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)ScriptoriumAventurisBild).EndInit();
+            Kraeutersuche.ResumeLayout(false);
+            Kraeutersuche.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)Kraeuter_MU).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Kraeuter_TAWPflanzen).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Kraeuter_TAWWildnis).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Kraeuter_TAWSinnes).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Kraeuter_FF).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Kraeuter_IN).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Kraeuter_TAWKraeuter).EndInit();
+            Registerkontrolle.ResumeLayout(false);
+            Jagd.ResumeLayout(false);
+            Jagd.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)Jagd_TAWAnsitzjagd).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Jagd_TAWPirschjagd).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Jagd_TAWFernkampfwaffe).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Jagd_TAWSichVerstecken).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Jagd_MU).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Jagd_TAWTierkunde).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Jagd_TAWWildnisleben).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Jagd_TAWFaehrtensuche).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Jagd_GE).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Jagd_IN).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Jagd_TAWSchleichen).EndInit();
+            FischenFallenstellen.ResumeLayout(false);
+            FischenFallenstellen.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)Fischen_TAWFallenstellen).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Fischen_KK).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Fischen_IN).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Fischen_TAWFischen).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Fischen_FF).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Fischen_KL).EndInit();
+            License.ResumeLayout(false);
+            License.PerformLayout();
+            ResumeLayout(false);
         }
 
         void Kraeuter_IN_GotFocus(object sender, System.EventArgs e)

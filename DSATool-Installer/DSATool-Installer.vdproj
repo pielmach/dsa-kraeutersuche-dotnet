@@ -90,10 +90,10 @@
             "ComponentsUrl" = "8:"
                 "Items"
                 {
-                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.NetCore.DesktopRuntime.6.0.x86"
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.NetCore.DesktopRuntime.8.0.x86"
                     {
-                    "Name" = "8:.NET Desktop-Runtime 6.0.3 (x86)"
-                    "ProductCode" = "8:Microsoft.NetCore.DesktopRuntime.6.0.x86"
+                    "Name" = "8:.NET Desktop-Runtime 8.0.8 (x86)"
+                    "ProductCode" = "8:Microsoft.NetCore.DesktopRuntime.8.0.x86"
                     }
                 }
             }
@@ -177,7 +177,7 @@
             "{1525181F-901A-416C-8A58-119130FE478E}:_2689EB29CA8F4DE583A66202C599AB29"
             {
             "Name" = "8:#1916"
-            "AlwaysCreate" = "11:FALSE"
+            "AlwaysCreate" = "11:TRUE"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Property" = "8:DesktopFolder"
@@ -188,7 +188,7 @@
             "{1525181F-901A-416C-8A58-119130FE478E}:_73531D05E92845DA93A71D4147F5E4C3"
             {
             "Name" = "8:#1919"
-            "AlwaysCreate" = "11:FALSE"
+            "AlwaysCreate" = "11:TRUE"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Property" = "8:ProgramMenuFolder"
@@ -224,15 +224,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Einsteins DSA Tool"
-        "ProductCode" = "8:{1ECBD649-745C-4874-85DA-0F79EE98EE80}"
-        "PackageCode" = "8:{4AA11D7A-2597-48AD-943E-4620E78C421E}"
+        "ProductCode" = "8:{C640DB96-3A39-431F-B391-D83AAEB809CF}"
+        "PackageCode" = "8:{B41498AA-C6D0-450D-8BA0-30436CA92D24}"
         "UpgradeCode" = "8:{C0A6AB46-E13E-4FE9-8496-E74E40E61F47}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:FALSE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:3.0.0"
+        "ProductVersion" = "8:3.1.0"
         "Manufacturer" = "8:Michael Prim"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -774,7 +774,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_BE3E9D4FF522464694837B91286AB138"
             {
-            "SourcePath" = "8:..\\DSATool\\obj\\Release\\net6.0-windows7.0\\win-x86\\apphost.exe"
+            "SourcePath" = "8:"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_9C77309EEC984CF988A3AE29B3BB1186"
