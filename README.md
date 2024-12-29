@@ -1,6 +1,6 @@
 # Einsteins DSA Tool
 
-Einsteins DSA Tool ist eine .NET 6.0 Windows Desktop Applikation (x86) und versucht die Regeln rund um die Suche nach Kräutern und die Jagd im DSA  4.1 Regelsystem einfach nutzbar zu machen.
+Einsteins DSA Tool ist eine .NET 8.0 Windows Desktop Applikation (x86) und versucht die Regeln rund um die Suche nach Kräutern und die Jagd im DSA 4.1 Regelsystem einfach nutzbar zu machen.
 
 Die Regeln lassen hier und da ein wenig Interpretationsspielraum. Beispielsweise wenn es darum geht welche Landschaften in einer konkreten Region vorhanden sind und damit letztlich welche Kräuter dort wachsen. Auch sind manche Tiere in keiner Region explizit erwähnt worden. Hier wurde jeweils versucht mit gesundem Menschenverstand und unter Berücksichtigung der Pflanzen- und Tierbeschreibungen eine spielbare Entscheidung zu treffen.
 
@@ -20,7 +20,7 @@ Ansonsten findet sich hier im Repository alles um das Tool ggf. aus den Quellen 
 
 ## Abhängigkeiten
 
-Als Laufzeitumgebung wird die .NET 6.0 Desktop Runtime (x86) benötigt. Diese steht kostenfrei unter https://dotnet.microsoft.com/en-us/download/dotnet/6.0/runtime zur Verfügung.
+Als Laufzeitumgebung wird die .NET 8.0 Desktop Runtime (x86) benötigt. Diese steht kostenfrei unter https://dotnet.microsoft.com/en-us/download/dotnet/8.0/runtime zur Verfügung.
 
 ## Geschichte
 
@@ -35,6 +35,8 @@ Erst Ende 2021 hatte ich dann wieder Zeit und Muße was zu tun und habe mich bei
 Die Umstellung auf .NET 6.0 war eine Art Verschmelzung von SKELETTARIUS und CHRONOKLASSIS URFOSSIL in der Zauberwerkstatt. Es war zugleich erschreckend und doch auch interessent zu sehen, wie wenig Ahnung von Datenstrukturen ich damals hatte, und wie naiv ich 2006 Software entwickelt habe. Warum ein MVVM Pattern nutzen, wenn man WinForms hat? Objektorientierung war dazu der Hype-Hammer der Zeit und folglich habe ich in jedem Problem einen Nagel gesehen, auch wenn eine Schraube genausogut funktioniert hätte. Einige der Altsünden habe ich für die aktuelle Version refaktoriert, aber wer in den Code eintaucht wird sicherlich noch so manche Programmierjugendsünde finden. Wer also Seiteneffekte im Code findet, darf sie gerne behalten.
 
 Als kleinen Bonus habe ich für die aktuelle Version nun auch die Pflanzen aus Wege der Alchemie bzw. Katakomben und Kavernen implementiert. Die Bücher gab es damals schlicht noch nicht. Außerdem werden Einstellungen nun nachdem Schließen gespeichert und beim nächsten Start wiederhergestellt.
+
+Ende 2024 folgte die Version 3.1, welche keine inhaltlichen Anpassungen enthällt und lediglich eine Umstellung auf .NET 8.0 mitbringt, nachdem der Support für .NET 6.0 ausgelaufen ist.
 
 ## Danksagung
 

@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSATool", "DSATool\DSATool.
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DSATool-Installer", "DSATool-Installer\DSATool-Installer.vdproj", "{B2B352C1-72B9-4682-A1A4-80996A17C807}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSATool-Tests", "DSATool-Tests\DSATool-Tests.csproj", "{44AAD3E1-8578-4A96-82DB-FA372CA76D25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSATool-Tests", "DSATool-Tests\DSATool-Tests.csproj", "{44AAD3E1-8578-4A96-82DB-FA372CA76D25}"
 	ProjectSection(ProjectDependencies) = postProject
 		{B2D50C9E-881A-4887-9FD2-990C36F20900} = {B2D50C9E-881A-4887-9FD2-990C36F20900}
 	EndProjectSection
