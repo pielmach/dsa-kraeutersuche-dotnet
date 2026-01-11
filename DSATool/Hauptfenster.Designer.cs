@@ -975,7 +975,7 @@
             label15.Name = "label15";
             label15.Size = new Size(276, 25);
             label15.TabIndex = 72;
-            label15.Text = "Einsteins DSA Tool - Version 3.1.0";
+            label15.Text = "Einsteins DSA Tool - Version 3.2.0";
             // 
             // ScriptoriumAventurisBild
             // 

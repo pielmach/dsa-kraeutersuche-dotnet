@@ -1,6 +1,6 @@
 # Einsteins DSA Tool
 
-Einsteins DSA Tool ist eine .NET 8.0 Windows Desktop Applikation (x86) und versucht die Regeln rund um die Suche nach Kräutern und die Jagd im DSA 4.1 Regelsystem einfach nutzbar zu machen.
+Einsteins DSA Tool ist eine .NET 10.0 Windows Desktop Applikation (x64) und versucht die Regeln rund um die Suche nach Kräutern und die Jagd im DSA 4.1 Regelsystem einfach nutzbar zu machen.
 
 Die Regeln lassen hier und da ein wenig Interpretationsspielraum. Beispielsweise wenn es darum geht welche Landschaften in einer konkreten Region vorhanden sind und damit letztlich welche Kräuter dort wachsen. Auch sind manche Tiere in keiner Region explizit erwähnt worden. Hier wurde jeweils versucht mit gesundem Menschenverstand und unter Berücksichtigung der Pflanzen- und Tierbeschreibungen eine spielbare Entscheidung zu treffen.
 
@@ -12,7 +12,7 @@ Das Tool findet sich als PayWhatYouWant zum Download im Scriptorium Aventuris. W
 
 https://www.ulisses-ebooks.de/product/393935/Einsteins-DSA-Tool
 
-Ansonsten findet sich hier im Repository alles um das Tool ggf. aus den Quellen selbst zu bauen. Damit sollte es auf jeden Fall für die Nachwelt erhalten bleiben. Visual Studio 2022 in der Community Edition ist die einzige Vorrausetzung.
+Ansonsten findet sich hier im Repository alles um das Tool ggf. aus den Quellen selbst zu bauen. Damit sollte es auf jeden Fall für die Nachwelt erhalten bleiben. Visual Studio 2026 in der Community Edition ist die einzige Vorrausetzung.
 
 ## Screenshot
 
@@ -20,7 +20,7 @@ Ansonsten findet sich hier im Repository alles um das Tool ggf. aus den Quellen 
 
 ## Abhängigkeiten
 
-Als Laufzeitumgebung wird die .NET 8.0 Desktop Runtime (x86) benötigt. Diese steht kostenfrei unter https://dotnet.microsoft.com/en-us/download/dotnet/8.0/runtime zur Verfügung.
+Als Laufzeitumgebung wird die .NET 10.0 Desktop Runtime (x64) benötigt. Diese steht kostenfrei unter https://dotnet.microsoft.com/en-us/download/dotnet/10.0/runtime zur Verfügung.
 
 ## Geschichte
 
@@ -37,6 +37,8 @@ Die Umstellung auf .NET 6.0 war eine Art Verschmelzung von SKELETTARIUS und CHRO
 Als kleinen Bonus habe ich für die aktuelle Version nun auch die Pflanzen aus Wege der Alchemie bzw. Katakomben und Kavernen implementiert. Die Bücher gab es damals schlicht noch nicht. Außerdem werden Einstellungen nun nachdem Schließen gespeichert und beim nächsten Start wiederhergestellt.
 
 Ende 2024 folgte die Version 3.1, welche keine inhaltlichen Anpassungen enthällt und lediglich eine Umstellung auf .NET 8.0 mitbringt, nachdem der Support für .NET 6.0 ausgelaufen ist.
+
+Anfang 2026 folgte die Version 3.2, welche auf .NET 10.0 umstellt und nur noch für die 64-bit Architektur kompiliert wird.
 
 ## Danksagung
 
